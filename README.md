@@ -13,7 +13,6 @@
 + HTML
 + CSS3
 + JavaScript
-+ Vue2.x
 
 
 演示地址：[心尘工具集](https://my.wulvxinchen.cn/tools/)

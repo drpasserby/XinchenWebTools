@@ -4,7 +4,8 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>心尘工具箱</title>
-		<script src="js/vue.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="icon" href="https://my.wulvxinchen.cn/tools/logo.ico" type="image/x-icon">
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
 		<style>
 		body{
 			background-color: #f8d4ff;
@@ -67,98 +68,104 @@
 		}
 		
 		#popup{
-			user-select: none;
-			position: fixed;
-			left:30%;
-			top:20%;
-			width: 40%;
-			height: 8em;
-			padding: 2em;
-			background-color: #c3ffb5;
-			border-radius: 1em;
-			box-shadow:
-			  2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
-			  5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
-			  10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
-			  17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
-			  33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
-			  80px 70px 155px rgba(0, 0, 0, 0.11);
-		}
-		
-		#random{
-			margin:0em auto;
-			width: 79%;
-			height: 2em;
-			padding: 2em;
-			background-color: #fac1ff;
-			border-radius: 1em;
-			box-shadow:
-			  2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
-			  5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
-			  10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
-			  17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
-			  33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
-			  80px 70px 155px rgba(0, 0, 0, 0.11);
-			text-align: center;
-		}
-		
-		#random h2{
-			text-decoration: none;
-			user-select: none;
-			margin-top: -0.1em;
-		}
-		
-		#popup h1,h3{
-			display: inline;
-		}
-		
-		#popup span{
-			color: #868686;
-		}
-		
-		
-		#popup button{
-			float: left;
-			width: 15%;
-			height:30px;
-			bottom: 0px;
-			margin: 4em 2em;
-			border-radius: 8px;
-			background: #d7ffdb;
-			box-shadow: 
-			            1.9px 2.7px 2.6px -8px rgba(0, 0, 0, 0.063),
-			            4.5px 6.6px 6.6px -8px rgba(0, 0, 0, 0.093),
-			            8.4px 12.4px 13.3px -8px rgba(0, 0, 0, 0.116),
-			            15px 22.1px 25.1px -8px rgba(0, 0, 0, 0.138),
-			            28px 41.4px 46.2px -8px rgba(0, 0, 0, 0.164),
-			            67px 99px 80px -8px rgba(0, 0, 0, 0.21);
+				user-select: none;
+				position: fixed;
+				left:30%;
+				top:20%;
+				width: 40%;
+				height: 8em;
+				padding: 2em;
+				background-color: #c3ffb5;
+				border-radius: 1em;
+				box-shadow:
+				  2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
+				  5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
+				  10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
+				  17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
+				  33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
+				  80px 70px 155px rgba(0, 0, 0, 0.11);
+			}
 			
-		}
+			#random{
+				margin:0em auto;
+				width: 79%;
+				height: 2em;
+				padding: 2em;
+				background-color: #fac1ff;
+				border-radius: 1em;
+				box-shadow:
+				  2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
+				  5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
+				  10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
+				  17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
+				  33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
+				  80px 70px 155px rgba(0, 0, 0, 0.11);
+				text-align: center;
+				transition: all .2s;
+			}
+			
+			#random:hover{
+				background-color: #e7ffcd;
+			}
+			
+			#random h2{
+				text-decoration: none;
+				user-select: none;
+				margin-top: -0.1em;
+			}
+			
+			#popup h1,h3{
+				display: inline;
+			}
+			
+			#popup span{
+				color: #868686;
+			}
+			
+			
+			#popup button{
+				float: left;
+				width: 15%;
+				height:30px;
+				bottom: 0px;
+				margin: 4em 2em;
+				border-radius: 8px;
+				background: #d7ffdb;
+				box-shadow: 
+							1.9px 2.7px 2.6px -8px rgba(0, 0, 0, 0.063),
+							4.5px 6.6px 6.6px -8px rgba(0, 0, 0, 0.093),
+							8.4px 12.4px 13.3px -8px rgba(0, 0, 0, 0.116),
+							15px 22.1px 25.1px -8px rgba(0, 0, 0, 0.138),
+							28px 41.4px 46.2px -8px rgba(0, 0, 0, 0.164),
+							67px 99px 80px -8px rgba(0, 0, 0, 0.21);
+				
+			}
+			
+			#noToGo:hover{
+				background: #ff7476;
+			}
+			
+			#otherToGo:hover{
+				background: #fffdb5;
+			}
+			
+			#yesToGo:hover{
+				background: #a0ffae;
+			}
+			
+			#webList{
+				/* width: 80em; */
+				width: 90%;
+				padding: 0px;
+				margin: 10px auto;
+			}
+			
+			#webList li{
+				float: left;
+				margin: 2em 2em;
+				list-style: none;
+			}
 		
-		#noToGo:hover{
-			background: #ff7476;
-		}
-		
-		#otherToGo:hover{
-			background: #fffdb5;
-		}
-		
-		#yesToGo:hover{
-			background: #a0ffae;
-		}
-		
-		#webList{
-			/* width: 80em; */
-			width: 90%;
-			padding: 0px;
-			margin: 10px auto;
-		}
-		
-		#webList li{
-			float: left;
-			margin: 2em 2em;
-			list-style: none;
-		}
 		
 		
 		.listbox{
@@ -175,7 +182,13 @@
 			  17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
 			  33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
 			  80px 70px 155px rgba(0, 0, 0, 0.11);
+			transition: all .2s;
 		}
+		
+		.listbox:hover{
+			background-color: #e7ffcd;
+		}
+		
 		.listbox h1{
 			margin-left: 0.5em;
 			margin-top: 0.3em;
@@ -195,7 +208,7 @@
 			<div id="header">
 				<h1>心尘的工具集</h1>
 				<span>To &nbsp;&nbsp;&nbsp;<a href="https://wulvxinchen.cn/">导航站</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="./about.html">关于</a></span>
-				<img src="https://my.wulvxinchen.cn/pictures/logo/logo.webp">
+				<a href="./about.html"><img src="https://my.wulvxinchen.cn/pictures/logo/logo.webp"></a>
 			</div>
 			
 			<ul id="webList">
@@ -214,7 +227,7 @@
 				<div id="random" @click="randomWeb()">
 					<h2>随机一站</h2>
 				</div>
-				<li v-for="ele in weblist">
+				<li v-for="ele in weblist.slice().reverse()">
 					<a :href="ele.src" :title="ele.src" target="_blank">
 						<div class="listbox">
 							<h1>{{ele.name}}</h1>
@@ -234,7 +247,6 @@
 	var app =new Vue({
 		el:'#webList',
 		data:{
-			message:'123',
 			isPopupShow:false,
 			randomweb:0,
 			weblist:[
@@ -377,14 +389,18 @@
 				{type:"实用",name:"音乐风格化",src:"https://the.wubmachine.com/"},
 				{type:"趣味",name:"二次元壁纸",src:"https://anime-pictures.net/"},
 				{type:"游戏",name:"在线游戏大全",src:"https://poki.com/"},
-				{type:"趣味",name:"有趣网址之家",src:"https://youquhome.com/"}
-				//总网址数量：145个
+				{type:"趣味",name:"有趣网址之家",src:"https://youquhome.com/"},
+				{type:"趣味",name:"让我帮你百度一下",src:"https://btfy.vercel.app/"},
+				{type:"趣味",name:"让我帮你百度一下2",src:"https://my.wulvxinchen.cn/helpbaidu/"},
+				{type:"趣味",name:"你的意义是什么?",src:"https://wtf.hiigara.net/t/mRIFuS"},
+				{type:"趣味",name:"表情混合",src:"https://tikolu.net/emojimix/"},
+				//总网址数量：144个
 				//{type:"",name:"",src:""},
 			],
 		},
 		methods:{
 			randomWeb:function(){
-				this.randomweb=Math.round(Math.random()*145);
+				this.randomweb=Math.round(Math.random()*144);
 				this.isPopupShow=true;
 			},
 			cancelRandom:function(){

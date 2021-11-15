@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>心尘工具箱</title>
+		<script src="js/vue.min.js" type="text/javascript" charset="utf-8"></script>
+		<style>
+		body{
+			background-color: #f8d4ff;
+		}
+		
+		a{
+			color: black;
+			text-decoration: none;
+		}
+		
+		#main{
+			/* width: 80em; */
+			width: 90%;
+			margin:2em auto;
+		}
+		
+		#header{
+			margin:2em auto;
+			margin-bottom: 4em;
+			/* width: 66em; */
+			width: 79%;
+			height: 8em;
+			padding: 2em;
+			background-color: #fac1ff;
+			border-radius: 1em;
+			box-shadow:
+			  2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
+			  5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
+			  10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
+			  17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
+			  33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
+			  80px 70px 155px rgba(0, 0, 0, 0.11);
+		}
+		
+		
+		#header a{
+			color: #000000;
+			transition: all 0.3s;
+		}
+		
+		#header a:hover{
+			color: #ffaa7f;
+		}
+		
+		#header img{
+			width: 8em;
+			position: relative;
+			float: right;
+			right: 0.8em;
+			bottom: 5.4em;
+			border-radius: 0.5em;
+			border: 3px solid #9a839e;
+			box-shadow:
+			  2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
+			  5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
+			  10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
+			  17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
+			  33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
+			  80px 70px 155px rgba(0, 0, 0, 0.11);
+		}
+		
+		#popup{
+			user-select: none;
+			position: fixed;
+			left:30%;
+			top:20%;
+			width: 40%;
+			height: 8em;
+			padding: 2em;
+			background-color: #c3ffb5;
+			border-radius: 1em;
+			box-shadow:
+			  2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
+			  5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
+			  10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
+			  17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
+			  33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
+			  80px 70px 155px rgba(0, 0, 0, 0.11);
+		}
+		
+		#random{
+			margin:0em auto;
+			width: 79%;
+			height: 2em;
+			padding: 2em;
+			background-color: #fac1ff;
+			border-radius: 1em;
+			box-shadow:
+			  2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
+			  5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
+			  10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
+			  17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
+			  33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
+			  80px 70px 155px rgba(0, 0, 0, 0.11);
+			text-align: center;
+		}
+		
+		#random h2{
+			text-decoration: none;
+			user-select: none;
+			margin-top: -0.1em;
+		}
+		
+		#popup h1,h3{
+			display: inline;
+		}
+		
+		#popup span{
+			color: #868686;
+		}
+		
+		
+		#popup button{
+			float: left;
+			width: 15%;
+			height:30px;
+			bottom: 0px;
+			margin: 4em 2em;
+			border-radius: 8px;
+			background: #d7ffdb;
+			box-shadow: 
+			            1.9px 2.7px 2.6px -8px rgba(0, 0, 0, 0.063),
+			            4.5px 6.6px 6.6px -8px rgba(0, 0, 0, 0.093),
+			            8.4px 12.4px 13.3px -8px rgba(0, 0, 0, 0.116),
+			            15px 22.1px 25.1px -8px rgba(0, 0, 0, 0.138),
+			            28px 41.4px 46.2px -8px rgba(0, 0, 0, 0.164),
+			            67px 99px 80px -8px rgba(0, 0, 0, 0.21);
+			
+		}
+		
+		#noToGo:hover{
+			background: #ff7476;
+		}
+		
+		#otherToGo:hover{
+			background: #fffdb5;
+		}
+		
+		#yesToGo:hover{
+			background: #a0ffae;
+		}
+		
+		#webList{
+			/* width: 80em; */
+			width: 90%;
+			padding: 0px;
+			margin: 10px auto;
+		}
+		
+		#webList li{
+			float: left;
+			margin: 2em 2em;
+			list-style: none;
+		}
+		
+		
+		.listbox{
+			margin: 0px auto;
+			width: 20em;
+			height: 5em;
+			padding: 5px;
+			background-color: #fac1ff;
+			border-radius: 1em;
+			box-shadow:
+			  2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
+			  5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
+			  10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
+			  17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
+			  33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
+			  80px 70px 155px rgba(0, 0, 0, 0.11);
+		}
+		.listbox h1{
+			margin-left: 0.5em;
+			margin-top: 0.3em;
+		}
+		
+		.listbox p{
+			color: #6c6c6c;
+			position: relative;
+			right: -16em;
+			bottom: 1em;
+		}
+		
+		</style>
+	</head>
+	<body>
+		<div id="main">
+			<div id="header">
+				<h1>心尘的工具集</h1>
+				<span>To &nbsp;&nbsp;&nbsp;<a href="https://wulvxinchen.cn/">导航站</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="./about.html">关于</a></span>
+				<img src="https://my.wulvxinchen.cn/pictures/logo/logo.webp">
+			</div>
+			
+			<ul id="webList">
+				<div id="popup" v-show="isPopupShow">
+					<h3>是否前往</h3>
+					<h1>{{weblist[randomweb].name}}</h1>
+					<span>{{"(类型:"+weblist[randomweb].type+")"}}</span>
+					<div>
+						<button id="noToGo" @click="cancelRandom">取消</button>
+						<button id="otherToGo" @click="randomWeb()">再换</button>
+						<button id="yesToGo" @click="gotoRandom">是的</button>
+					</div>
+					
+				</div>
+				
+				<div id="random" @click="randomWeb()">
+					<h2>随机一站</h2>
+				</div>
+				<li v-for="ele in weblist">
+					<a :href="ele.src" :title="ele.src" target="_blank">
+						<div class="listbox">
+							<h1>{{ele.name}}</h1>
+							<p>{{ele.type}}</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			
+		</div>
+		<div id="footer">
+			
+		</div>
+		
+	</body>
+	<script>
+	var app =new Vue({
+		el:'#webList',
+		data:{
+			message:'123',
+			isPopupShow:false,
+			randomweb:0,
+			weblist:[
+				{type:"实用",name:"申论生成器",src:"https://sojo.im/slscq/"},
+				{type:"趣味",name:"狗屁不通生成器",src:"https://suulnnka.github.io/BullshitGenerator/index.html"},
+				{type:"趣味",name:"捏脸",src:"https://picrew.me/"},
+				{type:"游戏",name:"人生重开模拟",src:"http://liferestart.syaro.io/view/index.html"},
+				{type:"实用",name:"生成背景图",src:"https://cn.pattern.monster/"},
+				{type:"实用",name:"设计神器",src:"https://uiiiuiii.com/tools"},
+				{type:"趣味",name:"5000兆円生成器",src:"http://yurafuca.com/5000choyen/"},
+				{type:"实用",name:"油画转换器",src:"https://fotosketcher.com/"},
+				{type:"趣味",name:"令咒icon",src:"https://shindanmaker.com/1064580"},
+				{type:"实用",name:"电影海报",src:"http://www.impawards.com/"},
+				{type:"趣味",name:"人工智障写作",src:"http://if.caiyunai.com/dream/"},
+				{type:"实用",name:"书法生成器",src:"http://www.ziticq.com/shufa/"},
+				{type:"实用",name:"地图生成器",src:"https://azgaar.github.io/Fantasy-Map-Generator/"},
+				{type:"趣味",name:"随机网站",src:"https://sharkle.com/"},
+				{type:"实用",name:"噪音生成器",src:"https://29a.ch/noise-generator/"},
+				{type:"实用",name:"音轨分离",src:"https://dango.ai/"},
+				{type:"实用",name:"NCM转换",src:"https://ncm.worthsee.com/site/index"},
+				{type:"实用",name:"抠图",src:"http://www.picup.shop/currencyBatch.html"},
+				{type:"实用",name:"万能法律咨询",src:"https://ai.12348.gov.cn/pc/"},
+				{type:"趣味",name:"世界各地之声",src:"https://aporee.org/maps/"},
+				{type:"实用",name:"可商用图片",src:"https://www.pexels.com/zh-cn/"},				
+				{type:"实用",name:"行业报告",src:"http://report.seedsufe.com/#/report"},
+				{type:"实用",name:"去除背景",src:"https://www.remove.bg/"},
+				{type:"实用",name:"抠视频",src:"https://www.unscreen.com/"},
+				{type:"游戏",name:"码字比赛",src:"https://play.typeracer.com/"},
+				{type:"实用",name:"空投",src:"https://airportal.cn/"},
+				{type:"实用",name:"在线调色板",src:"https://color.adobe.com/zh/create/color-wheel"},
+				{type:"趣味",name:"核武器模拟",src:"https://nuclearsecrecy.com/nukemap/"},
+				{type:"趣味",name:"在线博物馆",src:"https://virtual.mauritshuis.nl/index.html?lang=en&startscene=21"},
+				{type:"实用",name:"日常物品尺寸",src:"https://www.dimensions.com/"},
+				{type:"趣味",name:"迪士尼风格化",src:"https://toonme.com/"},
+				{type:"实用",name:"生成动态图表",src:"https://hanabi.data-viz.cn/index?lang=zh-CN"},
+				{type:"实用",name:"热量知多少",src:"https://www.fatsecret.cn/%E7%83%AD%E9%87%8F%E8%90%A5%E5%85%BB/"},
+				{type:"实用",name:"寻找音乐",src:"https://www.tunefind.com/"},
+				{type:"趣味(并不)",name:"996模拟器",src:"https://imisstheoffice.eu/"},
+				{type:"趣味",name:"这个不存在",src:"https://thisxdoesnotexist.com/"},
+				{type:"趣味",name:"森林之音",src:"https://www.tree.fm/"},
+				{type:"趣味",name:"猜真假",src:"https://landing.adobe.com/en/na/products/creative-cloud/69308-real-or-photoshop/index.html"},
+				{type:"趣味",name:"随机图案生成",src:"https://patatap.com/"},
+				{type:"趣味",name:"书法鉴赏",src:"https://www.ltfc.net/exhibit/recent"},
+				{type:"趣味",name:"AI音乐推荐",src:"https://www.gnoosic.com/faves.php"},
+				{type:"实用",name:"壁纸",src:"https://wallhaven.cc/"},
+				{type:"趣味",name:"云旅游",src:"http://www.airpano.com/"},
+				{type:"趣味",name:"开窗",src:"https://window-swap.com/"},
+				{type:"实用",name:"伴奏提取",src:"https://www.lalal.ai/"},
+				{type:"实用",name:"格式转换",src:"https://www.alltoall.net/"},
+				{type:"实用",name:"格式转换2",src:"https://www.aconvert.com/cn/"},
+				{type:"实用",name:"DeepL翻译",src:"https://www.deepl.com/translator"},
+				{type:"实用",name:"缩写查询",src:"https://lab.magiconch.com/nbnhhsh/"},
+				{type:"实用",name:"指南大全",src:"https://zh.wikihow.com/%E9%A6%96%E9%A1%B5"},
+				{type:"实用",name:"天气",src:"https://www.windy.com/"},
+				{type:"趣味",name:"英文名起源",src:"https://www.behindthename.com/"},
+				{type:"实用",name:"收费免税音乐",src:"https://www.epidemicsound.com/"},
+				{type:"游戏",name:"神奇游戏",src:"https://www.indiexpo.net/"},
+				{type:"趣味",name:"学钢琴",src:"https://app.flowkey.com.cn/"},
+				{type:"趣味",name:"看海(日本的)",src:"https://seaside-station.com/region/hokkaido/"},
+				{type:"实用",name:"标准地图(官方)",src:"http://bzdt.ch.mnr.gov.cn/index.html"},
+				{type:"趣味",name:"色差测试",src:"http://www.cuishuai.cc/game/"},
+				{type:"趣味",name:"放大看世界",src:"http://www.bigpixel.cn/index.html"},
+				{type:"实用",name:"免费PPT",src:"https://slidesgo.com/theme/isometric-proposal"},
+				{type:"趣味",name:"云",src:"https://www.ianfisherart.com/"},
+				{type:"趣味",name:"全历史",src:"https://www.allhistory.com/"},
+				{type:"趣味",name:"做音乐",src:"https://learningmusic.ableton.com/zh-Hans/"},
+				{type:"实用",name:"新媒体导航",src:"https://www.kaolamedia.com/"},
+				{type:"趣味",name:"AI捏人",src:"https://artbreeder.com/"},
+				{type:"趣味",name:"人类能力测试",src:"https://humanbenchmark.com/"},
+				{type:"趣味",name:"帮你做决定",src:"https://yesno.wtf/"},
+				{type:"趣味",name:"老照片上色",src:"https://colourise.sg/"},
+				{type:"趣味",name:"小猫打鼓",src:"https://bongo.cat/"},
+				{type:"趣味",name:"实时地球",src:"https://zoom.earth/"},
+				{type:"游戏",name:"在线井字棋",src:"https://playtictactoe.org/"},
+				{type:"游戏",name:"贪吃蛇",src:"https://playsnake.org/"},
+				{type:"游戏",name:"在线六角棋",src:"https://hexxagon.com/"},
+				{type:"趣味",name:"视觉错觉",src:"https://strobe.cool/"},
+				{type:"趣味",name:"随机电视",src:"https://neave.tv/"},
+				{type:"趣味",name:"解压",src:"https://bouncyballs.org/"},
+				{type:"趣味",name:"匿名聊天",src:"http://www.shushubuyue.net/#"},
+				{type:"趣味",name:"匿名聊天2",src:"https://drrr.com/lounge/"},
+				{type:"实用",name:"热点热榜",src:"https://tophub.today/"},
+				{type:"实用",name:"在线医疗手册",src:"https://www.msdmanuals.com/zh#mission"},
+				{type:"实用",name:"临时邮箱",src:"https://temp-mail.org/zh/"},
+				{type:"实用",name:"词云",src:"https://www.weiciyun.com/"},
+				{type:"趣味",name:"观沧海",src:"https://www.ageeye.cn"},
+				{type:"趣味",name:"在线解谜",src:"https://nazo.one-story.cn/"},
+				{type:"实用",name:"网易云封面下载",src:"https://cover.olook.me/"},
+				{type:"实用",name:"Miku工具集",src:"https://tools.miku.ac/"},
+				{type:"实用",name:"与佛论禅",src:"https://keyfc.net/bbs/tools/tudoucode.aspx"},
+				{type:"趣味",name:"枝网查重",src:"https://asoulcnki.asia/"},
+				{type:"实用",name:"论文期刊",src:"https://www.cn-ki.net/"},
+				{type:"实用",name:"在线加字幕",src:"https://2zimu.com"},
+				{type:"实用",name:"颜色渐变",src:"https://www.ls.graphics/meshgradients"},
+				{type:"实用",name:"时区计算",src:"https://everytimezone.com/"},
+				{type:"实用",name:"搜歌",src:"http://listen1.github.io/listen1/"},
+				{type:"实用",name:"创意导航",src:"https://creativemass.cn/"},
+				{type:"实用",name:"UP主合作",src:"https://mj.yuzhua.com/search/3.html"},
+				{type:"趣味",name:"随机效果",src:"https://resn.co.nz/"},
+				{type:"实用",name:"人工智能写作",src:"https://app.grammarly.com/"},
+				{type:"实用",name:"出行查价",src:"https://www.tianxun.com/"},
+				{type:"趣味",name:"引力模拟",src:"https://codepen.io/akm2/full/rHIsa"},
+				{type:"实用",name:"软件教程",src:"http://www.gfxcamp.com/"},
+				{type:"趣味",name:"随机表情包生成",src:"https://sorry.xuty.tk/"},
+				{type:"趣味",name:"学发音",src:"https://zh.forvo.com/"},
+				{type:"实用",name:"图片特殊效果",src:"https://photomosh.com/"},
+				{type:"游戏",name:"在线太鼓达人",src:"https://tg.lv5.ac/"},
+				{type:"趣味",name:"世界地图",src:"https://thetruesize.com"},
+				{type:"游戏",name:"在线音乐跑酷",src:"https://pos.biborg.com/fr/"},
+				{type:"趣味",name:"每一秒",src:"http://www.everysecond.io/"},
+				{type:"实用",name:"艺术字生成",src:"http://www.akuziti.com/"},
+				{type:"实用",name:"图片放大",src:"http://waifu2x.udp.jp/"},
+				{type:"实用",name:"图片放大2",src:"https://www.bilibili.com/video/av976009755"},
+				{type:"实用",name:"截图找番",src:"https://trace.moe/"},
+				{type:"实用",name:"AI上色",src:"http://paintschainer.preferred.tech/index_zh.html"},
+				{type:"趣味",name:"英语小说",src:"http://www.wuxiaworld.com/"},
+				{type:"趣味",name:"在线GIF",src:"https://giphy.com/"},
+				{type:"趣味",name:"秘密分享",src:"http://soulapartment.net/bin/index.php"},
+				{type:"趣味",name:"在线白噪音",src:"https://asoftmurmur.com/"},
+				{type:"实用",name:"透明素材",src:"https://www.pngall.com/"},
+				{type:"趣味",name:"空当接龙(?)",src:"https://mrdoob.com/lab/javascript/effects/solitaire/"},
+				{type:"趣味",name:"听钢琴",src:"http://touchpianist.com/"},
+				{type:"实用",name:"搜图",src:"http://iqdb.org/"},
+				{type:"实用",name:"搜图2",src:"http://saucenao.com/"},
+				{type:"趣味",name:"在线雨声",src:"http://www.rainymood.com/"},
+				{type:"趣味",name:"在线环境声",src:"http://www.rainymood.com/"},
+				{type:"趣味",name:"眩晕",src:"http://mrdoob.com/#/157/spin_painter"},
+				{type:"趣味",name:"随机",src:"http://fff.cmiscm.com/#!/main"},
+				{type:"趣味",name:"万花筒",src:"http://weavesilk.com/"},
+				{type:"趣味",name:"随机网站",src:"http://www.theuselessweb.com/"},
+				{type:"趣味",name:"世界全景",src:"http://www.airpano.com/"},
+				{type:"游戏",name:"在线音游",src:"http://www.beatstage.com/"},
+				{type:"实用",name:"生成水倒映",src:"http://watereffect.net/"},
+				{type:"趣味",name:"猜猜在哪里",src:"https://geoguessr.com/"},
+				{type:"实用",name:"免费音乐素材",src:"http://www.hmix.net/"},
+				{type:"实用",name:"免费音乐素材2",src:"http://haru.ocv.me/"},
+				{type:"趣味",name:"在线高清画",src:"http://en.gallerix.ru/"},
+				{type:"趣味(?)",name:"日本制服一览",src:"http://www.seihuku-zukan.com/"},
+				{type:"趣味(?)",name:"亚洲制服一览",src:"http://uniform.wingzero.tw/"},
+				{type:"实用",name:"音乐风格化",src:"https://the.wubmachine.com/"},
+				{type:"趣味",name:"二次元壁纸",src:"https://anime-pictures.net/"},
+				{type:"游戏",name:"在线游戏大全",src:"https://poki.com/"},
+				{type:"趣味",name:"有趣网址之家",src:"https://youquhome.com/"}
+				//总网址数量：145个
+				//{type:"",name:"",src:""},
+			],
+		},
+		methods:{
+			randomWeb:function(){
+				this.randomweb=Math.round(Math.random()*145);
+				this.isPopupShow=true;
+			},
+			cancelRandom:function(){
+				this.isPopupShow=false;
+			},
+			gotoRandom:function(){
+				window.location=this.weblist[this.randomweb].src;
+				this.isPopupShow=false;
+			}
+		}
+	});
+	</script>
+</html>

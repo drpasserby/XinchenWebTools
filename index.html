@@ -57,7 +57,7 @@
 			right: 0.8em;
 			bottom: 5.4em;
 			border-radius: 0.5em;
-			border: 3px solid #9a839e;
+			border: 3px solid #766779;
 			box-shadow:
 			  2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
 			  5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
@@ -65,8 +65,22 @@
 			  17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
 			  33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
 			  80px 70px 155px rgba(0, 0, 0, 0.11);
+			  transition: all 0.3s;
+		}
+
+		#header img:hover{
+			border-radius: 100%;
+			border: 3px solid #ffaa7f;
 		}
 		
+		.mainTitle{
+			transition: all .3s;
+		}
+
+		.mainTitle:hover{
+			color: #ffaa7f;	
+		}
+
 		#popup{
 				user-select: none;
 				position: fixed;
@@ -138,6 +152,7 @@
 							15px 22.1px 25.1px -8px rgba(0, 0, 0, 0.138),
 							28px 41.4px 46.2px -8px rgba(0, 0, 0, 0.164),
 							67px 99px 80px -8px rgba(0, 0, 0, 0.21);
+				transition: all 0.3s;
 				
 			}
 			
@@ -146,7 +161,7 @@
 			}
 			
 			#otherToGo:hover{
-				background: #fffdb5;
+				background: #fffa69;
 			}
 			
 			#yesToGo:hover{
@@ -207,10 +222,10 @@
 	<body>
 		<div id="main">
 			<div id="header">
-				<h1>心尘的工具集</h1>
-				<span>To &nbsp;&nbsp;&nbsp;<a href="https://wulvxinchen.cn/">导航站</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="./about.html">关于</a></span>
+				<h1 class="mainTitle">心尘的工具集</h1>
+				<span style="font-weight:600">To &nbsp;&nbsp;&nbsp;<a href="https://wulvxinchen.cn/">导航站</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="./about.html">关于</a></span>
 				<a href="./about.html"><img src="https://my.wulvxinchen.cn/pictures/logo/logo.webp"></a>
-				<p style="color:#505050">喜欢可以去Github给个☆Star！<s>目前代码写得很烂，在有空的前提下会考虑重构整个网站，在此之前仅更新工具网站列表。</s></p>
+				<p style="color:#505050;font-weight:600">喜欢可以去Github给个☆Star！<s>目前代码写得很烂，在有空的前提下会考虑重构整个网站，在此之前仅更新工具网站列表。</s></p>
 			</div>
 			
 			<ul id="webList">

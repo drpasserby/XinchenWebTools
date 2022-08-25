@@ -227,7 +227,7 @@
 				</div>
 				
 				<div id="random" @click="randomWeb()">
-					<h2>随机一站</h2>
+					<h2>随机一站，目前一共有{{webCount}}个网站！</h2>
 				</div>
 				<li v-for="ele in weblist.slice().reverse()">
 					<a :href="ele.src" :title="ele.src" target="_blank">
@@ -462,14 +462,13 @@
 				{type:"实用",name:"PPT模板",src:"https://www.1ppt.com/"},
 				{type:"工具",name:"免费抠图",src:"https://www.remove.bg/zh"},
 				{type:"工具",name:"前端在线测试",src:"https://codepen.io/"},
-				//总网址数量：210个
 				//{type:"",name:"",src:""},
-				
 			],
+			webCount:210,//总网址数量,每次加新的数量都记得加1
 		},
 		methods:{
 			randomWeb:function(){
-				this.randomweb=Math.round(Math.random()*210);
+				this.randomweb=Math.round(Math.random()*this.webCount);
 				this.isPopupShow=true;
 			},
 			cancelRandom:function(){

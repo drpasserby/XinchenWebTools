@@ -212,7 +212,7 @@
 		.listbox p{
 			width:5em;	
 			color: #6c6c6c;
-			position: relative;
+			position: relative;	
 			right: -16em;
 			bottom: 1em;
 		}
@@ -510,7 +510,7 @@
 				{type:"工具",name:"星座识别",src:"https://nova.astrometry.net/"},
 				//{type:"",name:"",src:""},
 			],
-			webCount:239,//总网址数量,每次加新的数量都记得加1
+			// webCount:***,//总网址数量,目前已经废弃
 		},
 		methods:{
 			randomWeb:function(){
@@ -524,6 +524,11 @@
 				window.location=this.weblist[this.randomweb].src;
 				this.isPopupShow=false;
 			}
+		},
+		computed:{
+			webCount:function(){
+				return this.weblist.length;//总网址数量，自动更新，不需要维护
+			},
 		}
 	});
 	</script>

@@ -80,7 +80,7 @@
 		},
 		beforeCreate:function(){
 			axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
-				this.weblist=response.data;//从远程获取网站列表。api为https://my.wulvxinchen.cn/tools/weblist.json
+				this.weblist=response.data;//从远程获取网站列表。数据来自服务器。
 			})
 		}
 	});

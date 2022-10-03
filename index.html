@@ -29,13 +29,13 @@
 					<span>{{"(类型:"+weblist[randomweb].type+")"}}</span>
 					<div>
 						<button id="noToGo" @click="cancelRandom">取消</button>
-						<button id="otherToGo" @click="randomWeb()">再换</button>
+						<button id="otherToGo" @click="randomWeb">再换</button>
 						<button id="yesToGo" @click="gotoRandom">是的</button>
 					</div>
 					
 				</div>
 				
-				<div id="random" @click="randomWeb()">
+				<div id="random" @click="randomWeb">
 					<h2>随机一站，目前一共有{{webCount}}个网站！</h2>
 				</div>
 				<li v-for="ele in weblist.slice().reverse()">
@@ -65,6 +65,10 @@
 		methods:{
 			randomWeb:function(){
 				this.randomweb=Math.round(Math.random()*this.webCount);
+				if(this.randomweb==this.webCount-1){
+					this.randomweb--;
+				}
+				//禁止随机出现最后一个
 				this.isPopupShow=true;
 			},
 			cancelRandom:function(){
@@ -77,12 +81,12 @@
 		},
 		computed:{
 			webCount:function(){
-				return this.weblist.length;//总网址数量，自动更新，不需要维护
+				return this.weblist.length-1;//总网址数量，自动更新，不需要维护
 			},
 		},
 		beforeCreate:function(){
 			axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
-				this.weblist=response.data;//从远程获取网站列表。数据来自服务器。
+				this.weblist=response.data;//从远程获取网站列表。数据来自服务器
 			})
 		}
 	});

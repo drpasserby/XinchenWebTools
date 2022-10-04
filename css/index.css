@@ -66,6 +66,7 @@ a{
 
 .mainTitle{
     transition: all .3s;
+    width: 7em;
 }
 
 .mainTitle:hover{

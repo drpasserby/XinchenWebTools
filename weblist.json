@@ -250,4 +250,7 @@
 {"type":"工具","name":"短视频解析","src":"http://www.dspjx.com/"},
 {"type":"工具","name":"base64编解码","src":"https://tool.chinaz.com/Tools/Base64.aspx"},
 {"type":"工具","name":"IP查询","src":"https://ip.tool.chinaz.com/"},
+{"type":"工具","name":"摩斯电码","src":"http://www.all-tool.cn/Tools/morse/"},
+{"type":"工具","name":"UA分析","src":"http://www.all-tool.cn/Tools/ua/"},
+{"type":"实用","name":"站长工具大全","src":"http://www.all-tool.cn/"},
 {"type":"备注","name":"更新:2022-10-09","src":"./"}]

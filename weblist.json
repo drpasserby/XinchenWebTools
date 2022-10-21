@@ -259,5 +259,9 @@
 {"type":"工具","name":"AZW转PDF","src":"https://onlineconvertfree.com/zh/convert-format/azw3-to-pdf/"},
 {"type":"工具","name":"在线格式转换","src":"https://onlineconvertfree.com/zh/"},
 {"type":"工具","name":"在线MD5加密","src":"https://www.sojson.com/encrypt_md5.html"},
-{"type":"工具","name":"在线工具箱","src":"https://www.sojson.com/"},
+{"type":"工具","name":"在线JSON工具箱","src":"https://www.sojson.com/json/"},
+{"type":"工具","name":"在线加解密工具箱","src":"https://www.sojson.com/encrypt/"},
+{"type":"工具","name":"在线压缩格式化工具箱","src":"https://www.sojson.com/format/"},
+{"type":"工具","name":"在线WEB工具箱","src":"https://www.sojson.com/web/"},
+{"type":"工具","name":"在线二维码工具箱","src":"https://www.sojson.com/qr/"},
 {"type":"备注","name":"更新:2022-10-21","src":"./"}]

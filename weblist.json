@@ -261,7 +261,8 @@
 {"type":"工具","name":"在线MD5加密","src":"https://www.sojson.com/encrypt_md5.html"},
 {"type":"工具","name":"在线JSON工具箱","src":"https://www.sojson.com/json/"},
 {"type":"工具","name":"在线加解密工具箱","src":"https://www.sojson.com/encrypt/"},
-{"type":"工具","name":"在线压缩格式化工具箱","src":"https://www.sojson.com/format/"},
+{"type":"工具","name":"在线压缩格式工具","src":"https://www.sojson.com/format/"},
 {"type":"工具","name":"在线WEB工具箱","src":"https://www.sojson.com/web/"},
 {"type":"工具","name":"在线二维码工具箱","src":"https://www.sojson.com/qr/"},
-{"type":"备注","name":"更新:2022-10-21","src":"./"}]
+{"type":"实用","name":"Chrome插件","src":"https://www.crx4chrome.com/"},
+{"type":"备注","name":"更新:2022-10-23","src":"./"}]

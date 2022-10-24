@@ -38,6 +38,14 @@
 				<div id="random" @click="randomWeb">
 					<h2>随机一站，目前一共有{{webCount}}个网站！</h2>
 				</div>
+				<li>
+					<a :href="update.src">
+						<div class="listbox" :title="update.til">
+							<h1>{{update.name}}</h1>
+							<p>{{update.type}}</p>
+						</div>
+					</a>
+				</li>
 				<li v-for="ele in weblist.slice().reverse()">
 					<a :href="ele.src" target="_blank">
 						<div class="listbox" :title="ele.til">
@@ -60,14 +68,11 @@
 			isPopupShow:false,
 			randomweb:0,
 			weblist:[{type:"Test",name:"找不到对应数据",src:"https://wulvxinchen.cn",til:"找不到对应数据，请检查对应的API是否正常"}],
+			update:{type:"备注",name:"更新日期未能获取",src:"./",til:"本数据由@吾律心尘提供"},
 		},
 		methods:{
 			randomWeb:function(){
 				this.randomweb=Math.round(Math.random()*this.webCount);
-				if(this.randomweb==this.webCount-1){
-					this.randomweb--;
-				}
-				//禁止随机出现最后一个
 				this.isPopupShow=true;
 			},
 			cancelRandom:function(){
@@ -85,7 +90,8 @@
 		},
 		beforeCreate:function(){
 			axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
-				this.weblist=response.data;//从远程获取网站列表。数据来自@吾律心尘服务器
+				this.weblist=response.data.weblist;//从远程获取网站列表。数据来自@吾律心尘服务器
+				this.update=response.data.update;//从远程获取更新信息。数据来自@吾律心尘服务器
 			})
 		}
 	});

@@ -266,4 +266,9 @@
 {"type":"工具","name":"在线二维码工具箱","src":"https://www.sojson.com/qr/"},
 {"type":"实用","name":"Chrome插件","src":"https://www.crx4chrome.com/"},
 {"type":"工具","name":"AI配音","src":"https://azure.microsoft.com/zh-cn/products/cognitive-services/text-to-speech/#overview"},
+{"type":"工具","name":"AI配音2","src":"https://ondoku3.com/zh-hans/"},
+{"type":"工具","name":"AI配音3","src":"https://freetts.com/#ssml"},
+{"type":"工具","name":"AI配音4","src":"https://uberduck.ai/"},
+{"type":"工具","name":"AI配音5","src":"https://shengka.ai.sogou.com/"},
+{"type":"工具","name":"AI配音6","src":"https://www.xaudiopro.com/aivoice/"},
 {"type":"备注","name":"更新:2022-10-24","src":"./"}]

@@ -39,8 +39,8 @@
 					<h2>随机一站，目前一共有{{webCount}}个网站！</h2>
 				</div>
 				<li v-for="ele in weblist.slice().reverse()">
-					<a :href="ele.src" :title="ele.src" target="_blank">
-						<div class="listbox">
+					<a :href="ele.src" target="_blank">
+						<div class="listbox" :title="ele.til">
 							<h1>{{ele.name}}</h1>
 							<p>{{ele.type}}</p>
 						</div>
@@ -49,8 +49,7 @@
 			</ul>
 			
 		</div>
-		<div id="footer">
-			
+		<div id="footer">		
 		</div>
 		
 	</body>
@@ -60,7 +59,7 @@
 		data:{
 			isPopupShow:false,
 			randomweb:0,
-			weblist:[{type:"Test",name:"找不到对应数据",src:"https://wulvxinchen.cn"}]
+			weblist:[{type:"Test",name:"找不到对应数据",src:"https://wulvxinchen.cn",til:"找不到对应数据，请检查对应的API是否正常"}],
 		},
 		methods:{
 			randomWeb:function(){
@@ -86,7 +85,7 @@
 		},
 		beforeCreate:function(){
 			axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
-				this.weblist=response.data;//从远程获取网站列表。数据来自服务器
+				this.weblist=response.data;//从远程获取网站列表。数据来自@吾律心尘服务器
 			})
 		}
 	});

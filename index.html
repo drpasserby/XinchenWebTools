@@ -27,6 +27,7 @@
 					<h3>是否前往</h3>
 					<h1>{{weblist[randomweb].name}}</h1>
 					<span>{{"(类型:"+weblist[randomweb].type+")"}}</span>
+					<div>描述:{{weblist[randomweb].til}}</div>
 					<div>
 						<button id="noToGo" @click="cancelRandom">取消</button>
 						<button id="otherToGo" @click="randomWeb">再换</button>
@@ -35,13 +36,23 @@
 					
 				</div>
 				
-				<div id="random" @click="randomWeb">
-					<h2>随机一站，目前一共有{{webCount}}个网站！</h2>
+				<div>
+					<div class="function_block" @click="randomWeb">
+						<h2>随机一站</h2>
+					</div>
+					<div class="function_block" @click="allcount">
+						<h2>目前一共有{{webCount}}个网站</h2>
+					</div>
+					<div class="function_block" @click="search">
+						<h2>搜索</h2>
+					</div>
+					<br>
 				</div>
+				
 				<li>
 					<a :href="update.src">
 						<div class="listbox" :title="update.til">
-							<h1>{{update.name}}</h1>
+							<h1>更新:{{update.name}}</h1>
 							<p>{{update.type}}</p>
 						</div>
 					</a>
@@ -81,19 +92,35 @@
 			gotoRandom:function(){
 				window.location=this.weblist[this.randomweb].src;
 				this.isPopupShow=false;
+			},
+			allcount:function(){
+				alert("目前一共有"+this.weblist.length+"个网站,更新日期为"+this.update.name);
+			},
+			handleScroll() {
+            	this.isPopupShow=false
+        	},
+			search:function(){
+				alert("搜索功能暂未实装");
 			}
 		},
 		computed:{
 			webCount:function(){
-				return this.weblist.length-1;//总网址数量，自动更新，不需要维护
+				return this.weblist.length;//总网址数量，自动更新，不需要维护
 			},
 		},
+		mounted() {
+        	//监听页面滚动
+        	window.addEventListener('scroll', this.handleScroll, true)
+    	},
 		beforeCreate:function(){
 			axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
 				this.weblist=response.data.weblist;//从远程获取网站列表。数据来自@吾律心尘服务器
 				this.update=response.data.update;//从远程获取更新信息。数据来自@吾律心尘服务器
 			})
-		}
+		},
+		destroyed() {
+        window.removeEventListener('scroll', this.handleScroll)
+    	},
 	});
 	</script>
 </html>

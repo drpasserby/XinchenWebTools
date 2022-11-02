@@ -24,7 +24,7 @@
 {"type":"实用","name":"去除背景","src":"https://www.remove.bg/zn","til":""},
 {"type":"实用","name":"抠视频","src":"https://www.unscreen.com/","til":""},
 {"type":"游戏","name":"码字比赛","src":"https://play.typeracer.com/","til":""},
-{"type":"实用","name":"空投","src":"https://airportal.cn/","til":""},
+{"type":"实用","name":"空投","src":"https://airportal.cn/","til":"随时随地跨设备传输文件"},
 {"type":"实用","name":"在线调色板","src":"https://color.adobe.com/zh/create/color-wheel","til":""},
 {"type":"趣味","name":"核武器模拟","src":"https://nuclearsecrecy.com/nukemap/","til":""},
 {"type":"趣味","name":"在线博物馆","src":"https://virtual.mauritshuis.nl/index.html?lang=en&startscene=21","til":""},
@@ -272,5 +272,8 @@
 {"type":"工具","name":"AI配音5","src":"https://shengka.ai.sogou.com/","til":"搜狗的AI配音网站"},
 {"type":"工具","name":"AI配音6","src":"https://www.xaudiopro.com/aivoice/","til":"在线AI配音+剪辑网站"},
 {"type":"工具","name":"原神祈愿分析","src":"https://genshin.voderl.cn/","til":"本地解析原神祈愿分析"},
-{"type":"工具","name":"MD转公众号","src":"https://knb.im/mp/","til":"在线将MarkDown格式转换为微信公众号格式"}],
+{"type":"工具","name":"MD转公众号","src":"https://knb.im/mp/","til":"在线将MarkDown格式转换为微信公众号格式"},
+{"type":"实用","name":"Y2B无版权音乐","src":"https://mugle.io/","til":"Youtube上的一些没有版权或者放开使用的音乐，国内直连"},
+{"type":"实用","name":"云盘狗","src":"https://yunpangou.com/","til":"云盘狗是专业的百度云资源搜索引擎，搜索一下试试看"},
+{"type":"实用","name":"10分钟邮箱","src":"http://10minutemail.net/","til":"10分钟有效的随机邮箱，可能直连不了"}],
 "update":{"type":"备注","name":"2022-10-27","src":"./","til":"本数据由@吾律心尘提供.如需使用请联系作者."}}

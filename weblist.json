@@ -1,285 +1,1720 @@
-{"weblist":[{"type":"实用","name":"申论生成器","src":"https://sojo.im/slscq/","til":"在线生成申论"},
-{"type":"实用","name":"油猴插件专用","src":"https://greasyfork.org/zh-CN","til":""},
-{"type":"趣味","name":"狗屁不通生成器","src":"https://suulnnka.github.io/BullshitGenerator/index.html","til":""},
-{"type":"趣味","name":"捏脸","src":"https://picrew.me/","til":""},
-{"type":"游戏","name":"人生重开模拟","src":"http://liferestart.syaro.io/view/index.html","til":""},
-{"type":"实用","name":"生成背景图","src":"https://cn.pattern.monster/","til":""},
-{"type":"实用","name":"设计神器","src":"https://uiiiuiii.com/tools","til":""},
-{"type":"趣味","name":"5000兆円生成器","src":"http://yurafuca.com/5000choyen/","til":""},
-{"type":"实用","name":"油画转换器","src":"https://fotosketcher.com/","til":""},
-{"type":"趣味","name":"令咒icon","src":"https://shindanmaker.com/1064580","til":""},
-{"type":"实用","name":"电影海报","src":"http://www.impawards.com/","til":""},
-{"type":"趣味","name":"人工智障写作","src":"http://if.caiyunai.com/dream/","til":""},
-{"type":"实用","name":"书法生成器","src":"http://www.ziticq.com/shufa/","til":""},
-{"type":"实用","name":"地图生成器","src":"https://azgaar.github.io/Fantasy-Map-Generator/","til":""},
-{"type":"趣味","name":"随机网站","src":"https://sharkle.com/","til":""},
-{"type":"实用","name":"噪音生成器","src":"https://29a.ch/noise-generator/","til":""},
-{"type":"实用","name":"音轨分离","src":"https://dango.ai/","til":""},
-{"type":"实用","name":"NCM转换","src":"https://ncm.worthsee.com/site/index","til":""},
-{"type":"实用","name":"在线抠图1","src":"http://www.picup.shop/currencyBatch.html","til":""},
-{"type":"实用","name":"万能法律咨询","src":"https://ai.12348.gov.cn/pc/","til":""},
-{"type":"趣味","name":"世界各地之声","src":"https://aporee.org/maps/","til":""},
-{"type":"实用","name":"可商用图片","src":"https://www.pexels.com/zh-cn/","til":""},				
-{"type":"实用","name":"行业报告","src":"http://report.seedsufe.com/#/report","til":""},
-{"type":"实用","name":"去除背景","src":"https://www.remove.bg/zn","til":""},
-{"type":"实用","name":"抠视频","src":"https://www.unscreen.com/","til":""},
-{"type":"游戏","name":"码字比赛","src":"https://play.typeracer.com/","til":""},
-{"type":"实用","name":"空投","src":"https://airportal.cn/","til":"随时随地跨设备传输文件"},
-{"type":"实用","name":"在线调色板","src":"https://color.adobe.com/zh/create/color-wheel","til":""},
-{"type":"趣味","name":"核武器模拟","src":"https://nuclearsecrecy.com/nukemap/","til":""},
-{"type":"趣味","name":"在线博物馆","src":"https://virtual.mauritshuis.nl/index.html?lang=en&startscene=21","til":""},
-{"type":"实用","name":"日常物品尺寸","src":"https://www.dimensions.com/","til":""},
-{"type":"趣味","name":"迪士尼风格化","src":"https://toonme.com/","til":""},
-{"type":"实用","name":"生成动态图表","src":"https://hanabi.data-viz.cn/index?lang=zh-CN","til":""},
-{"type":"实用","name":"热量知多少","src":"https://www.fatsecret.cn/%E7%83%AD%E9%87%8F%E8%90%A5%E5%85%BB/","til":""},
-{"type":"实用","name":"寻找音乐","src":"https://www.tunefind.com/","til":""},
-{"type":"趣味(并不)","name":"996模拟器","src":"https://imisstheoffice.eu/","til":""},
-{"type":"趣味","name":"这个不存在","src":"https://thisxdoesnotexist.com/","til":""},
-{"type":"趣味","name":"森林之音","src":"https://www.tree.fm/","til":""},
-{"type":"趣味","name":"猜真假","src":"https://landing.adobe.com/en/na/products/creative-cloud/69308-real-or-photoshop/index.html","til":""},
-{"type":"趣味","name":"随机图案生成","src":"https://patatap.com/","til":""},
-{"type":"趣味","name":"书法鉴赏","src":"https://www.ltfc.net/exhibit/recent","til":""},
-{"type":"趣味","name":"AI音乐推荐","src":"https://www.gnoosic.com/faves.php","til":""},
-{"type":"实用","name":"壁纸","src":"https://wallhaven.cc/","til":""},
-{"type":"趣味","name":"云旅游","src":"http://www.airpano.com/","til":""},
-{"type":"趣味","name":"开窗","src":"https://window-swap.com/","til":""},
-{"type":"实用","name":"伴奏提取","src":"https://www.lalal.ai/","til":""},
-{"type":"实用","name":"格式转换","src":"https://www.alltoall.net/","til":""},
-{"type":"实用","name":"格式转换2","src":"https://www.aconvert.com/cn/","til":""},
-{"type":"实用","name":"DeepL翻译","src":"https://www.deepl.com/translator","til":""},
-{"type":"实用","name":"缩写查询","src":"https://lab.magiconch.com/nbnhhsh/","til":""},
-{"type":"实用","name":"指南大全","src":"https://zh.wikihow.com/%E9%A6%96%E9%A1%B5","til":""},
-{"type":"实用","name":"天气","src":"https://www.windy.com/","til":""},
-{"type":"趣味","name":"英文名起源","src":"https://www.behindthename.com/","til":""},
-{"type":"实用","name":"收费免税音乐","src":"https://www.epidemicsound.com/","til":""},
-{"type":"游戏","name":"神奇游戏","src":"https://www.indiexpo.net/","til":""},
-{"type":"趣味","name":"学钢琴","src":"https://app.flowkey.com.cn/","til":""},
-{"type":"趣味","name":"看海(日本的)","src":"https://seaside-station.com/region/hokkaido/","til":""},
-{"type":"实用","name":"标准地图(官方)","src":"http://bzdt.ch.mnr.gov.cn/index.html","til":""},
-{"type":"趣味","name":"色差测试","src":"http://www.cuishuai.cc/game/","til":""},
-{"type":"趣味","name":"放大看世界","src":"http://www.bigpixel.cn/index.html","til":""},
-{"type":"实用","name":"免费PPT","src":"https://slidesgo.com/","til":""},
-{"type":"趣味","name":"云","src":"https://www.ianfisherart.com/","til":""},
-{"type":"趣味","name":"全历史","src":"https://www.allhistory.com/","til":""},
-{"type":"趣味","name":"做音乐","src":"https://learningmusic.ableton.com/zh-Hans/","til":""},
-{"type":"实用","name":"新媒体导航","src":"https://www.kaolamedia.com/","til":""},
-{"type":"趣味","name":"AI捏人","src":"https://artbreeder.com/","til":""},
-{"type":"趣味","name":"人类能力测试","src":"https://humanbenchmark.com/","til":""},
-{"type":"趣味","name":"帮你做决定","src":"https://yesno.wtf/","til":""},
-{"type":"趣味","name":"老照片上色","src":"https://colourise.sg/","til":""},
-{"type":"趣味","name":"小猫打鼓","src":"https://bongo.cat/","til":""},
-{"type":"趣味","name":"实时地球","src":"https://zoom.earth/","til":""},
-{"type":"游戏","name":"在线井字棋","src":"https://playtictactoe.org/","til":""},
-{"type":"游戏","name":"贪吃蛇","src":"https://playsnake.org/","til":""},
-{"type":"游戏","name":"在线六角棋","src":"https://hexxagon.com/","til":""},
-{"type":"趣味","name":"视觉错觉","src":"https://strobe.cool/","til":""},
-{"type":"趣味","name":"随机电视","src":"https://neave.tv/","til":""},
-{"type":"趣味","name":"解压","src":"https://bouncyballs.org/","til":""},
-{"type":"趣味","name":"匿名聊天","src":"http://www.shushubuyue.net/#","til":""},
-{"type":"趣味","name":"匿名聊天2","src":"https://drrr.com/lounge/","til":""},
-{"type":"实用","name":"热点热榜","src":"https://tophub.today/","til":""},
-{"type":"实用","name":"在线医疗手册","src":"https://www.msdmanuals.com/zh#mission","til":""},
-{"type":"实用","name":"临时邮箱","src":"https://temp-mail.org/zh/","til":""},
-{"type":"实用","name":"词云","src":"https://www.weiciyun.com/","til":""},
-{"type":"趣味","name":"观沧海","src":"https://www.ageeye.cn","til":""},
-{"type":"趣味","name":"在线解谜","src":"https://nazo.one-story.cn/","til":""},
-{"type":"实用","name":"网易云封面下载","src":"https://cover.olook.me/","til":""},
-{"type":"实用","name":"Miku工具集","src":"https://tools.miku.ac/","til":""},
-{"type":"实用","name":"与佛论禅","src":"https://keyfc.net/bbs/tools/tudoucode.aspx","til":""},
-{"type":"趣味","name":"枝网查重","src":"https://asoulcnki.asia/","til":""},
-{"type":"实用","name":"论文期刊","src":"https://www.cn-ki.net/","til":""},
-{"type":"实用","name":"在线加字幕","src":"https://2zimu.com","til":""},
-{"type":"实用","name":"颜色渐变","src":"https://www.ls.graphics/meshgradients","til":""},
-{"type":"实用","name":"时区计算","src":"https://everytimezone.com/","til":""},
-{"type":"实用","name":"搜歌","src":"http://listen1.github.io/listen1/","til":""},
-{"type":"实用","name":"创意导航","src":"https://creativemass.cn/","til":""},
-{"type":"实用","name":"UP主合作","src":"https://mj.yuzhua.com/search/3.html","til":""},
-{"type":"趣味","name":"随机效果","src":"https://resn.co.nz/","til":""},
-{"type":"实用","name":"人工智能写作","src":"https://app.grammarly.com/","til":""},
-{"type":"实用","name":"出行查价","src":"https://www.tianxun.com/","til":""},
-{"type":"趣味","name":"引力模拟","src":"https://codepen.io/akm2/full/rHIsa","til":""},
-{"type":"实用","name":"软件教程","src":"http://www.gfxcamp.com/","til":""},
-{"type":"趣味","name":"随机表情包生成","src":"https://sorry.xuty.tk/","til":""},
-{"type":"趣味","name":"学发音","src":"https://zh.forvo.com/","til":""},
-{"type":"实用","name":"图片特殊效果","src":"https://photomosh.com/","til":""},
-{"type":"游戏","name":"在线太鼓达人","src":"https://tg.lv5.ac/","til":""},
-{"type":"趣味","name":"世界地图","src":"https://thetruesize.com","til":""},
-{"type":"游戏","name":"在线音乐跑酷","src":"https://pos.biborg.com/fr/","til":""},
-{"type":"趣味","name":"每一秒","src":"http://www.everysecond.io/","til":""},
-{"type":"实用","name":"艺术字生成","src":"http://www.akuziti.com/","til":""},
-{"type":"实用","name":"图片放大","src":"http://waifu2x.udp.jp/","til":""},
-{"type":"实用","name":"图片放大2","src":"https://www.bilibili.com/video/av976009755","til":""},
-{"type":"实用","name":"截图找番","src":"https://trace.moe/","til":""},
-{"type":"实用","name":"AI上色","src":"http://paintschainer.preferred.tech/index_zh.html","til":""},
-{"type":"趣味","name":"英语小说","src":"http://www.wuxiaworld.com/","til":""},
-{"type":"趣味","name":"在线GIF","src":"https://giphy.com/","til":""},
-{"type":"趣味","name":"秘密分享","src":"http://soulapartment.net/bin/index.php","til":""},
-{"type":"趣味","name":"在线白噪音","src":"https://asoftmurmur.com/","til":""},
-{"type":"实用","name":"透明素材","src":"https://www.pngall.com/","til":""},
-{"type":"趣味","name":"空当接龙(?)","src":"https://mrdoob.com/lab/javascript/effects/solitaire/","til":""},
-{"type":"趣味","name":"听钢琴","src":"http://touchpianist.com/","til":""},
-{"type":"实用","name":"搜图","src":"http://iqdb.org/","til":""},
-{"type":"实用","name":"搜图2","src":"http://saucenao.com/","til":""},
-{"type":"趣味","name":"在线雨声","src":"http://www.rainymood.com/","til":""},
-{"type":"趣味","name":"在线环境声","src":"http://www.rainymood.com/","til":""},
-{"type":"趣味","name":"眩晕","src":"http://mrdoob.com/#/157/spin_painter","til":""},
-{"type":"趣味","name":"随机","src":"http://fff.cmiscm.com/#!/main","til":""},
-{"type":"趣味","name":"万花筒","src":"http://weavesilk.com/","til":""},
-{"type":"趣味","name":"随机网站","src":"http://www.theuselessweb.com/","til":""},
-{"type":"趣味","name":"世界全景","src":"http://www.airpano.com/","til":""},
-{"type":"游戏","name":"在线音游","src":"http://www.beatstage.com/","til":""},
-{"type":"实用","name":"生成水倒映","src":"http://watereffect.net/","til":""},
-{"type":"趣味","name":"猜猜在哪里","src":"https://geoguessr.com/","til":""},
-{"type":"实用","name":"免费音乐素材","src":"http://www.hmix.net/","til":""},
-{"type":"实用","name":"免费音乐素材2","src":"http://haru.ocv.me/","til":""},
-{"type":"趣味","name":"在线高清画","src":"http://en.gallerix.ru/","til":""},
-{"type":"趣味(?)","name":"日本制服一览","src":"http://www.seihuku-zukan.com/","til":""},
-{"type":"趣味(?)","name":"亚洲制服一览","src":"http://uniform.wingzero.tw/","til":""},
-{"type":"实用","name":"音乐风格化","src":"https://the.wubmachine.com/","til":""},
-{"type":"趣味","name":"二次元壁纸","src":"https://anime-pictures.net/","til":""},
-{"type":"游戏","name":"在线游戏大全","src":"https://poki.com/","til":""},
-{"type":"趣味","name":"有趣网址之家","src":"https://youquhome.com/","til":""},
-{"type":"趣味","name":"让我帮你百度一下","src":"https://btfy.vercel.app/","til":""},
-{"type":"趣味","name":"让我帮你百度一下2","src":"https://my.wulvxinchen.cn/helpbaidu/","til":""},
-{"type":"趣味","name":"你的意义是什么?","src":"https://wtf.hiigara.net/t/mRIFuS","til":""},
-{"type":"趣味","name":"表情混合","src":"https://tikolu.net/emojimix/","til":""},
-{"type":"趣味","name":"输词生图","src":"https://app.wombo.art/","til":""},
-{"type":"工具","name":"青柠导航","src":"https://limestart.cn/","til":""},
-{"type":"趣味","name":"音乐便签","src":"https://typatone.com/","til":""},
-{"type":"工具","name":"饼状图生成器","src":"http://www.lizibuluo.com/bing/index.php","til":""},
-{"type":"工具","name":"发音转换器","src":"http://uahh.syouzyo.org/fyzhq","til":""},
-{"type":"工具","name":"文字转语言By微软","src":"https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/","til":""},
-{"type":"趣味","name":"游戏地图博物馆","src":"https://noclip.website/","til":""},
-{"type":"实用","name":"游戏音乐下载","src":"https://downloads.khinsider.com/","til":""},
-{"type":"实用","name":"中国国家数字图书馆","src":"http://www.nlc.cn/dsb_zyyfw/gj/gjzyk/","til":""},
-{"type":"实用","name":"代码字体选择","src":"https://www.codingfont.com/","til":""},
-{"type":"工具","name":"直播Live大全","src":"http://live.yj1211.work/index","til":""},
-{"type":"工具","name":"VUP大全","src":"https://vtbs.moe/","til":""},
-{"type":"实用","name":"浏览器书签分享","src":"https://www.bookmarkearth.com/","til":""},
-{"type":"工具","name":"轨道轨迹检测","src":"http://stuffin.space/","til":""},
-{"type":"实用","name":"店铺用BGM","src":"https://bgmc-station.com/","til":""},
-{"type":"工具","name":"英语口语能力测试","src":"https://www.speechace.com/","til":""},
-{"type":"实用","name":"免费学习","src":"https://www.coursera.org/","til":""},
-{"type":"趣味","name":"蒸汽波化","src":"https://magiconch.com/vaporwave/","til":""},
-{"type":"趣味","name":"头像生成","src":"https://waifulabs.com/","til":""},
-{"type":"趣味","name":"头像生成2","src":"https://crypko.ai/","til":""},
-{"type":"实用","name":"反向词典","src":"https://wantwords.net/","til":""},
-{"type":"趣味","name":"室内背景音","src":"https://pluvior.com/index.html","til":""},
-{"type":"趣味","name":"海滩背景音","src":"https://virtocean.com/#","til":""},
-{"type":"趣味","name":"测试工作性价比","src":"https://jfstone.cn/salary/","til":""},
-{"type":"实用","name":"开黑啦在线语音","src":"https://www.kaiheila.cn/","til":""},
-{"type":"实用","name":"电子书资源","src":"https://z-lib.org/","til":""},
-{"type":"趣味","name":"混合表情包","src":"https://tikolu.net/","til":""},
-{"type":"实用","name":"论文阅读","src":"https://readpaper.com/","til":""},	
-{"type":"实用","name":"品牌大全","src":"https://www.maigoo.com/","til":""},
-{"type":"工具","name":"在线工具集","src":"https://www.67tool.com/","til":""},
-{"type":"趣味","name":"月幕Galgame","src":"https://www.ymgal.com/","til":""},
-{"type":"趣味","name":"图动起来了！","src":"https://sketch.metademolab.com/canvas","til":""},
-{"type":"实用","name":"孔夫子旧书网","src":"https://www.kongfz.com/","til":""},
-{"type":"工具","name":"在线编辑图片","src":"https://www.iloveimg.com/zh-cn","til":""},
-{"type":"工具","name":"在线编辑PDF","src":"https://www.ilovepdf.com/","til":""},
-{"type":"工具","name":"在线压缩图","src":"https://www.yasuotu.com/","til":""},
-{"type":"实用","name":"ACG喵导航","src":"https://www.miaoaaa.com/","til":""},
-{"type":"实用","name":"学习制作音乐","src":"https://learningmusic.ableton.com/zh-Hans/","til":""},
-{"type":"工具","name":"在线流程图","src":"https://www.processon.com/diagrams","til":""},
-{"type":"实用","name":"PPT常用图片","src":"https://undraw.co/illustrations","til":""},
-{"type":"工具","name":"档铺:在线转换","src":"http://www.docpe.com/","til":""},				
-{"type":"实用","name":"steam创意工坊下载","src":"https://steamworkshopdownloader.io/","til":""},
-{"type":"实用","name":"PDF转图片","src":"http://www.pdfdo.com/pdf-to-image.aspx","til":""},
-{"type":"实用","name":"苦瓜书盘","src":"https://kgbook.com/","til":""},
-{"type":"实用","name":"熊猫搜索(书籍)","src":"https://xmsoushu.com/","til":""},
-{"type":"实用","name":"朋友圈转发生成","src":"https://akarin.dev/WechatMomentScreenshot","til":""},
-{"type":"实用","name":"朋友圈转发生成1","src":"https://my.wulvxinchen.cn/makewechat/","til":""},
-{"type":"实用","name":"朋友圈转发生成2","src":"https://transparentlc.github.io/WechatMomentScreenshot","til":""},
-{"type":"实用","name":"朋友圈转发生成3","src":"https://wl.shadiaoforever.xyz/","til":""},
-{"type":"实用","name":"朋友圈转发生成4","src":"https://gaohan086.xyz/wechat/","til":""},
-{"type":"工具","name":"代码在线工具","src":"https://www.matools.com/","til":""},
-{"type":"工具","name":"在线时间戳转换","src":"https://www.matools.com/timestamp","til":""},
-{"type":"工具","name":"在线抠图2","src":"https://www.yasuotu.com/matting","til":""},
-{"type":"实用","name":"二次元MIDI","src":"http://sdbds.ysepan.com/","til":""},
-{"type":"实用","name":"免费简历","src":"https://jianlixiazai.cn/","til":""},
-{"type":"实用","name":"国外主机评测","src":"https://www.zhujiceping.com/","til":""},
-{"type":"实用","name":"菜鸟教程","src":"https://www.runoob.com/","til":""},
-{"type":"实用","name":"W3School","src":"https://www.w3school.com.cn/","til":""},
-{"type":"工具","name":"Steam价格","src":"https://steamdb.info/","til":""},
-{"type":"工具","name":"在线解析iconfont","src":"http://www.sheng78.com/","til":""},
-{"type":"工具","name":"在线解析iconfont2","src":"http://blog.luckly-mjw.cn/tool-show/iconfont-preview/index.html","til":""},
-{"type":"工具","name":"公章生成","src":"https://www.makepic.net/tool/signet.html","til":""},
-{"type":"实用","name":"PPT模板","src":"https://www.1ppt.com/","til":""},
-{"type":"工具","name":"前端在线测试","src":"https://codepen.io/","til":""},
-{"type":"工具","name":"在线阅读电子书","src":"https://www.neat-reader.cn/webapp#/","til":""},
-{"type":"实用","name":"游戏UI库","src":"https://www.gameuidatabase.com/","til":""},
-{"type":"实用","name":"中国裁判文书网","src":"https://wenshu.court.gov.cn/#","til":""},
-{"type":"实用","name":"中国庭审公开网","src":"http://tingshen.court.gov.cn/","til":""},
-{"type":"趣味","name":"免费高清名画","src":"https://www.nbfox.com/","til":""},
-{"type":"实用","name":"日食日期查询","src":"https://nadc.china-vo.org/eclipse/","til":""},
-{"type":"趣味","name":"游戏要玩多久","src":"https://howlongtobeat.com/","til":""},
-{"type":"趣味","name":"Flash游戏库","src":"https://bluemaxima.org/flashpoint/","til":"怀旧的Flash游戏合集，可以提供游玩"},
-{"type":"实用","name":"免费素材库","src":"http://veleap.com/console/works/material/font","til":"有很多免费的素材字体"},
-{"type":"实用","name":"Logo合集库","src":"https://www.logonews.cn/","til":"里面有很多很多的logo以及介绍"},
-{"type":"工具","name":"WHOIS查询","src":"https://whois.cloud.tencent.com/","til":"查询一个域名的基本信息"},
-{"type":"趣味","name":"前端崩溃time","src":"http://sojo.im/","til":"前端程序员看见会崩溃的网站！！！"},
-{"type":"工具","name":"海螺工具集","src":"https://lab.magiconch.com/","til":"海螺开发的有趣的东西"},
-{"type":"工具","name":"114514计算器2","src":"https://lab.magiconch.com/homo/","til":"能够把任意数字变成使用114514计算的样式"},
-{"type":"工具","name":"114514计算器1","src":"https://my.wulvxinchen.cn/homo/","til":"能够把任意数字变成使用114514计算的样式"},
-{"type":"实用","name":"电子包浆","src":"https://magiconch.com/patina/","til":"在线给你的图片裹上一层来自互联网的电子包浆"},
-{"type":"趣味","name":"石蒜Live","src":"https://lab.magiconch.com/sakana/deto.html","til":"石蒜风格的有趣live2d"},
-{"type":"趣味","name":"卢浮宫风格画","src":"https://lab.magiconch.com/one-last-image/","til":"生成onelastkiss封面风格的图片"},
-{"type":"趣味","name":"梗图生成器","src":"https://x.magiconch.com","til":"一个支持电子包浆的所见即所得的梗图生成器"},
-{"type":"工具","name":"图片一分九","src":"https://v.magiconch.com/sns-image","til":"把一张图片切成9块，方便你在朋友圈微博等地方发布"},
-{"type":"趣味","name":"在线鉴黄(?)","src":"https://magiconch.com/nsfw/","til":"上传一张图片，鉴别黄色成分(?)"},
-{"type":"趣味","name":"在线你画我猜","src":"https://v.magiconch.com/drawhat","til":"在线的你画我猜小游戏"},
-{"type":"实用","name":"据意查句","src":"https://wantquotes.net/","til":"可以根据你输入描述的意思来查找相应的名言名句"},
-{"type":"实用","name":"免费手绘插画","src":"https://www.irasutoya.com/","til":"来自日本的免费手绘插画"},
-{"type":"工具","name":"稿定在线PS","src":"https://ps.gaoding.com/#/","til":"稿定设计旗下的免费在线PS"},
-{"type":"工具","name":"AI擦除","src":"https://www.magiceraser.io/","til":"AI识图擦除图片一些不需要的元素"},
-{"type":"实用","name":"简易食谱","src":"https://cook.yunyoujun.cn/","til":"一些简单的居家食谱，很轻松就可以得到很不错的食谱"},
-{"type":"趣味","name":"搜索播客","src":"https://pod.link/","til":"搜索一些有趣的播客"},
-{"type":"工具","name":"星座识别","src":"https://nova.astrometry.net/","til":"拍照上传识别当前星座"},
-{"type":"实用","name":"在线乐谱","src":"https://www.songsterr.com/","til":"在线进行乐谱查找下载"},
-{"type":"实用","name":"免费素材库2","src":"https://tvsozai.com/","til":"一些免费的商业素材"},
-{"type":"趣味","name":"相关性","src":"http://tylervigen.com/spurious-correlations","til":"查询一些事物的相关性"},
-{"type":"趣味","name":"猜中国省份","src":"https://vultr.youmu.moe/quiz/","til":"在线猜猜中国的省份位置"},
-{"type":"趣味","name":"鼠标指点","src":"https://pointerpointer.com/","til":"找到一张图片，上面的人会指着你的鼠标"},
-{"type":"实用","name":"图片打光","src":"https://clipdrop.co/relight","til":"对图片进行二次打光"},
-{"type":"趣味","name":"AI画图2","src":"https://huggingface.co/spaces/stabilityai/stable-diffusion","til":"AI在线画图网站"},
-{"type":"趣味","name":"AI画图1","src":"https://huggingface.co/spaces/PaddlePaddle/ERNIE-ViLG","til":"AI在线画图网站，基于文心"},
-{"type":"工具","name":"图像降噪","src":"https://zh.pixfix.com/","til":"可以一定程度上对图片进行降噪处理"},
-{"type":"工具","name":"在线压缩图2","src":"https://tinypng.com/","til":"在线压缩图片的一个网站"},
-{"type":"工具","name":"网页图片提取","src":"https://extract.pics/","til":"可以在线提取URL的整个网页的图片"},
-{"type":"工具","name":"短视频解析","src":"http://www.dspjx.com/","til":"支持解析各大短视频网站"},
-{"type":"工具","name":"base64编解码","src":"https://tool.chinaz.com/Tools/Base64.aspx","til":"在线对BASE64进行编码解码"},
-{"type":"工具","name":"IP查询","src":"https://ip.tool.chinaz.com/","til":"在线解析IP地址"},
-{"type":"工具","name":"摩斯电码","src":"http://www.all-tool.cn/Tools/morse/","til":"可以加解密摩斯电码"},
-{"type":"工具","name":"UA分析","src":"http://www.all-tool.cn/Tools/ua/","til":"可以解析你的设备UA"},
-{"type":"实用","name":"站长工具大全","src":"http://www.all-tool.cn/","til":"有很多很多在线工具"},
-{"type":"工具","name":"Mobi转PDF","src":"https://www.pdfpai.com/mobi-to-pdf","til":"电子书Mobi转PDF"},
-{"type":"工具","name":"EPUB转PDF","src":"https://www.pdfpai.com/epub-to-pdf","til":"电子书格式EPUB转PDF"},
-{"type":"工具","name":"PDF工具","src":"https://www.pdfpai.com/","til":"有很多PDF相关的工具"},
-{"type":"工具","name":"AZW转PDF","src":"https://onlineconvertfree.com/zh/convert-format/azw3-to-pdf/","til":"亚马逊的AZW格式转换成PDF"},
-{"type":"工具","name":"在线格式转换","src":"https://onlineconvertfree.com/zh/","til":"在线进行格式转换"},
-{"type":"工具","name":"在线MD5加密","src":"https://www.sojson.com/encrypt_md5.html","til":"在线进行MD5加密"},
-{"type":"工具","name":"在线JSON工具箱","src":"https://www.sojson.com/json/","til":"在线的JSON工具箱"},
-{"type":"工具","name":"在线加解密工具箱","src":"https://www.sojson.com/encrypt/","til":"在线的有多种的加解密工具箱"},
-{"type":"工具","name":"在线压缩格式工具","src":"https://www.sojson.com/format/","til":"在线压缩格式工具"},
-{"type":"工具","name":"在线WEB工具箱","src":"https://www.sojson.com/web/","til":"在线WEB工具箱"},
-{"type":"工具","name":"在线二维码工具箱","src":"https://www.sojson.com/qr/","til":"在线的二维码工具箱"},
-{"type":"实用","name":"Chrome插件","src":"https://www.crx4chrome.com/","til":"不用科技的Chrome插件网站"},
-{"type":"工具","name":"AI配音","src":"https://azure.microsoft.com/zh-cn/products/cognitive-services/text-to-speech/#overview","til":"微软的多国AI语音网站"},
-{"type":"工具","name":"AI配音2","src":"https://ondoku3.com/zh-hans/","til":"日本的多国语音配音网站"},
-{"type":"工具","name":"AI配音3","src":"https://freetts.com/","til":"免费，可调节的AI配音"},
-{"type":"工具","name":"AI配音4","src":"https://uberduck.ai/","til":"国外来自uberduck的AI配音网站"},
-{"type":"工具","name":"AI配音5","src":"https://shengka.ai.sogou.com/","til":"搜狗的AI配音网站"},
-{"type":"工具","name":"AI配音6","src":"https://www.xaudiopro.com/aivoice/","til":"在线AI配音+剪辑网站"},
-{"type":"工具","name":"原神祈愿分析","src":"https://genshin.voderl.cn/","til":"本地解析原神祈愿分析"},
-{"type":"工具","name":"MD转公众号","src":"https://knb.im/mp/","til":"在线将MarkDown格式转换为微信公众号格式"},
-{"type":"实用","name":"Y2B无版权音乐","src":"https://mugle.io/","til":"Youtube上的一些没有版权或者放开使用的音乐，国内直连"},
-{"type":"实用","name":"云盘狗","src":"https://yunpangou.com/","til":"云盘狗是专业的百度云资源搜索引擎，搜索一下试试看"},
-{"type":"工具","name":"10分钟邮箱","src":"http://10minutemail.net/","til":"10分钟有效的随机邮箱，可能直连不了"},
-{"type":"实用","name":"PPT超级市场","src":"https://www.pptsupermarket.com/","til":"许多免费的PPT模板"},
-{"type":"实用","name":"钢笔工具练习 ","src":"https://method.ac/","til":"钢笔工具在线练习"},
-{"type":"实用","name":"免费PPT模板","src":"https://www.ypppt.com/","til":"免费的PPT模板"},
-{"type":"实用","name":"Github访问统计","src":"https://badges.toozhao.com/","til":"一键生成Github访问统计"},
-{"type":"实用","name":"内啥租借","src":"https://www.neisha.cc/","til":"租借平台，稍微贵，非广告"},
-{"type":"工具","name":"虫洞操控手机","src":"https://er.run/","til":"在电脑屏幕上操作手机，电脑上自由浏览操控手机，支持iPhone和安卓的多屏协同"}],
-"update":{"type":"备注","name":"2022-11-14","src":"./","til":"本数据由@吾律心尘提供.如需使用请联系作者."}}
+{
+    "weblist": [
+        {
+            "type": "实用",
+            "name": "申论生成器",
+            "src": "https://sojo.im/slscq/",
+            "til": "在线生成申论"
+        },
+        {
+            "type": "实用",
+            "name": "油猴插件专用",
+            "src": "https://greasyfork.org/zh-CN",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "狗屁不通生成器",
+            "src": "https://suulnnka.github.io/BullshitGenerator/index.html",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "捏脸",
+            "src": "https://picrew.me/",
+            "til": ""
+        },
+        {
+            "type": "游戏",
+            "name": "人生重开模拟",
+            "src": "http://liferestart.syaro.io/view/index.html",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "生成背景图",
+            "src": "https://cn.pattern.monster/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "设计神器",
+            "src": "https://uiiiuiii.com/tools",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "5000兆円生成器",
+            "src": "http://yurafuca.com/5000choyen/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "油画转换器",
+            "src": "https://fotosketcher.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "令咒icon",
+            "src": "https://shindanmaker.com/1064580",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "电影海报",
+            "src": "http://www.impawards.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "人工智障写作",
+            "src": "http://if.caiyunai.com/dream/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "书法生成器",
+            "src": "http://www.ziticq.com/shufa/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "地图生成器",
+            "src": "https://azgaar.github.io/Fantasy-Map-Generator/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "随机网站",
+            "src": "https://sharkle.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "噪音生成器",
+            "src": "https://29a.ch/noise-generator/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "音轨分离",
+            "src": "https://dango.ai/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "NCM转换",
+            "src": "https://ncm.worthsee.com/site/index",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "在线抠图1",
+            "src": "http://www.picup.shop/currencyBatch.html",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "万能法律咨询",
+            "src": "https://ai.12348.gov.cn/pc/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "世界各地之声",
+            "src": "https://aporee.org/maps/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "可商用图片",
+            "src": "https://www.pexels.com/zh-cn/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "行业报告",
+            "src": "http://report.seedsufe.com/#/report",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "去除背景",
+            "src": "https://www.remove.bg/zn",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "抠视频",
+            "src": "https://www.unscreen.com/",
+            "til": ""
+        },
+        {
+            "type": "游戏",
+            "name": "码字比赛",
+            "src": "https://play.typeracer.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "空投",
+            "src": "https://airportal.cn/",
+            "til": "随时随地跨设备传输文件"
+        },
+        {
+            "type": "实用",
+            "name": "在线调色板",
+            "src": "https://color.adobe.com/zh/create/color-wheel",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "核武器模拟",
+            "src": "https://nuclearsecrecy.com/nukemap/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "在线博物馆",
+            "src": "https://virtual.mauritshuis.nl/index.html?lang=en&startscene=21",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "日常物品尺寸",
+            "src": "https://www.dimensions.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "迪士尼风格化",
+            "src": "https://toonme.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "生成动态图表",
+            "src": "https://hanabi.data-viz.cn/index?lang=zh-CN",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "热量知多少",
+            "src": "https://www.fatsecret.cn/%E7%83%AD%E9%87%8F%E8%90%A5%E5%85%BB/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "寻找音乐",
+            "src": "https://www.tunefind.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味(并不)",
+            "name": "996模拟器",
+            "src": "https://imisstheoffice.eu/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "这个不存在",
+            "src": "https://thisxdoesnotexist.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "森林之音",
+            "src": "https://www.tree.fm/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "猜真假",
+            "src": "https://landing.adobe.com/en/na/products/creative-cloud/69308-real-or-photoshop/index.html",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "随机图案生成",
+            "src": "https://patatap.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "书法鉴赏",
+            "src": "https://www.ltfc.net/exhibit/recent",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "AI音乐推荐",
+            "src": "https://www.gnoosic.com/faves.php",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "壁纸",
+            "src": "https://wallhaven.cc/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "云旅游",
+            "src": "http://www.airpano.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "开窗",
+            "src": "https://window-swap.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "伴奏提取",
+            "src": "https://www.lalal.ai/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "格式转换",
+            "src": "https://www.alltoall.net/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "格式转换2",
+            "src": "https://www.aconvert.com/cn/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "DeepL翻译",
+            "src": "https://www.deepl.com/translator",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "缩写查询",
+            "src": "https://lab.magiconch.com/nbnhhsh/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "指南大全",
+            "src": "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "天气",
+            "src": "https://www.windy.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "英文名起源",
+            "src": "https://www.behindthename.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "收费免税音乐",
+            "src": "https://www.epidemicsound.com/",
+            "til": ""
+        },
+        {
+            "type": "游戏",
+            "name": "神奇游戏",
+            "src": "https://www.indiexpo.net/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "学钢琴",
+            "src": "https://app.flowkey.com.cn/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "看海(日本的)",
+            "src": "https://seaside-station.com/region/hokkaido/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "标准地图(官方)",
+            "src": "http://bzdt.ch.mnr.gov.cn/index.html",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "色差测试",
+            "src": "http://www.cuishuai.cc/game/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "放大看世界",
+            "src": "http://www.bigpixel.cn/index.html",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "免费PPT",
+            "src": "https://slidesgo.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "云",
+            "src": "https://www.ianfisherart.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "全历史",
+            "src": "https://www.allhistory.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "做音乐",
+            "src": "https://learningmusic.ableton.com/zh-Hans/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "新媒体导航",
+            "src": "https://www.kaolamedia.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "AI捏人",
+            "src": "https://artbreeder.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "人类能力测试",
+            "src": "https://humanbenchmark.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "帮你做决定",
+            "src": "https://yesno.wtf/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "老照片上色",
+            "src": "https://colourise.sg/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "小猫打鼓",
+            "src": "https://bongo.cat/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "实时地球",
+            "src": "https://zoom.earth/",
+            "til": ""
+        },
+        {
+            "type": "游戏",
+            "name": "在线井字棋",
+            "src": "https://playtictactoe.org/",
+            "til": ""
+        },
+        {
+            "type": "游戏",
+            "name": "贪吃蛇",
+            "src": "https://playsnake.org/",
+            "til": ""
+        },
+        {
+            "type": "游戏",
+            "name": "在线六角棋",
+            "src": "https://hexxagon.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "视觉错觉",
+            "src": "https://strobe.cool/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "随机电视",
+            "src": "https://neave.tv/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "解压",
+            "src": "https://bouncyballs.org/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "匿名聊天",
+            "src": "http://www.shushubuyue.net/#",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "匿名聊天2",
+            "src": "https://drrr.com/lounge/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "热点热榜",
+            "src": "https://tophub.today/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "在线医疗手册",
+            "src": "https://www.msdmanuals.com/zh#mission",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "临时邮箱",
+            "src": "https://temp-mail.org/zh/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "词云",
+            "src": "https://www.weiciyun.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "观沧海",
+            "src": "https://www.ageeye.cn",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "在线解谜",
+            "src": "https://nazo.one-story.cn/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "网易云封面下载",
+            "src": "https://cover.olook.me/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "Miku工具集",
+            "src": "https://tools.miku.ac/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "与佛论禅",
+            "src": "https://keyfc.net/bbs/tools/tudoucode.aspx",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "枝网查重",
+            "src": "https://asoulcnki.asia/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "论文期刊",
+            "src": "https://www.cn-ki.net/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "在线加字幕",
+            "src": "https://2zimu.com",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "颜色渐变",
+            "src": "https://www.ls.graphics/meshgradients",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "时区计算",
+            "src": "https://everytimezone.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "搜歌",
+            "src": "http://listen1.github.io/listen1/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "创意导航",
+            "src": "https://creativemass.cn/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "UP主合作",
+            "src": "https://mj.yuzhua.com/search/3.html",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "随机效果",
+            "src": "https://resn.co.nz/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "人工智能写作",
+            "src": "https://app.grammarly.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "出行查价",
+            "src": "https://www.tianxun.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "引力模拟",
+            "src": "https://codepen.io/akm2/full/rHIsa",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "软件教程",
+            "src": "http://www.gfxcamp.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "随机表情包生成",
+            "src": "https://sorry.xuty.tk/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "学发音",
+            "src": "https://zh.forvo.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "图片特殊效果",
+            "src": "https://photomosh.com/",
+            "til": ""
+        },
+        {
+            "type": "游戏",
+            "name": "在线太鼓达人",
+            "src": "https://tg.lv5.ac/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "世界地图",
+            "src": "https://thetruesize.com",
+            "til": ""
+        },
+        {
+            "type": "游戏",
+            "name": "在线音乐跑酷",
+            "src": "https://pos.biborg.com/fr/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "每一秒",
+            "src": "http://www.everysecond.io/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "艺术字生成",
+            "src": "http://www.akuziti.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "图片放大",
+            "src": "http://waifu2x.udp.jp/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "图片放大2",
+            "src": "https://www.bilibili.com/video/av976009755",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "截图找番",
+            "src": "https://trace.moe/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "AI上色",
+            "src": "http://paintschainer.preferred.tech/index_zh.html",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "英语小说",
+            "src": "http://www.wuxiaworld.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "在线GIF",
+            "src": "https://giphy.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "秘密分享",
+            "src": "http://soulapartment.net/bin/index.php",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "在线白噪音",
+            "src": "https://asoftmurmur.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "透明素材",
+            "src": "https://www.pngall.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "空当接龙(?)",
+            "src": "https://mrdoob.com/lab/javascript/effects/solitaire/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "听钢琴",
+            "src": "http://touchpianist.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "搜图",
+            "src": "http://iqdb.org/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "搜图2",
+            "src": "http://saucenao.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "在线雨声",
+            "src": "http://www.rainymood.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "在线环境声",
+            "src": "http://www.rainymood.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "眩晕",
+            "src": "http://mrdoob.com/#/157/spin_painter",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "随机",
+            "src": "http://fff.cmiscm.com/#!/main",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "万花筒",
+            "src": "http://weavesilk.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "随机网站",
+            "src": "http://www.theuselessweb.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "世界全景",
+            "src": "http://www.airpano.com/",
+            "til": ""
+        },
+        {
+            "type": "游戏",
+            "name": "在线音游",
+            "src": "http://www.beatstage.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "生成水倒映",
+            "src": "http://watereffect.net/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "猜猜在哪里",
+            "src": "https://geoguessr.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "免费音乐素材",
+            "src": "http://www.hmix.net/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "免费音乐素材2",
+            "src": "http://haru.ocv.me/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "在线高清画",
+            "src": "http://en.gallerix.ru/",
+            "til": ""
+        },
+        {
+            "type": "趣味(?)",
+            "name": "日本制服一览",
+            "src": "http://www.seihuku-zukan.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味(?)",
+            "name": "亚洲制服一览",
+            "src": "http://uniform.wingzero.tw/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "音乐风格化",
+            "src": "https://the.wubmachine.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "二次元壁纸",
+            "src": "https://anime-pictures.net/",
+            "til": ""
+        },
+        {
+            "type": "游戏",
+            "name": "在线游戏大全",
+            "src": "https://poki.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "有趣网址之家",
+            "src": "https://youquhome.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "让我帮你百度一下",
+            "src": "https://btfy.vercel.app/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "让我帮你百度一下2",
+            "src": "https://my.wulvxinchen.cn/helpbaidu/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "你的意义是什么?",
+            "src": "https://wtf.hiigara.net/t/mRIFuS",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "表情混合",
+            "src": "https://tikolu.net/emojimix/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "输词生图",
+            "src": "https://app.wombo.art/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "青柠导航",
+            "src": "https://limestart.cn/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "音乐便签",
+            "src": "https://typatone.com/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "饼状图生成器",
+            "src": "http://www.lizibuluo.com/bing/index.php",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "发音转换器",
+            "src": "http://uahh.syouzyo.org/fyzhq",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "文字转语言By微软",
+            "src": "https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "游戏地图博物馆",
+            "src": "https://noclip.website/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "游戏音乐下载",
+            "src": "https://downloads.khinsider.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "中国国家数字图书馆",
+            "src": "http://www.nlc.cn/dsb_zyyfw/gj/gjzyk/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "代码字体选择",
+            "src": "https://www.codingfont.com/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "直播Live大全",
+            "src": "http://live.yj1211.work/index",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "VUP大全",
+            "src": "https://vtbs.moe/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "浏览器书签分享",
+            "src": "https://www.bookmarkearth.com/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "轨道轨迹检测",
+            "src": "http://stuffin.space/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "店铺用BGM",
+            "src": "https://bgmc-station.com/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "英语口语能力测试",
+            "src": "https://www.speechace.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "免费学习",
+            "src": "https://www.coursera.org/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "蒸汽波化",
+            "src": "https://magiconch.com/vaporwave/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "头像生成",
+            "src": "https://waifulabs.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "头像生成2",
+            "src": "https://crypko.ai/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "反向词典",
+            "src": "https://wantwords.net/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "室内背景音",
+            "src": "https://pluvior.com/index.html",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "海滩背景音",
+            "src": "https://virtocean.com/#",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "测试工作性价比",
+            "src": "https://jfstone.cn/salary/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "开黑啦在线语音",
+            "src": "https://www.kaiheila.cn/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "电子书资源",
+            "src": "https://z-lib.org/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "混合表情包",
+            "src": "https://tikolu.net/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "论文阅读",
+            "src": "https://readpaper.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "品牌大全",
+            "src": "https://www.maigoo.com/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "在线工具集",
+            "src": "https://www.67tool.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "月幕Galgame",
+            "src": "https://www.ymgal.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "图动起来了！",
+            "src": "https://sketch.metademolab.com/canvas",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "孔夫子旧书网",
+            "src": "https://www.kongfz.com/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "在线编辑图片",
+            "src": "https://www.iloveimg.com/zh-cn",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "在线编辑PDF",
+            "src": "https://www.ilovepdf.com/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "在线压缩图",
+            "src": "https://www.yasuotu.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "ACG喵导航",
+            "src": "https://www.miaoaaa.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "学习制作音乐",
+            "src": "https://learningmusic.ableton.com/zh-Hans/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "在线流程图",
+            "src": "https://www.processon.com/diagrams",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "PPT常用图片",
+            "src": "https://undraw.co/illustrations",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "档铺:在线转换",
+            "src": "http://www.docpe.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "steam创意工坊下载",
+            "src": "https://steamworkshopdownloader.io/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "PDF转图片",
+            "src": "http://www.pdfdo.com/pdf-to-image.aspx",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "苦瓜书盘",
+            "src": "https://kgbook.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "熊猫搜索(书籍)",
+            "src": "https://xmsoushu.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "朋友圈转发生成",
+            "src": "https://akarin.dev/WechatMomentScreenshot",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "朋友圈转发生成1",
+            "src": "https://my.wulvxinchen.cn/makewechat/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "朋友圈转发生成2",
+            "src": "https://transparentlc.github.io/WechatMomentScreenshot",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "朋友圈转发生成3",
+            "src": "https://wl.shadiaoforever.xyz/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "朋友圈转发生成4",
+            "src": "https://gaohan086.xyz/wechat/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "代码在线工具",
+            "src": "https://www.matools.com/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "在线时间戳转换",
+            "src": "https://www.matools.com/timestamp",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "在线抠图2",
+            "src": "https://www.yasuotu.com/matting",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "二次元MIDI",
+            "src": "http://sdbds.ysepan.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "免费简历",
+            "src": "https://jianlixiazai.cn/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "国外主机评测",
+            "src": "https://www.zhujiceping.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "菜鸟教程",
+            "src": "https://www.runoob.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "W3School",
+            "src": "https://www.w3school.com.cn/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "Steam价格",
+            "src": "https://steamdb.info/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "在线解析iconfont",
+            "src": "http://www.sheng78.com/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "在线解析iconfont2",
+            "src": "http://blog.luckly-mjw.cn/tool-show/iconfont-preview/index.html",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "公章生成",
+            "src": "https://www.makepic.net/tool/signet.html",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "PPT模板",
+            "src": "https://www.1ppt.com/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "前端在线测试",
+            "src": "https://codepen.io/",
+            "til": ""
+        },
+        {
+            "type": "工具",
+            "name": "在线阅读电子书",
+            "src": "https://www.neat-reader.cn/webapp#/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "游戏UI库",
+            "src": "https://www.gameuidatabase.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "中国裁判文书网",
+            "src": "https://wenshu.court.gov.cn/#",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "中国庭审公开网",
+            "src": "http://tingshen.court.gov.cn/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "免费高清名画",
+            "src": "https://www.nbfox.com/",
+            "til": ""
+        },
+        {
+            "type": "实用",
+            "name": "日食日期查询",
+            "src": "https://nadc.china-vo.org/eclipse/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "游戏要玩多久",
+            "src": "https://howlongtobeat.com/",
+            "til": ""
+        },
+        {
+            "type": "趣味",
+            "name": "Flash游戏库",
+            "src": "https://bluemaxima.org/flashpoint/",
+            "til": "怀旧的Flash游戏合集，可以提供游玩"
+        },
+        {
+            "type": "实用",
+            "name": "免费素材库",
+            "src": "http://veleap.com/console/works/material/font",
+            "til": "有很多免费的素材字体"
+        },
+        {
+            "type": "实用",
+            "name": "Logo合集库",
+            "src": "https://www.logonews.cn/",
+            "til": "里面有很多很多的logo以及介绍"
+        },
+        {
+            "type": "工具",
+            "name": "WHOIS查询",
+            "src": "https://whois.cloud.tencent.com/",
+            "til": "查询一个域名的基本信息"
+        },
+        {
+            "type": "趣味",
+            "name": "前端崩溃time",
+            "src": "http://sojo.im/",
+            "til": "前端程序员看见会崩溃的网站！！！"
+        },
+        {
+            "type": "工具",
+            "name": "海螺工具集",
+            "src": "https://lab.magiconch.com/",
+            "til": "海螺开发的有趣的东西"
+        },
+        {
+            "type": "工具",
+            "name": "114514计算器2",
+            "src": "https://lab.magiconch.com/homo/",
+            "til": "能够把任意数字变成使用114514计算的样式"
+        },
+        {
+            "type": "工具",
+            "name": "114514计算器1",
+            "src": "https://my.wulvxinchen.cn/homo/",
+            "til": "能够把任意数字变成使用114514计算的样式"
+        },
+        {
+            "type": "实用",
+            "name": "电子包浆",
+            "src": "https://magiconch.com/patina/",
+            "til": "在线给你的图片裹上一层来自互联网的电子包浆"
+        },
+        {
+            "type": "趣味",
+            "name": "石蒜Live",
+            "src": "https://lab.magiconch.com/sakana/deto.html",
+            "til": "石蒜风格的有趣live2d"
+        },
+        {
+            "type": "趣味",
+            "name": "卢浮宫风格画",
+            "src": "https://lab.magiconch.com/one-last-image/",
+            "til": "生成onelastkiss封面风格的图片"
+        },
+        {
+            "type": "趣味",
+            "name": "梗图生成器",
+            "src": "https://x.magiconch.com",
+            "til": "一个支持电子包浆的所见即所得的梗图生成器"
+        },
+        {
+            "type": "工具",
+            "name": "图片一分九",
+            "src": "https://v.magiconch.com/sns-image",
+            "til": "把一张图片切成9块，方便你在朋友圈微博等地方发布"
+        },
+        {
+            "type": "趣味",
+            "name": "在线鉴黄(?)",
+            "src": "https://magiconch.com/nsfw/",
+            "til": "上传一张图片，鉴别黄色成分(?)"
+        },
+        {
+            "type": "趣味",
+            "name": "在线你画我猜",
+            "src": "https://v.magiconch.com/drawhat",
+            "til": "在线的你画我猜小游戏"
+        },
+        {
+            "type": "实用",
+            "name": "据意查句",
+            "src": "https://wantquotes.net/",
+            "til": "可以根据你输入描述的意思来查找相应的名言名句"
+        },
+        {
+            "type": "实用",
+            "name": "免费手绘插画",
+            "src": "https://www.irasutoya.com/",
+            "til": "来自日本的免费手绘插画"
+        },
+        {
+            "type": "工具",
+            "name": "稿定在线PS",
+            "src": "https://ps.gaoding.com/#/",
+            "til": "稿定设计旗下的免费在线PS"
+        },
+        {
+            "type": "工具",
+            "name": "AI擦除",
+            "src": "https://www.magiceraser.io/",
+            "til": "AI识图擦除图片一些不需要的元素"
+        },
+        {
+            "type": "实用",
+            "name": "简易食谱",
+            "src": "https://cook.yunyoujun.cn/",
+            "til": "一些简单的居家食谱，很轻松就可以得到很不错的食谱"
+        },
+        {
+            "type": "趣味",
+            "name": "搜索播客",
+            "src": "https://pod.link/",
+            "til": "搜索一些有趣的播客"
+        },
+        {
+            "type": "工具",
+            "name": "星座识别",
+            "src": "https://nova.astrometry.net/",
+            "til": "拍照上传识别当前星座"
+        },
+        {
+            "type": "实用",
+            "name": "在线乐谱",
+            "src": "https://www.songsterr.com/",
+            "til": "在线进行乐谱查找下载"
+        },
+        {
+            "type": "实用",
+            "name": "免费素材库2",
+            "src": "https://tvsozai.com/",
+            "til": "一些免费的商业素材"
+        },
+        {
+            "type": "趣味",
+            "name": "相关性",
+            "src": "http://tylervigen.com/spurious-correlations",
+            "til": "查询一些事物的相关性"
+        },
+        {
+            "type": "趣味",
+            "name": "猜中国省份",
+            "src": "https://vultr.youmu.moe/quiz/",
+            "til": "在线猜猜中国的省份位置"
+        },
+        {
+            "type": "趣味",
+            "name": "鼠标指点",
+            "src": "https://pointerpointer.com/",
+            "til": "找到一张图片，上面的人会指着你的鼠标"
+        },
+        {
+            "type": "实用",
+            "name": "图片打光",
+            "src": "https://clipdrop.co/relight",
+            "til": "对图片进行二次打光"
+        },
+        {
+            "type": "趣味",
+            "name": "AI画图2",
+            "src": "https://huggingface.co/spaces/stabilityai/stable-diffusion",
+            "til": "AI在线画图网站"
+        },
+        {
+            "type": "趣味",
+            "name": "AI画图1",
+            "src": "https://huggingface.co/spaces/PaddlePaddle/ERNIE-ViLG",
+            "til": "AI在线画图网站，基于文心"
+        },
+        {
+            "type": "工具",
+            "name": "图像降噪",
+            "src": "https://zh.pixfix.com/",
+            "til": "可以一定程度上对图片进行降噪处理"
+        },
+        {
+            "type": "工具",
+            "name": "在线压缩图2",
+            "src": "https://tinypng.com/",
+            "til": "在线压缩图片的一个网站"
+        },
+        {
+            "type": "工具",
+            "name": "网页图片提取",
+            "src": "https://extract.pics/",
+            "til": "可以在线提取URL的整个网页的图片"
+        },
+        {
+            "type": "工具",
+            "name": "短视频解析",
+            "src": "http://www.dspjx.com/",
+            "til": "支持解析各大短视频网站"
+        },
+        {
+            "type": "工具",
+            "name": "base64编解码",
+            "src": "https://tool.chinaz.com/Tools/Base64.aspx",
+            "til": "在线对BASE64进行编码解码"
+        },
+        {
+            "type": "工具",
+            "name": "IP查询",
+            "src": "https://ip.tool.chinaz.com/",
+            "til": "在线解析IP地址"
+        },
+        {
+            "type": "工具",
+            "name": "摩斯电码",
+            "src": "http://www.all-tool.cn/Tools/morse/",
+            "til": "可以加解密摩斯电码"
+        },
+        {
+            "type": "工具",
+            "name": "UA分析",
+            "src": "http://www.all-tool.cn/Tools/ua/",
+            "til": "可以解析你的设备UA"
+        },
+        {
+            "type": "实用",
+            "name": "站长工具大全",
+            "src": "http://www.all-tool.cn/",
+            "til": "有很多很多在线工具"
+        },
+        {
+            "type": "工具",
+            "name": "Mobi转PDF",
+            "src": "https://www.pdfpai.com/mobi-to-pdf",
+            "til": "电子书Mobi转PDF"
+        },
+        {
+            "type": "工具",
+            "name": "EPUB转PDF",
+            "src": "https://www.pdfpai.com/epub-to-pdf",
+            "til": "电子书格式EPUB转PDF"
+        },
+        {
+            "type": "工具",
+            "name": "PDF工具",
+            "src": "https://www.pdfpai.com/",
+            "til": "有很多PDF相关的工具"
+        },
+        {
+            "type": "工具",
+            "name": "AZW转PDF",
+            "src": "https://onlineconvertfree.com/zh/convert-format/azw3-to-pdf/",
+            "til": "亚马逊的AZW格式转换成PDF"
+        },
+        {
+            "type": "工具",
+            "name": "在线格式转换",
+            "src": "https://onlineconvertfree.com/zh/",
+            "til": "在线进行格式转换"
+        },
+        {
+            "type": "工具",
+            "name": "在线MD5加密",
+            "src": "https://www.sojson.com/encrypt_md5.html",
+            "til": "在线进行MD5加密"
+        },
+        {
+            "type": "工具",
+            "name": "在线JSON工具箱",
+            "src": "https://www.sojson.com/json/",
+            "til": "在线的JSON工具箱"
+        },
+        {
+            "type": "工具",
+            "name": "在线加解密工具箱",
+            "src": "https://www.sojson.com/encrypt/",
+            "til": "在线的有多种的加解密工具箱"
+        },
+        {
+            "type": "工具",
+            "name": "在线压缩格式工具",
+            "src": "https://www.sojson.com/format/",
+            "til": "在线压缩格式工具"
+        },
+        {
+            "type": "工具",
+            "name": "在线WEB工具箱",
+            "src": "https://www.sojson.com/web/",
+            "til": "在线WEB工具箱"
+        },
+        {
+            "type": "工具",
+            "name": "在线二维码工具箱",
+            "src": "https://www.sojson.com/qr/",
+            "til": "在线的二维码工具箱"
+        },
+        {
+            "type": "实用",
+            "name": "Chrome插件",
+            "src": "https://www.crx4chrome.com/",
+            "til": "不用科技的Chrome插件网站"
+        },
+        {
+            "type": "工具",
+            "name": "AI配音",
+            "src": "https://azure.microsoft.com/zh-cn/products/cognitive-services/text-to-speech/#overview",
+            "til": "微软的多国AI语音网站"
+        },
+        {
+            "type": "工具",
+            "name": "AI配音2",
+            "src": "https://ondoku3.com/zh-hans/",
+            "til": "日本的多国语音配音网站"
+        },
+        {
+            "type": "工具",
+            "name": "AI配音3",
+            "src": "https://freetts.com/",
+            "til": "免费，可调节的AI配音"
+        },
+        {
+            "type": "工具",
+            "name": "AI配音4",
+            "src": "https://uberduck.ai/",
+            "til": "国外来自uberduck的AI配音网站"
+        },
+        {
+            "type": "工具",
+            "name": "AI配音5",
+            "src": "https://shengka.ai.sogou.com/",
+            "til": "搜狗的AI配音网站"
+        },
+        {
+            "type": "工具",
+            "name": "AI配音6",
+            "src": "https://www.xaudiopro.com/aivoice/",
+            "til": "在线AI配音+剪辑网站"
+        },
+        {
+            "type": "工具",
+            "name": "原神祈愿分析",
+            "src": "https://genshin.voderl.cn/",
+            "til": "本地解析原神祈愿分析"
+        },
+        {
+            "type": "工具",
+            "name": "MD转公众号",
+            "src": "https://knb.im/mp/",
+            "til": "在线将MarkDown格式转换为微信公众号格式"
+        },
+        {
+            "type": "实用",
+            "name": "Y2B无版权音乐",
+            "src": "https://mugle.io/",
+            "til": "Youtube上的一些没有版权或者放开使用的音乐，国内直连"
+        },
+        {
+            "type": "实用",
+            "name": "云盘狗",
+            "src": "https://yunpangou.com/",
+            "til": "云盘狗是专业的百度云资源搜索引擎，搜索一下试试看"
+        },
+        {
+            "type": "工具",
+            "name": "10分钟邮箱",
+            "src": "http://10minutemail.net/",
+            "til": "10分钟有效的随机邮箱，可能直连不了"
+        },
+        {
+            "type": "实用",
+            "name": "PPT超级市场",
+            "src": "https://www.pptsupermarket.com/",
+            "til": "许多免费的PPT模板"
+        },
+        {
+            "type": "实用",
+            "name": "钢笔工具练习 ",
+            "src": "https://method.ac/",
+            "til": "钢笔工具在线练习"
+        },
+        {
+            "type": "实用",
+            "name": "免费PPT模板",
+            "src": "https://www.ypppt.com/",
+            "til": "免费的PPT模板"
+        },
+        {
+            "type": "实用",
+            "name": "Github访问统计",
+            "src": "https://badges.toozhao.com/",
+            "til": "一键生成Github访问统计"
+        },
+        {
+            "type": "实用",
+            "name": "内啥租借",
+            "src": "https://www.neisha.cc/",
+            "til": "租借平台，稍微贵，非广告"
+        },
+        {
+            "type": "工具",
+            "name": "虫洞操控手机",
+            "src": "https://er.run/",
+            "til": "在电脑屏幕上操作手机，电脑上自由浏览操控手机，支持iPhone和安卓的多屏协同"
+        },
+        {
+            "type": "工具",
+            "name": "开发者工具箱",
+            "src": "https://tools.fun/",
+            "til": "一个集成了很多开发者工具的网站"
+        }
+    ],
+    "update": {
+        "type": "备注",
+        "name": "2022-11-18",
+        "src": "./",
+        "til": "本数据由@吾律心尘提供.如需使用请联系作者."
+    }
+}

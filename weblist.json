@@ -1709,6 +1709,17 @@
             "name": "开发者工具箱",
             "src": "https://tools.fun/",
             "til": "一个集成了很多开发者工具的网站"
+        },
+        {
+            "type": "工具",
+            "name": "时间戳转换",
+            "src": "https://tools.fun/timestamp.html",
+            "til": "Unix时间戳在线在线转换"
+        },{
+            "type": "工具",
+            "name": "正则表达式",
+            "src": "https://tools.fun/regexp.html",
+            "til": "在线的正则表达式工具"
         }
     ],
     "update": {

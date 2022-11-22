@@ -1725,11 +1725,26 @@
             "name": "CRONTAB时间计算",
             "src": "https://tools.fun/crontab.html",
             "til": "CRONTAB 执行时间计算，是Linux 系统定时任务的简便方式"
+        },{
+            "type": "工具",
+            "name": "进制转换",
+            "src": "https://tools.fun/hex-convert.html",
+            "til": "在线进行进制的转换，支持多进制"
+        },{
+            "type": "工具",
+            "name": "JSON/XML",
+            "src": "https://tools.fun/json2xml.html",
+            "til": "JSON格式与XML格式的转换"
+        },{
+            "type": "工具",
+            "name": "JSON/YAML",
+            "src": "https://tools.fun/json2yaml.html",
+            "til": "JSON与YAML格式的转换"
         }
     ],
     "update": {
         "type": "备注",
-        "name": "2022-11-20",
+        "name": "2022-11-23",
         "src": "./",
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

@@ -1745,11 +1745,16 @@
             "name": "在线MD",
             "src": "http://editor.md.ipandao.com/",
             "til": "在线编辑MarkDown格式"
+        },{
+            "type": "工具",
+            "name": "磁力搜索",
+            "src": "https://cilisousuo.com/",
+            "til": "磁力搜索，如题所示~"
         }
     ],
     "update": {
         "type": "备注",
-        "name": "2022-11-25",
+        "name": "2022-11-26",
         "src": "./",
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

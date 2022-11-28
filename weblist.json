@@ -1270,31 +1270,31 @@
             "type": "实用",
             "name": "中国裁判文书网",
             "src": "https://wenshu.court.gov.cn/#",
-            "til": ""
+            "til": "中国裁判文书网，可以在线查看不同人或者公司的判决书"
         },
         {
             "type": "实用",
             "name": "中国庭审公开网",
             "src": "http://tingshen.court.gov.cn/",
-            "til": ""
+            "til": "中国庭审公开网，可以在线直播查看各种公开庭审"
         },
         {
             "type": "趣味",
             "name": "免费高清名画",
             "src": "https://www.nbfox.com/",
-            "til": ""
+            "til": "这里有许多免费的高清的名画在线观看"
         },
         {
             "type": "实用",
             "name": "日食日期查询",
             "src": "https://nadc.china-vo.org/eclipse/",
-            "til": ""
+            "til": "查看日食日期的网站"
         },
         {
             "type": "趣味",
             "name": "游戏要玩多久",
             "src": "https://howlongtobeat.com/",
-            "til": ""
+            "til": "一个把单机游戏的游玩时间算出来的网站"
         },
         {
             "type": "趣味",
@@ -1754,7 +1754,7 @@
     ],
     "update": {
         "type": "备注",
-        "name": "2022-11-26",
+        "name": "2022-11-28",
         "src": "./",
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

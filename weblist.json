@@ -1252,19 +1252,19 @@
             "type": "工具",
             "name": "前端在线测试",
             "src": "https://codepen.io/",
-            "til": ""
+            "til": "在这测试一下前端的代码运行效果，支持css，js，html"
         },
         {
             "type": "工具",
             "name": "在线阅读电子书",
             "src": "https://www.neat-reader.cn/webapp#/",
-            "til": ""
+            "til": "可以在线阅读一些电子书"
         },
         {
             "type": "实用",
             "name": "游戏UI库",
             "src": "https://www.gameuidatabase.com/",
-            "til": ""
+            "til": "有很多游戏的UI图标在这里"
         },
         {
             "type": "实用",
@@ -1754,7 +1754,7 @@
     ],
     "update": {
         "type": "备注",
-        "name": "2022-11-28",
+        "name": "2022-12-02",
         "src": "./",
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

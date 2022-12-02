@@ -1234,19 +1234,19 @@
             "type": "工具",
             "name": "在线解析iconfont2",
             "src": "http://blog.luckly-mjw.cn/tool-show/iconfont-preview/index.html",
-            "til": ""
+            "til": "在线解析iconfont文件，解析出里面有什么icon图标"
         },
         {
             "type": "工具",
             "name": "公章生成",
             "src": "https://www.makepic.net/tool/signet.html",
-            "til": ""
+            "til": "在线生成一个印章，可以放在你的合同里面"
         },
         {
             "type": "实用",
             "name": "PPT模板",
             "src": "https://www.1ppt.com/",
-            "til": ""
+            "til": "很多不错的PPT模板，免费获取"
         },
         {
             "type": "工具",
@@ -1750,11 +1750,16 @@
             "name": "磁力搜索",
             "src": "https://cilisousuo.com/",
             "til": "磁力搜索，如题所示~"
+        },{
+            "type": "工具",
+            "name": "制图工具大全",
+            "src": "https://www.makepic.net/",
+            "til": "里面有很多很多制作图片的工具"
         }
     ],
     "update": {
         "type": "备注",
-        "name": "2022-12-02",
+        "name": "2022-12-03",
         "src": "./",
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

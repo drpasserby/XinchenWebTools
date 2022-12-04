@@ -1198,37 +1198,37 @@
             "type": "实用",
             "name": "免费简历",
             "src": "https://jianlixiazai.cn/",
-            "til": ""
+            "til": "很多免费的简历模板"
         },
         {
             "type": "实用",
             "name": "国外主机评测",
             "src": "https://www.zhujiceping.com/",
-            "til": ""
+            "til": "境外服务器的评测网站"
         },
         {
             "type": "实用",
             "name": "菜鸟教程",
             "src": "https://www.runoob.com/",
-            "til": ""
+            "til": "很多简单直接的编程语言教程网站"
         },
         {
             "type": "实用",
             "name": "W3School",
             "src": "https://www.w3school.com.cn/",
-            "til": ""
+            "til": "web三件套学习以及文档"
         },
         {
             "type": "工具",
             "name": "Steam价格",
             "src": "https://steamdb.info/",
-            "til": ""
+            "til": "steam游戏价格查询"
         },
         {
             "type": "工具",
             "name": "在线解析iconfont",
             "src": "http://www.sheng78.com/",
-            "til": ""
+            "til": "在线解析iconfont文件，解析出里面有什么icon图标"
         },
         {
             "type": "工具",
@@ -1755,11 +1755,16 @@
             "name": "制图工具大全",
             "src": "https://www.makepic.net/",
             "til": "里面有很多很多制作图片的工具"
+        },{
+            "type": "工具",
+            "name": "微信对话生成",
+            "src": "https://www.makepic.net/Tools/default/WXChat",
+            "til": "生成微信对话的图片，有时可能有用"
         }
     ],
     "update": {
         "type": "备注",
-        "name": "2022-12-03",
+        "name": "2022-12-04",
         "src": "./",
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

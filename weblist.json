@@ -1180,19 +1180,19 @@
             "type": "工具",
             "name": "在线时间戳转换",
             "src": "https://www.matools.com/timestamp",
-            "til": ""
+            "til": "Unix时间戳和北京时间相互转换"
         },
         {
             "type": "工具",
             "name": "在线抠图2",
             "src": "https://www.yasuotu.com/matting",
-            "til": ""
+            "til": "发丝级精细抠图，AI智能调整图片"
         },
         {
             "type": "实用",
             "name": "二次元MIDI",
             "src": "http://sdbds.ysepan.com/",
-            "til": ""
+            "til": "这里有很多动漫的OPED的MIDI文件"
         },
         {
             "type": "实用",
@@ -1760,11 +1760,16 @@
             "name": "微信对话生成",
             "src": "https://www.makepic.net/Tools/default/WXChat",
             "til": "生成微信对话的图片，有时可能有用"
+        },{
+            "type": "工具",
+            "name": "制作Favicon",
+            "src": "https://www.makepic.net/Tool/Image2Ico.html",
+            "til": "在线制作网页图标"
         }
     ],
     "update": {
         "type": "备注",
-        "name": "2022-12-04",
+        "name": "2022-12-05",
         "src": "./",
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

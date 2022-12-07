@@ -1765,6 +1765,16 @@
             "name": "制作Favicon",
             "src": "https://www.makepic.net/Tool/Image2Ico.html",
             "til": "在线制作网页图标"
+        },{
+            "type": "工具",
+            "name": "OpenAI",
+            "src": "https://beta.openai.com/",
+            "til": "OpenAI可以使用任何好玩的东西来训练，然后让它们自己玩。"
+        },{
+            "type": "工具",
+            "name": "虚拟短信",
+            "src": "https://sms-activate.org/",
+            "til": "收费的临时接收验证码的网站"
         }
     ],
     "update": {

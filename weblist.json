@@ -1775,11 +1775,21 @@
             "name": "虚拟短信",
             "src": "https://sms-activate.org/",
             "til": "收费的临时接收验证码的网站"
+        },{
+            "type": "工具",
+            "name": "一个工具箱",
+            "src": "http://www.atoolbox.net/",
+            "til": "聚合多个工具的网站，不错不错"
+        },{
+            "type": "趣味",
+            "name": "营销号生成器",
+            "src": "http://www.atoolbox.net/Tool.php?Id=940",
+            "til": "营销号文案生成器可以一键生成一段文字，逻辑不通，道理不通"
         }
     ],
     "update": {
         "type": "备注",
-        "name": "2022-12-05",
+        "name": "2022-12-08",
         "src": "./",
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

@@ -1150,31 +1150,31 @@
             "type": "实用",
             "name": "朋友圈转发生成1",
             "src": "https://my.wulvxinchen.cn/makewechat/",
-            "til": ""
+            "til": "生成朋友圈转发的截图，专门应付那些恶心的任务"
         },
         {
             "type": "实用",
             "name": "朋友圈转发生成2",
             "src": "https://transparentlc.github.io/WechatMomentScreenshot",
-            "til": ""
+            "til": "生成朋友圈转发的截图，专门应付那些恶心的任务"
         },
         {
             "type": "实用",
             "name": "朋友圈转发生成3",
             "src": "https://wl.shadiaoforever.xyz/",
-            "til": ""
+            "til": "生成朋友圈转发的截图，专门应付那些恶心的任务"
         },
         {
             "type": "实用",
             "name": "朋友圈转发生成4",
             "src": "https://gaohan086.xyz/wechat/",
-            "til": ""
+            "til": "生成朋友圈转发的截图，专门应付那些恶心的任务"
         },
         {
             "type": "工具",
             "name": "代码在线工具",
             "src": "https://www.matools.com/",
-            "til": ""
+            "til": "很多敲代码的时候方便用的工具"
         },
         {
             "type": "工具",
@@ -1804,7 +1804,7 @@
     ],
     "update": {
         "type": "备注",
-        "name": "2022-12-08",
+        "name": "2022-12-10",
         "src": "./",
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

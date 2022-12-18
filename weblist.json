@@ -1078,73 +1078,73 @@
             "type": "工具",
             "name": "在线编辑PDF",
             "src": "https://www.ilovepdf.com/",
-            "til": ""
+            "til": "在线编辑一些pdf"
         },
         {
             "type": "工具",
             "name": "在线压缩图",
             "src": "https://www.yasuotu.com/",
-            "til": ""
+            "til": "在线可以将一张图片压缩成小容量的图片"
         },
         {
             "type": "实用",
             "name": "ACG喵导航",
             "src": "https://www.miaoaaa.com/",
-            "til": ""
+            "til": "一些ACGN相关的导航网站，指向很多网站"
         },
         {
             "type": "实用",
             "name": "学习制作音乐",
             "src": "https://learningmusic.ableton.com/zh-Hans/",
-            "til": ""
+            "til": "学习如何制作一首音乐"
         },
         {
             "type": "工具",
             "name": "在线流程图",
             "src": "https://www.processon.com/diagrams",
-            "til": ""
+            "til": "在线创建一个流程图"
         },
         {
             "type": "实用",
             "name": "PPT常用图片",
             "src": "https://undraw.co/illustrations",
-            "til": ""
+            "til": "一些免费的PPT图片"
         },
         {
             "type": "工具",
             "name": "档铺:在线转换",
             "src": "http://www.docpe.com/",
-            "til": ""
+            "til": "在线提供一些word或者excel，pdf等的转换"
         },
         {
             "type": "实用",
             "name": "steam创意工坊下载",
             "src": "https://steamworkshopdownloader.io/",
-            "til": ""
+            "til": "下载steam创意工坊的文件"
         },
         {
             "type": "实用",
             "name": "PDF转图片",
             "src": "http://www.pdfdo.com/pdf-to-image.aspx",
-            "til": ""
+            "til": "将PDF转换成图片"
         },
         {
             "type": "实用",
             "name": "苦瓜书盘",
             "src": "https://kgbook.com/",
-            "til": ""
+            "til": "很多电子书，可以检索并下载，免费"
         },
         {
             "type": "实用",
             "name": "熊猫搜索(书籍)",
             "src": "https://xmsoushu.com/",
-            "til": ""
+            "til": "搜索电子书引擎"
         },
         {
             "type": "实用",
             "name": "朋友圈转发生成",
             "src": "https://akarin.dev/WechatMomentScreenshot",
-            "til": ""
+            "til": "生成朋友圈转发的截图，专门应付那些恶心的任务"
         },
         {
             "type": "实用",
@@ -1809,7 +1809,7 @@
     ],
     "update": {
         "type": "备注",
-        "name": "2022-12-12",
+        "name": "2022-12-18",
         "src": "./",
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

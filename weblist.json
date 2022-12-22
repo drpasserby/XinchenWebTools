@@ -1016,45 +1016,45 @@
         },
         {
             "type": "实用",
-            "name": "开黑啦在线语音",
-            "src": "https://www.kaiheila.cn/",
-            "til": ""
+            "name": "KOOK在线语音",
+            "src": "https://www.kookapp.cn/",
+            "til": "原名开黑啦，开黑必备语音软件"
         },
         {
             "type": "实用",
             "name": "电子书资源",
             "src": "https://z-lib.org/",
-            "til": ""
+            "til": "在线获取电子书资源，目前貌似寄了"
         },
         {
             "type": "趣味",
             "name": "混合表情包",
             "src": "https://tikolu.net/",
-            "til": ""
+            "til": "把不同的表情混合起来生成新表情"
         },
         {
             "type": "实用",
             "name": "论文阅读",
             "src": "https://readpaper.com/",
-            "til": ""
+            "til": "可以进行论文搜索，文献管理，论文阅读，学术交流"
         },
         {
             "type": "实用",
             "name": "品牌大全",
             "src": "https://www.maigoo.com/",
-            "til": ""
+            "til": "这里有不同领域不同种类的各个品牌的介绍以及排行榜单"
         },
         {
             "type": "工具",
             "name": "在线工具集",
             "src": "https://www.67tool.com/",
-            "til": ""
+            "til": "很多不错的在线工具"
         },
         {
             "type": "趣味",
             "name": "月幕Galgame",
             "src": "https://www.ymgal.com/",
-            "til": ""
+            "til": "Galgame测评网站，不错"
         },
         {
             "type": "趣味",
@@ -1810,11 +1810,26 @@
             "name": "网页转图片",
             "src": "https://www.iloveimg.com/zh-cn/html-to-image",
             "til": "将网页转换为JPG或SVG，并保持原有的视觉效果"
+        },{
+            "type": "工具",
+            "name": "在线录屏",
+            "src": "https://www.67tool.com/video/screen",
+            "til": "无需客户端即可同时录制屏幕、人像、音频，无需下载客户端"
+        },{
+            "type": "工具",
+            "name": "在线剪辑   ",
+            "src": "https://www.67tool.com/video/edit",
+            "til": "简单好用的在线裁剪或编辑视频，轻松完成视频创作"
+        },{
+            "type": "工具",
+            "name": "网页转图片",
+            "src": "https://www.67tool.com/images/enlarge",
+            "til": "插画和照片智能无损放大，支持多图片批量处理"
         }
     ],
     "update": {
         "type": "备注",
-        "name": "2022-12-18",
+        "name": "2022-12-23",
         "src": "./",
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

@@ -1060,19 +1060,19 @@
             "type": "趣味",
             "name": "图动起来了！",
             "src": "https://sketch.metademolab.com/canvas",
-            "til": ""
+            "til": "让静态的图动起来"
         },
         {
             "type": "实用",
             "name": "孔夫子旧书网",
             "src": "https://www.kongfz.com/",
-            "til": ""
+            "til": "二手书籍网站，可以在线购买旧书"
         },
         {
             "type": "工具",
             "name": "在线编辑图片",
             "src": "https://www.iloveimg.com/zh-cn",
-            "til": ""
+            "til": "多个可以在线编辑的图片工具"
         },
         {
             "type": "工具",
@@ -1805,6 +1805,11 @@
             "name": "代码截图生成",
             "src": "http://www.atoolbox.net/Tool.php?Id=1065",
             "til": "还在为枯燥的代码截图烦恼嘛？这个可以帮助到你"
+        },{
+            "type": "工具",
+            "name": "网页转图片",
+            "src": "https://www.iloveimg.com/zh-cn/html-to-image",
+            "til": "将网页转换为JPG或SVG，并保持原有的视觉效果"
         }
     ],
     "update": {

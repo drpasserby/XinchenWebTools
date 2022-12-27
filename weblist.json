@@ -1801,6 +1801,11 @@
             "src": "https://www.aixiegao.com/weiyuanchuang/",
             "til": "爱写稿的伪原创功能，貌似还行，可以用来降重，还不错~"
         },{
+            "type": "实用",
+            "name": "论文降重4",
+            "src": "https://paperff.com/main",
+            "til": "基于Trigram语义降重工具，每天4000字免费AI论文降重"
+        },{
             "type": "趣味",
             "name": "代码截图生成",
             "src": "http://www.atoolbox.net/Tool.php?Id=1065",
@@ -1835,17 +1840,11 @@
             "name": "原神卡池",
             "src": "https://banners.52v6.com/",
             "til": "原神各个祈愿池子的日期表，可以用来分析复刻"
-        },{
-            "type": "趣味",
-            "name": "抽象话转换器",
-            "src": "http://www.atoolbox.net/Tool.php?Id=864",
-            "til": "抽象话本来只反复出现在孙笑川微博的评论里面，但随着抽象文化的兴起，抽象话也随之在互联网上扩散，许多地方都有抽象话的影子。"
         }
     ],
     "update": {
-        "type": "备注",
         "name": "2022-12-27",
-        "src": "./",
+        "src": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }
 }

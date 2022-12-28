@@ -7,120 +7,159 @@
 		<link rel="icon" href="https://my.wulvxinchen.cn/tools/logo.ico" type="image/x-icon">
 		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/axios.min.js" type="text/javascript" charset="utf-8"></script>
-		<link rel="stylesheet" type="text/css" href="./css/index.css">
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./bootstrap-icons/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
 	</head>
-	<body>
-		<div id="main">
-			<div id="header">
-				<h1 class="mainTitle">心尘的工具集</h1>
-				<span style="font-weight:600">To &nbsp;&nbsp;&nbsp;<a href="https://wulvxinchen.cn/">导航站</a>
-					&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://github.com/drpasserby/XinchenWebTools/issues">反馈</a>
-					&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="./about.html">关于</a></span>
-				<a href="./about.html"><img src="https://my.wulvxinchen.cn/pictures/logo/logo.webp"></a>
-				<p style="color:#505050;font-weight:600">喜欢可以在
-					<a href="https://github.com/drpasserby/XinchenWebTools" style="color:#505050">Github</a>
-				给个☆Star！</p>
+	<body>	
+		<div class="container" id="webList">
+			<div class="card text-dark myheadercard my-4">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-sm">
+							<h2 class="mainTitle"><strong>心尘的工具集</strong></h2>
+							<span style="font-weight:600">To &nbsp;&nbsp;<a href="https://wulvxinchen.cn/">导航站</a>
+								&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://github.com/drpasserby/XinchenWebTools/issues">反馈</a>
+								&nbsp;&nbsp;|&nbsp;&nbsp;<a href="./about.html">关于</a></span>
+							<p style="color:#505050;font-weight:600">喜欢请给个
+								<a href="https://github.com/drpasserby/XinchenWebTools">☆Star</a>！
+							</p>
+						</div>
+						<div class="col-sm">
+							<a href="./about.html" class="float-end"><img src="https://my.wulvxinchen.cn/pictures/logo/logo.webp"></a>
+						</div>
+					</div>
+				</div>
 			</div>
 			
-			<ul id="webList">
-				<div id="popup" v-show="isPopupShow">
-					<h3>是否前往</h3>
-					<h1>{{weblist[randomweb].name}}</h1>
-					<span>{{"(类型:"+weblist[randomweb].type+")"}}</span>
-					<div>描述:{{weblist[randomweb].til}}</div>
-					<div>
-						<button id="noToGo" @click="cancelRandom">取消</button>
-						<button id="otherToGo" @click="randomWeb">再换</button>
-						<button id="yesToGo" @click="gotoRandom">是的</button>
-					</div>
-					
-				</div>
-				
-				<div>
-					<div class="function_block" @click="randomWeb">
-						<h2>随机一站</h2>
-					</div>
-					<div class="function_block" @click="allcount">
-						<h2>目前一共有{{webCount}}个网站</h2>
-					</div>
-					<div class="function_block" @click="search">
-						<h2>搜索</h2>
-					</div>
-					<br>
-				</div>
-				
-				<li>
-					<a :href="update.src">
-						<div class="listbox" :title="update.til">
-							<h1>更新:{{update.name}}</h1>
-							<p>{{update.type}}</p>
+			<div class="row g-4 my-4">
+				<div class="col-lg">
+					<div class="card text-dark mytiltecard">
+						<div class="card-body text-center" @click="show(update.til)">
+							<div class="card-title">
+								<h3><i class="bi bi-stack">&nbsp;</i><strong>状态</strong></h3>
+							</div>
+							<h5 v-if="update.src==200"><strong>共有{{webCount}}个网站</strong></h5>
+							<p class="my-3" v-else>{{update.til}}</p>	
+							<p class="my-3">更新时间{{update.name}}	</p>					
 						</div>
-					</a>
-				</li>
-				<li v-for="ele in weblist.slice().reverse()">
-					<a :href="ele.src" target="_blank">
-						<div class="listbox" :title="ele.til">
-							<h1>{{ele.name}}</h1>
-							<p>{{ele.type}}</p>
+					</div>
+				</div>
+				<div class="col-lg">
+					<div class="card text-dark mytiltecard">
+						<div class="card-body text-center">
+							<div class="card-title">
+								<h3><strong>随机一站</strong></h3>
+							</div>
+							<div class="mycard-text my-2" v-if="update.src==200">
+								{{weblist[randomweb].type}}:{{weblist[randomweb].name}}<br>								
+							</div>
+							<p class="my-3" v-else>{{update.til}}</p>	
+							<button @click="randomWebFun" class="btn btn-primary mt-2">再换一个</button>
+							<a :href="weblist[randomweb].src" class="btn btn-success mt-2" target="_blank">前往</a>									
 						</div>
-					</a>
-				</li>
-			</ul>
-			
+					</div>
+				</div>
+				<div class="col-lg">
+					<div class="card text-dark mytiltecard">
+						<div class="card-body text-center">
+							<div class="card-title">
+								<h3><strong>搜索</strong></h3>
+								<div class="input-group news-input my-4">
+									<span class="input-group-text"> <i class="bi bi-search"></i></span>
+									<input type="text" class="form-control">
+									<button @click="search" class="btn btn-primary">搜索</button>
+								</div>
+							</div>								
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row g-4 my-4" v-for="ele in weblist2">
+				<div class="col-lg">
+					<div class="card text-dark mycard">
+						<div class="card-body text-center">
+							<div class="card-title">
+								<h3><strong>{{ele[0].name}}</strong></h3>
+							</div>
+							<div class="mycard-text">
+								{{ele[0].type}}<br>
+							</div>
+							<button @click="show(ele[0].til)" class="btn btn-primary mt-2">查看信息</button>
+							<a :href="ele[0].src" class="btn btn-success mt-2" target="_blank">前往</a>									
+						</div>
+					</div>
+				</div>
+				<div class="col-lg">
+					<div class="card text-dark mycard">
+						<div class="card-body text-center">
+							<div class="card-title">
+								<h3><strong>{{ele[1].name}}</strong></h3>
+							</div>
+							<div class="mycard-text">
+								{{ele[1].type}}<br>
+							</div>
+							<button @click="show(ele[1].til)" class="btn btn-primary mt-2">查看信息</button>
+							<a :href="ele[1].src" class="btn btn-success mt-2" target="_blank">前往</a>									
+						</div>
+					</div>
+				</div>
+				<div class="col-lg">
+					<div class="card text-dark mycard">
+						<div class="card-body text-center">
+							<div class="card-title">
+								<h3><strong>{{ele[2].name}}</strong></h3>
+							</div>
+							<div class="mycard-text">
+								{{ele[2].type}}<br>
+							</div>
+							<button @click="show(ele[1].til)" class="btn btn-primary mt-2">查看信息</button>
+							<a :href="ele[2].src" class="btn btn-success mt-2" target="_blank">前往</a>									
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div id="footer">		
-		</div>
-		
 	</body>
 	<script>
 	var app =new Vue({
 		el:'#webList',
 		data:{
-			isPopupShow:false,
 			randomweb:0,
-			weblist:[{type:"Test",name:"找不到对应数据",src:"https://wulvxinchen.cn",til:"找不到对应数据，请检查对应的API是否正常"}],
-			update:{type:"备注",name:"更新日期未能获取",src:"./",til:"本数据由@吾律心尘提供"},
+			weblist:[[],[],[]],
+			update:{name:"未能获取",til:"服务器已断开"},
 		},
 		methods:{
-			randomWeb:function(){
+			randomWebFun:function(){
 				this.randomweb=Math.round(Math.random()*this.webCount);
-				this.isPopupShow=true;
 			},
-			cancelRandom:function(){
-				this.isPopupShow=false;
-			},
-			gotoRandom:function(){
-				window.location=this.weblist[this.randomweb].src;
-				this.isPopupShow=false;
-			},
-			allcount:function(){
-				alert("目前一共有"+this.weblist.length+"个网站,更新日期为"+this.update.name+",本网站由@吾律心尘整理,如需部署镜像请到Github提Issue,谢谢~");
-			},
-			handleScroll() {
-            	this.isPopupShow=false
-        	},
 			search:function(){
 				alert("搜索功能暂未实装,电脑浏览器可以按Ctrl+F搜索");
-			}
+			},
+			show:function(s){
+				alert(s);
+			},
 		},
 		computed:{
 			webCount:function(){
 				return this.weblist.length;//总网址数量，自动更新，不需要维护
 			},
+            weblist2:function(){
+                var weblist1=[]
+                for(var i=0;i<this.weblist.length;i+=3){
+                    weblist1.push(this.weblist.slice(i,i+3));
+                }
+                return weblist1;
+            }
 		},
-		mounted() {
-        	//监听页面滚动
-        	window.addEventListener('scroll', this.handleScroll, true)
-    	},
 		beforeCreate:function(){
 			axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
-				this.weblist=response.data.weblist;//从远程获取网站列表。数据来自@吾律心尘服务器
+				this.weblist=response.data.weblist.slice().reverse();//从远程获取网站列表。数据来自@吾律心尘服务器
 				this.update=response.data.update;//从远程获取更新信息。数据来自@吾律心尘服务器
 			})
 		},
-		destroyed() {
-        window.removeEventListener('scroll', this.handleScroll)
-    	},
 	});
 	</script>
+    <script src="js\bootstrap.bundle.min.js"></script>
 </html>

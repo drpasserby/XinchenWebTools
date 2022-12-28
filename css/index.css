@@ -1,52 +1,23 @@
 body{
     background-color: #f8d4ff;
 }
-
 a{
     color: black;
     text-decoration: none;
-}
-
-#main{
-    /* width: 80em; */
-    width: 90%;
-    margin:2em auto;
-}
-
-#header{
-    margin:2em auto;
-    margin-bottom: 4em;
-    /* width: 66em; */
-    width: 79%;
-    /* height: 8em; */
-    padding: 2em;
-    background-color: #c2ebffc4;
-    border-radius: 1em;
-    box-shadow:
-        2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
-        5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
-        10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
-        17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
-        33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
-        80px 70px 155px rgba(0, 0, 0, 0.11);
-}
-
-
-#header a{
-    color: #000000;
     transition: all 0.3s;
 }
-
-#header a:hover{
-    color: #ffaa7f;
+.myheadercard{
+    background-color: #c2ebffc4;
+    width: 100%;
 }
-
-#header img{
-    width: 8em;
-    position: relative;
-    float: right;
-    right: 0.8em;
-    bottom: 5.4em;
+.mainTitle{
+    transition: all .3s;
+}
+.mainTitle:hover{
+    color: #ffaa7f;	
+}
+.myheadercard img{
+    width: 7em;
     border-radius: 0.5em;
     border: 3px solid #766779;
     box-shadow:
@@ -58,158 +29,29 @@ a{
         80px 70px 155px rgba(0, 0, 0, 0.11);
         transition: all 0.3s;
 }
-
-#header img:hover{
+.myheadercard img:hover{
     border-radius: 100%;
     border: 3px solid #ffaa7f;
 }
-
-.mainTitle{
-    transition: all .3s;
-    width: 6em;
+.myheadercard a:hover{
+    color: #ffaa7f;
 }
-
-.mainTitle:hover{
-    color: #ffaa7f;	
-}
-
-#popup{
-        user-select: none;
-        position: fixed;
-        left:30%;
-        top:20%;
-        width: 40%;
-        height: 10em;
-        padding: 2em;
-        background-color: #c3ffb5;
-        border-radius: 1em;
-        box-shadow:
-            2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
-            5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
-            10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
-            17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
-            33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
-            80px 70px 155px rgba(0, 0, 0, 0.11);
-    }
-    
-    .function_block{
-        margin:2em;
-        float: left;
-        width: 17em;
-        height: 2em;
-        padding: 2em;
-        background-color: #c2ebffc4;
-        border-radius: 1em;
-        box-shadow:
-            2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
-            5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
-            10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
-            17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
-            33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
-            80px 70px 155px rgba(0, 0, 0, 0.11);
-        text-align: center;
-        transition: all .2s;
-
-        overflow: hidden;
-    }
-    
-    .function_block:hover{
-        background-color: #e7ffcd;
-    }
-    
-    .function_block h2{
-        text-decoration: none;
-        user-select: none;
-        margin-top: -0.1em;
-    }
-    
-    #popup h1,h3{
-        display: inline;
-    }
-    
-    #popup span{
-        color: #868686;
-    }
-    
-    #popup div{
-        color: #3d3d3d;
-    }
-    
-    #popup button{
-        float: left;
-        width: 15%;
-        height:30px;
-        bottom: 0px;
-        margin: 4em 2em;
-        border-radius: 8px;
-        background: #d7ffdb;
-        box-shadow: 
-                    1.9px 2.7px 2.6px -8px rgba(0, 0, 0, 0.063),
-                    4.5px 6.6px 6.6px -8px rgba(0, 0, 0, 0.093),
-                    8.4px 12.4px 13.3px -8px rgba(0, 0, 0, 0.116),
-                    15px 22.1px 25.1px -8px rgba(0, 0, 0, 0.138),
-                    28px 41.4px 46.2px -8px rgba(0, 0, 0, 0.164),
-                    67px 99px 80px -8px rgba(0, 0, 0, 0.21);
-        transition: all 0.3s;
-        
-    }
-    
-    #noToGo:hover{
-        background: #ff7476;
-    }
-    
-    #otherToGo:hover{
-        background: #fffa69;
-    }
-    
-    #yesToGo:hover{
-        background: #a0ffae;
-    }
-    
-    #webList{
-        width: 90%;
-        padding: 0px;
-        margin: 10px auto;
-    }
-    
-    #webList li{
-        float: left;
-        margin: 2em 2em;
-        list-style: none;
-    }
-
-
-
-.listbox{
-    margin: 0px auto;
-    width: 20em;
-    height: 5em;
-    padding: 5px;
+.mytiltecard{
     background-color: #c2ebffc4;
-    border-radius: 1em;
-    box-shadow:
-        2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
-        5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
-        10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
-        17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
-        33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
-        80px 70px 155px rgba(0, 0, 0, 0.11);
-    transition: all .2s;
 }
-
-.listbox:hover{
+.mycard{
+    background-color: #c2ebffc4;
+    transition: all .3s;
+}
+.mycard:hover{
     background-color: #e7ffcd;
 }
-
-.listbox h1{
-    margin-left: 0.5em;
-    margin-top: 0.3em;
+.mycard-text{
+    color: #6c6c6c;
 }
 
-.listbox p{
-    width:5em;	
-    color: #6c6c6c;
-    position: relative;	
-    right: -16em;
-    bottom: 1em;
+@media (max-width: 580px) {
+    .myheadercard img{
+        display: none;
+    }
 }

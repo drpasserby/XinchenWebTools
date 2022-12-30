@@ -1845,10 +1845,35 @@
             "name": "抽象话转换器",
             "src": "http://www.atoolbox.net/Tool.php?Id=864",
             "til": "抽象话本来只反复出现在孙笑川微博的评论里面，但随着抽象文化的兴起，抽象话也随之在互联网上扩散，许多地方都有抽象话的影子。"
+        },{
+            "type": "工具",
+            "name": "在线工具集2",
+            "src": "https://tinywow.com/",
+            "til": "TinyWow提供免费的在线转换、pdf和其他方便的工具来帮助您解决所有类型的问题"
+        },{
+            "type": "工具",
+            "name": "PDF工具",
+            "src": "https://tinywow.com/tools/pdf",
+            "til": "TinyWow的免费PDF在线工具"
+        },{
+            "type": "工具",
+            "name": "图片工具",
+            "src": "https://tinywow.com/tools/image",
+            "til": "TinyWow的免费图片在线工具"
+        },{
+            "type": "工具",
+            "name": "视频工具",
+            "src": "https://tinywow.com/tools/video",
+            "til": "TinyWow的免费视频在线工具"
+        },{
+            "type": "工具",
+            "name": "视频创作导航",
+            "src": "https://www.aewz.com/",
+            "til": "简视频的视频创作导航，里面有许多视频制作需要的工具网站"
         }
     ],
     "update": {
-        "name": "2022-12-27",
+        "name": "2022-12-30",
         "src": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

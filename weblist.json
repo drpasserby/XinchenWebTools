@@ -1885,6 +1885,11 @@
             "name": "番剧识图",
             "src": "https://trace.moe/",
             "til": "上传番剧截图，识图出番剧信息。"
+        },{
+            "type": "实用",
+            "name": "无版权图片",
+            "src": "https://www.pexels.com/zh-cn/",
+            "til": "许多无版权的免费图片，支持搜索和分类查找。"
         }
     ],
     "update": {

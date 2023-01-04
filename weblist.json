@@ -1890,6 +1890,11 @@
             "name": "无版权图片",
             "src": "https://www.pexels.com/zh-cn/",
             "til": "许多无版权的免费图片，支持搜索和分类查找。"
+        },{
+            "type": "工具",
+            "name": "搜索歌词台词",
+            "src": "https://dialogue.moe/",
+            "til": "根据歌词台词从而寻找出处。"
         }
     ],
     "update": {

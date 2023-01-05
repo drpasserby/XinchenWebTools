@@ -1895,6 +1895,11 @@
             "name": "搜索歌词台词",
             "src": "https://dialogue.moe/",
             "til": "根据歌词台词从而寻找出处。"
+        },{
+            "type": "工具",
+            "name": "搜索台词",
+            "src": "https://33.agilestudio.cn/",
+            "til": "通过台词找影片素材。"
         }
     ],
     "update": {

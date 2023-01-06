@@ -128,7 +128,7 @@
         },
         {
             "type": "实用",
-            "name": "可商用图片",
+            "name": "免费图片1",
             "src": "https://www.pexels.com/zh-cn/",
             "til": ""
         },
@@ -1887,7 +1887,7 @@
             "til": "上传番剧截图，识图出番剧信息。"
         },{
             "type": "实用",
-            "name": "无版权图片",
+            "name": "免费图片2",
             "src": "https://www.pexels.com/zh-cn/",
             "til": "许多无版权的免费图片，支持搜索和分类查找。"
         },{
@@ -1900,6 +1900,21 @@
             "name": "搜索台词",
             "src": "https://33.agilestudio.cn/",
             "til": "通过台词找影片素材。"
+        },{
+            "type": "实用",
+            "name": "免费图片3",
+            "src": "https://unsplash.com/",
+            "til": "世界上最慷慨的摄影师社区为您提供超过300万张免费高分辨率图像"
+        },{
+            "type": "实用",
+            "name": "免费字体2",
+            "src": "https://www.hellofont.cn/",
+            "til": "字由，有部分免费字体，也有收费授权字体"
+        },{
+            "type": "实用",
+            "name": "字体识别",
+            "src": "https://www.hellofont.cn/font-ai",
+            "til": "字由旗下的AI字体识别，可以识别图片中的字体，可以免费使用5次"
         }
     ],
     "update": {

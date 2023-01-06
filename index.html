@@ -55,7 +55,8 @@
 								{{weblist[randomweb].type}}:{{weblist[randomweb].name}}<br>								
 							</div>
 							<p class="my-3" v-else>{{update.til}}</p>	
-							<button @click="randomWebFun" class="btn btn-primary mt-2">再换一个</button>
+							<button @click="randomWebFun" class="btn btn-primary mt-2">再换</button>
+							<button @click="show(weblist[randomweb].til)" class="btn btn-primary mt-2">查看</button>
 							<a :href="weblist[randomweb].src" class="btn btn-success mt-2" target="_blank">前往</a>									
 						</div>
 					</div>
@@ -138,7 +139,10 @@
 				alert("搜索功能暂未实装,电脑浏览器可以按Ctrl+F搜索");
 			},
 			show:function(s){
-				alert(s);
+				if(s==""){
+					alert("暂未信息");
+				}
+				else alert(s);
 			},
 		},
 		computed:{

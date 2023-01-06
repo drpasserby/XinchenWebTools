@@ -52,11 +52,11 @@
 								<h3><strong>随机一站</strong></h3>
 							</div>
 							<div class="mycard-text my-2" v-if="update.src==200">
-								{{weblist[randomweb].type}}:{{weblist[randomweb].name}}<br>								
+								<strong>{{weblist[randomweb].type}}:{{weblist[randomweb].name}}</strong><br>								
 							</div>
 							<p class="my-3" v-else>{{update.til}}</p>	
-							<button @click="randomWebFun" class="btn btn-primary mt-2">再换</button>
-							<button @click="show(weblist[randomweb].til)" class="btn btn-primary mt-2">查看</button>
+							<button @click="randomWebFun" class="btn btn-danger mt-2">再换一个</button>
+							<button @click="show(weblist[randomweb].til)" class="btn btn-primary mt-2">查看信息</button>
 							<a :href="weblist[randomweb].src" class="btn btn-success mt-2" target="_blank">前往</a>									
 						</div>
 					</div>

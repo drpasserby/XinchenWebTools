@@ -1920,10 +1920,25 @@
             "name": "颜文字大全",
             "src": "http://www.hehuan.co/",
             "til": "颜文字是一种非常流行的表情符号，非常适合表达你的心情，该网站有许多颜文字"
+        },{
+            "type": "实用",
+            "name": "果汁导航",
+            "src": "http://guozhivip.com/",
+            "til": "一个拥有许多网站和工具的导航"
+        },{
+            "type": "实用",
+            "name": "果汁实验室",
+            "src": "http://guozhivip.com/lab/",
+            "til": "收集了互联网许多有趣的工具和网站"
+        },{
+            "type": "趣味",
+            "name": "天空有多高",
+            "src": "http://www.secaibi.com/howbigisspace/",
+            "til": "采用竖屏网页展示了从地球海平面到太阳系边缘"
         }
     ],
     "update": {
-        "name": "2023-01-07",
+        "name": "2023-01-08",
         "src": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

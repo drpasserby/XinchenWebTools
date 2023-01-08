@@ -1935,6 +1935,16 @@
             "name": "天空有多高",
             "src": "http://www.secaibi.com/howbigisspace/",
             "til": "采用竖屏网页展示了从地球海平面到太阳系边缘"
+        },{
+            "type": "趣味",
+            "name": "Windows93",
+            "src": "http://www.windows93.net/",
+            "til": "在线体验使用Windows93系统"
+        },{
+            "type": "工具",
+            "name": "在线MD2",
+            "src": "https://www.zybuluo.com/mdeditor",
+            "til": "在线编辑和预览Markdown文档"
         }
     ],
     "update": {

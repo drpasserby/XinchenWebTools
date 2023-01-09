@@ -1960,6 +1960,11 @@
             "name": "正则表达式3",
             "src": "https://regexr.com/",
             "til": "RegExr是学习、构建和测试正则表达式的在线工具"
+        },{
+            "type": "趣味",
+            "name": "生成人像",
+            "src": "https://thispersondoesnotexist.com/",
+            "til": "每次打开AI会生成一张人像"
         }
     ],
     "update": {

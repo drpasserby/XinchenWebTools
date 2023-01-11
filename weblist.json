@@ -1975,10 +1975,15 @@
             "name": "Apex猎杀榜",
             "src": "https://apexlegendsstatus.com/live-ranked-leaderboards/Battle_Royale/PC",
             "til": "打开之后可以查看apex天梯的第1-750名猎杀的排名"
+        },{
+            "type": "趣味",
+            "name": "XP承受度测试",
+            "src": "https://starinitial.github.io/xpcheck/xpcheck/",
+            "til": "这是一个XP承受度测试，算法与内容来自网络。"
         }
     ],
     "update": {
-        "name": "2023-01-11",
+        "name": "2023-01-12",
         "src": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

@@ -46,9 +46,6 @@ a{
 .mycard:hover{
     background-color: #e7ffcd;
 }
-.mycard-text{
-    color: #6c6c6c;
-}
 
 @media (max-width: 580px) {
     .myheadercard img{

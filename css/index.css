@@ -12,6 +12,7 @@ a{
 }
 .mainTitle{
     transition: all .3s;
+    width:6em;
 }
 .mainTitle:hover{
     color: #ffaa7f;	

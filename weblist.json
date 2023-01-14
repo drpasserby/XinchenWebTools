@@ -1995,10 +1995,25 @@
             "name": "免费音乐",
             "src": "https://tools.liumingye.cn/music/",
             "til": "免费在线听，下载音乐"
+        },{
+            "type": "实用",
+            "name": "练习打字",
+            "src": "https://qwerty.liumingye.cn/",
+            "til": "在线打字，一边练习打字一边学习英语"
+        },{
+            "type": "工具",
+            "name": "EPUB阅读器",
+            "src": "https://epub.liumingye.cn/",
+            "til": "简单的 EPUB 电子书在线阅读器"
+        },{
+            "type": "工具",
+            "name": "文本加密分享",
+            "src": "https://paste.liumingye.cn/",
+            "til": "无需注册的文本分享平台，可加密文本转成链接分享出去"
         }
     ],
     "update": {
-        "name": "2023-01-13",
+        "name": "2023-01-14",
         "src": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

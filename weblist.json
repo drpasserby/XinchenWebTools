@@ -2040,10 +2040,25 @@
             "name": "LayUI前端",
             "src": "https://www.bejson.com/doc/layui/index.html/",
             "til": "开源模块化前端UI框架"
+        },{
+            "type": "实用",
+            "name": "购物优惠券",
+            "src": "https://www.whatbuytoday.com/",
+            "til": "今天买啥，优惠券网站，非广告"
+        },{
+            "type": "实用",
+            "name": "学吧导航",
+            "src": "https://www.xue8nav.com/",
+            "til": "各种各样的学习网站导航，包括国内外各种门类各种学科"
+        },{
+            "type": "工具",
+            "name": "在线扫描杀毒",
+            "src": "https://www.virscan.org/",
+            "til": "在线恶意文件检测平台，保护我文件安全"
         }
     ],
     "update": {
-        "name": "2023-01-16",
+        "name": "2023-01-19",
         "src": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

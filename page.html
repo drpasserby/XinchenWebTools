@@ -49,20 +49,86 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            
+            <div>
+                <a href="https://my.wulvxinchen.cn/tools/" class="text-secondary"><strong>更多工具-></strong></a>
             </div>
+            <br>
+            <button @click="randomShow" class="btn btn-primary mt-2">我要更多有趣</button>
+                <div class="row g-4 my-2" v-if="isShowRandom">
+                    <div class="col-lg">
+                        <div class="card text-dark mytiltecard">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3><strong>{{weblist[random[0]].name}}</strong></h3>
+                                </div>
+                                <div class="text-secondary my-2">
+                                    <strong>类型:{{weblist[random[0]].type}}</strong><br>							
+                                </div>
+                                <div class="text-secondary my-2">
+                                    <strong>简介:{{weblist[random[0]].til}}</strong><br>
+                                </div>
+                                <a :href="weblist[random[0]].url" class="btn btn-success mt-2" target="_blank">前往</a>									
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="card text-dark mytiltecard">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3><strong>{{weblist[random[1]].name}}</strong></h3>
+                                </div>
+                                <div class="text-secondary my-2">
+                                    <strong>类型:{{weblist[random[1]].type}}</strong><br>							
+                                </div>
+                                <div class="text-secondary my-2">
+                                    <strong>简介:{{weblist[random[1]].til}}</strong><br>
+                                </div>
+                                <a :href="weblist[random[1]].url" class="btn btn-success mt-2" target="_blank">前往</a>									
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="card text-dark mytiltecard">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3><strong>{{weblist[random[2]].name}}</strong></h3>
+                                </div>
+                                <div class="text-secondary my-2">
+                                    <strong>类型:{{weblist[random[2]].type}}</strong><br>							
+                                </div>
+                                <div class="text-secondary my-2">
+                                    <strong>简介:{{weblist[random[2]].til}}</strong><br>
+                                </div>
+                                <a :href="weblist[random[2]].url" class="btn btn-success mt-2" target="_blank">前往</a>									
+                            </div>
+                        </div>
+                    </div>
+                </div>
+		    </div>
             <div v-else>
                 页面不存在或者网址错误
             </div>
-		</div>
+        </div>
 	</body>
 	<script>
 	var app =new Vue({
 		el:'#webList',
 		data:{
             weblist:[[],[],[]],
+            random:[60,70,80],
+            isShowRandom:false,
 		},
 		methods:{
-            
+            randomShow:function(){
+                if(this.isShowRandom==false){
+                    this.isShowRandom = true
+                }
+                this.random[0]=Math.round(Math.random()*this.weblist.length-1);
+                this.random[1]=Math.round(Math.random()*this.weblist.length-1);
+                this.random[2]=Math.round(Math.random()*this.weblist.length-1);
+            }
 		},
 		computed:{
             id:function(url){
@@ -78,7 +144,6 @@
 		beforeCreate:function(){
 			axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
 				this.weblist=response.data.weblist.slice();//从远程获取网站列表。数据来自@吾律心尘服务器
-				this.update=response.data.update;//从远程获取更新信息。数据来自@吾律心尘服务器
 			})
 		},
 	});

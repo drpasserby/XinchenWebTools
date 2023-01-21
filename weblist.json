@@ -274,7 +274,7 @@
             "type": "实用",
             "name": "伴奏提取",
             "src": "https://www.lalal.ai/",
-            "til": ""
+            "til": "从任何音频和视频中提取人声、伴奏和各种乐器"
         },
         {
             "type": "实用",
@@ -2094,6 +2094,11 @@
             "type": "实用",
             "name": "影视字幕",
             "src": "http://assrt.net/",
+            "til": "根据影视名字查找对应的字幕"
+        },{
+            "type": "实用",
+            "name": "影视字幕2",
+            "src": "https://www.opensubtitles.org/zh",
             "til": "根据影视名字查找对应的字幕"
         }
     ],

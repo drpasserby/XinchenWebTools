@@ -13,13 +13,45 @@
 	</head>
 	<body>	
 		<div class="container" id="webList">
-            <button @click="" class="btn btn-primary mt-2">测试</button>
+            <div class="card text-dark myheadercard my-4">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-sm">
+							<h2 class="mainTitle"><strong>心尘的工具集</strong></h2>
+							<span style="font-weight:600">To &nbsp;&nbsp;<a href="https://wulvxinchen.cn/">导航站</a>
+								&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://github.com/drpasserby/XinchenWebTools/issues">反馈</a>
+								&nbsp;&nbsp;|&nbsp;&nbsp;<a href="./about.html">关于</a></span>
+							<p style="color:#505050;font-weight:600">喜欢请给个
+								<a href="https://github.com/drpasserby/XinchenWebTools">☆Star</a>！
+							</p>
+						</div>
+						<div class="col-sm">
+							<a href="./about.html" class="float-end"><img src="https://my.wulvxinchen.cn/pictures/logo/logo.webp"></a>
+						</div>
+					</div>
+				</div>
+			</div>
             <div v-if="this.id!=-1">
-                {{id}}
-                {{weblist[id-1].name}}
+                <div class="row g-4 my-4">
+                    <div class="col-lg">
+                        <div class="card text-dark mytiltecard">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h3><strong>{{weblist[id-1].name}}</strong></h3>
+                                </div>
+                                <div class="text-secondary my-2">
+                                    <strong>类型:{{weblist[id-1].type}}</strong><br>							
+                                </div>
+                                <div class="text-secondary my-2">
+                                    <strong>简介:{{weblist[id-1].til}}</strong><br>
+                                </div>
+                                <a :href="weblist[id-1].url" class="btn btn-success mt-2" target="_blank">前往</a>									
+                            </div>
+                        </div>
+                    </div>
             </div>
             <div v-else>
-                页面不存在
+                页面不存在或者网址错误
             </div>
 		</div>
 	</body>

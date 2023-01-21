@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>心尘的工具集</title>
+		<link rel="icon" href="https://my.wulvxinchen.cn/tools/logo.ico" type="image/x-icon">
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/axios.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./bootstrap-icons/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+	</head>
+	<body>	
+		<div class="container" id="webList">
+            <button @click="" class="btn btn-primary mt-2">测试</button>
+            <div v-if="this.id!=-1">
+                {{id}}
+                {{weblist[id-1].name}}
+            </div>
+            <div v-else>
+                页面不存在
+            </div>
+		</div>
+	</body>
+	<script>
+	var app =new Vue({
+		el:'#webList',
+		data:{
+            weblist:[[],[],[]],
+		},
+		methods:{
+            
+		},
+		computed:{
+            id:function(url){
+                let id = window.location.href.split('=')[1]
+                if(0<=id&id<=this.weblist.length-1){
+                    return id
+                }
+                else{
+                    return -1
+                }
+            },
+		},
+		beforeCreate:function(){
+			axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
+				this.weblist=response.data.weblist.slice();//从远程获取网站列表。数据来自@吾律心尘服务器
+				this.update=response.data.update;//从远程获取更新信息。数据来自@吾律心尘服务器
+			})
+		},
+	});
+	</script>
+    <script src="js\bootstrap.bundle.min.js"></script>
+</html>

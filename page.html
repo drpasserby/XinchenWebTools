@@ -37,10 +37,10 @@
                         <div class="card text-dark mytiltecard">
                             <div class="card-body">
                                 <div class="card-title">
-                                    <h3><strong>{{weblist[id-1].name}}</strong></h3>
+                                    <h1><strong>{{weblist[id-1].name}}</strong></h1>
                                 </div>
                                 <div class="text-secondary my-2">
-                                    <strong>类型:{{weblist[id-1].type}}</strong><br>							
+                                    <h4><strong>类型:{{weblist[id-1].type}}</strong></h4>							
                                 </div>
                                 <div class="text-secondary my-2">
                                     <strong>简介:{{weblist[id-1].til}}</strong><br>
@@ -52,10 +52,9 @@
                 </div>
             
             <div>
-                <a href="https://my.wulvxinchen.cn/tools/" class="text-secondary"><strong>更多工具-></strong></a>
+                <button @click="randomShow" class="btn btn-primary mt-2">我要更多有趣</button>
+                <a href="https://my.wulvxinchen.cn/tools/" class="btn btn-primary mt-2">所有工具</a>
             </div>
-            <br>
-            <button @click="randomShow" class="btn btn-primary mt-2">我要更多有趣</button>
                 <div class="row g-4 my-2" v-if="isShowRandom">
                     <div class="col-lg">
                         <div class="card text-dark mytiltecard">

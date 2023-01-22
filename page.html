@@ -31,8 +31,9 @@
 					</div>
 				</div>
 			</div>
+            <a href="https://my.wulvxinchen.cn/tools/" class="btn btn-primary ms-2">< 返回工具集</a>
             <div v-if="this.id!=-1">
-                <div class="row g-4 my-4">
+                <div class="row g-4 my-2">
                     <div class="col-lg">
                         <div class="card text-dark mytiltecard">
                             <div class="card-body">
@@ -52,10 +53,7 @@
                     </div>
                 </div>
             
-            <div>
-                <button @click="randomShow" class="btn btn-primary mt-2">我要更多有趣！</button>
-                <a href="https://my.wulvxinchen.cn/tools/" class="btn btn-primary mt-2">所有工具</a>
-            </div>
+                <button @click="randomShow" class="btn btn-primary mt-3 ms-2">我要更多有趣</button>
                 <div class="row g-4 my-2" v-if="isShowRandom">
                     <div class="col-lg">
                         <div class="card text-dark mytiltecard">

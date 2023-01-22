@@ -131,9 +131,9 @@
             }
 		},
 		computed:{
-            id:function(url){
+            id:function(){
                 let id = window.location.href.split('=')[1]
-                if(0<=id&id<=this.weblist.length-1){
+                if(0<=id&id<=this.weblist.length){
                     return id
                 }
                 else{

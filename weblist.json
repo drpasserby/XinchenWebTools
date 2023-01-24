@@ -2213,10 +2213,28 @@
             "name": "壁纸3",
             "url": "https://wallpaperhub.app/",
             "til": "国外的免费高清壁纸网站，很多壁纸都很不错"
+        },{
+            "id": 370,
+            "type": "工具",
+            "name": "PDF工具2",
+            "url": "https://easypdf.com/cn",
+            "til": "免费PDF工具，支持PDF转换和压缩拆分合并"
+        },{
+            "id": 371,
+            "type": "工具",
+            "name": "格式转换3",
+            "url": "https://convertio.co/",
+            "til": "将文件转换成任意格式，支持超过 300 种格式"
+        },{
+            "id": 372,
+            "type": "工具",
+            "name": "文字识别",
+            "url": "https://convertio.co/zh/ocr/",
+            "til": "简单的工具来扫描文档转换为可编辑的Word、PDF、Excel和Txt(文本)输出格式。"
         }
     ],
     "update": {
-        "name": "2023-01-24",
+        "name": "2023-01-25",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

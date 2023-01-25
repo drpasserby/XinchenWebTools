@@ -2231,10 +2231,28 @@
             "name": "文字识别",
             "url": "https://convertio.co/zh/ocr/",
             "til": "简单的工具来扫描文档转换为可编辑的Word、PDF、Excel和Txt(文本)输出格式。"
+        },{
+            "id": 373,
+            "type": "工具",
+            "name": "在线工具集4",
+            "url": "https://tool.lu/",
+            "til": "在线工具集合，包含了很多实用的工具"
+        },{
+            "id": 374,
+            "type": "工具",
+            "name": "日期时间计算器",
+            "url": "https://tool.lu/datecalc/",
+            "til": "计算日期相差天数，推算日期"
+        },{
+            "id": 374,
+            "type": "工具",
+            "name": "正则表达式4",
+            "url": "https://tool.lu/regex/",
+            "til": "正则表达式测试工具，还可以生成代码"
         }
     ],
     "update": {
-        "name": "2023-01-25",
+        "name": "2023-01-26",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

@@ -47,6 +47,11 @@ a{
 .mycard:hover{
     background-color: #e7ffcd;
 }
+.floatBtn{
+    position: fixed;
+    bottom:2em;
+    right:2em;
+}
 
 @media (max-width: 580px) {
     #logopic{

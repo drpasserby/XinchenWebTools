@@ -71,7 +71,7 @@
 								<h3><strong>搜索</strong></h3>
 								<div class="input-group news-input my-4">
 									<span class="input-group-text"> <i class="bi bi-search"></i></span>
-									<input type="text" class="form-control" v-model="searchWord">
+									<input type="text" class="form-control" v-model="searchWord" placeholder="先输入关键词再搜索">
 									<button @click="search" class="btn btn-primary">搜索</button>
 								</div>
 							</div>								
@@ -123,6 +123,11 @@
 						</div>
 					</div>
 				</div>
+			</div>
+			<div>
+				<button class="btn btn-primary floatBtn" @click="search">
+					<i class="bi bi-search"></i>
+				</button>
 			</div>
 		</div>
 	</body>

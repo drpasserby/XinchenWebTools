@@ -10,31 +10,31 @@
             "type": "实用",
             "name": "油猴插件专用",
             "url": "https://greasyfork.org/zh-CN",
-            "til": null
+            "til": "用户脚本是一段代码，它们能够优化您的网页浏览体验。Greasy Fork上的用户脚本都是由用户编写并向全世界发表的。"
         },{
             "id": 3,
             "type": "趣味",
             "name": "狗屁不通生成器",
             "url": "https://suulnnka.github.io/BullshitGenerator/index.html",
-            "til": null
+            "til": "生成一大段狗屁不通的话"
         },{
             "id": 4,
             "type": "趣味",
             "name": "捏脸",
             "url": "https://picrew.me/",
-            "til": null
+            "til": "在线制作头像"
         },{
             "id": 5,
             "type": "游戏",
             "name": "人生重开模拟",
             "url": "http://liferestart.syaro.io/view/index.html",
-            "til": null
+            "til": "模拟人生重生的一次新冒险，很有趣味"
         },{
             "id": 6,
             "type": "实用",
             "name": "生成背景图",
             "url": "https://cn.pattern.monster/",
-            "til": null
+            "til": "一个简单的重复性SVG图案在线生成器。在不影响图像质量的情况下加快您网站的访问速度。"
         },{
             "id": 7,
             "type": "实用",

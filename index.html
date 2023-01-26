@@ -145,7 +145,10 @@
 				this.randomweb=Math.round(Math.random()*this.webCount);
 			},
 			search:function(){
-				window.find(this.searchWord)
+				if(this.searchWord!=""){
+					window.find(this.searchWord)
+				}
+				else alert("请输入搜索内容");
 			},
 			show:function(s){
 				if(s==""){

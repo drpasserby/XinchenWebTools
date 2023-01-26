@@ -19,16 +19,16 @@ a{
 }
 .myheadercard img{
     width: 7em;
+    border: 3px solid #d5ffea;
     border-radius: 0.5em;
-    border: 3px solid #766779;
     box-shadow:
-        2.2px 1.9px 4.3px rgba(0, 0, 0, 0.03),
-        5.3px 4.7px 10.3px rgba(0, 0, 0, 0.044),
-        10px 8.8px 19.4px rgba(0, 0, 0, 0.055),
-        17.9px 15.6px 34.6px rgba(0, 0, 0, 0.065),
-        33.4px 29.2px 64.8px rgba(0, 0, 0, 0.079),
-        80px 70px 155px rgba(0, 0, 0, 0.11);
-        transition: all 0.3s;
+        2.3px 1.6px 2px rgba(0, 0, 0, 0.017),
+        4.4px 3px 4.2px rgba(0, 0, 0, 0.026),
+        6.5px 4.4px 7px rgba(0, 0, 0, 0.034),
+        8.7px 6px 11.1px rgba(0, 0, 0, 0.042),
+        11.5px 7.9px 18.5px rgba(0, 0, 0, 0.053),
+        16px 11px 37px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s;
 }
 .myheadercard img:hover{
     border-radius: 100%;

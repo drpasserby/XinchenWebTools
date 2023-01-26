@@ -49,7 +49,7 @@ a{
 }
 
 @media (max-width: 580px) {
-    .myheadercard img{
-        display: none;
+    #logopic{
+        margin-top: -6.5em;
     }
 }

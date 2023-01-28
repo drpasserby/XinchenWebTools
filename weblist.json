@@ -1238,7 +1238,7 @@
         },{
             "id": 207,
             "type": "工具",
-            "name": "公章生成",
+            "name": "印章生成",
             "url": "https://www.makepic.net/tool/signet.html",
             "til": "在线生成一个印章，可以放在你的合同里面"
         },{
@@ -2244,15 +2244,33 @@
             "url": "https://tool.lu/datecalc/",
             "til": "计算日期相差天数，推算日期"
         },{
-            "id": 374,
+            "id": 375,
             "type": "工具",
             "name": "正则表达式4",
             "url": "https://tool.lu/regex/",
             "til": "正则表达式测试工具，还可以生成代码"
+        },{
+            "id": 376,
+            "type": "工具",
+            "name": "专利搜索",
+            "url": "http://www.soopat.com/",
+            "til": "包含110个国家和地区、超过1亿6000万专利文献，支持使用中文查询全球各国专利"
+        },{
+            "id": 377,
+            "type": "趣味",
+            "name": "新趣集",
+            "url": "https://xinquji.com/",
+            "til": "评测各种网站和应用的网站，可以发现一些有趣的东西"
+        },{
+            "id": 378,
+            "type": "工具",
+            "name": "印章生成2",
+            "url": "http://seal.skyfont.com/",
+            "til": "在线生成印章"
         }
     ],
     "update": {
-        "name": "2023-01-26",
+        "name": "2023-01-29",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

@@ -2283,7 +2283,7 @@
             "id": 381,
             "type": "实用",
             "name": "书法导航",
-            "url": "http://seal.skyfont.com/",
+            "url": "http://seal.ssjjss.com/",
             "til": "许多书法相关的工具，也有其他的一些有趣的东西"
         },{
             "id": 382,
@@ -2303,10 +2303,28 @@
             "name": "在线WinXP",
             "url": "http://winxp.p12345.com/",
             "til": "一个网页版的WinXP，看起来是XP其实是XP风格的网页"
+        },{
+            "id": 385,
+            "type": "工具",
+            "name": "SVG编辑器",
+            "url": "http://svg.p12345.com/",
+            "til": "一款在线可以编辑导入导出SVG图形的编辑器"
+        },{
+            "id": 386,
+            "type": "工具",
+            "name": "密码生成器",
+            "url": "http://seal.biaozhiku.com/tools/password/",
+            "til": "一键生成长度4-32位包含大小写数字符号的密码"
+        },{
+            "id": 387,
+            "type": "工具",
+            "name": "印章生成3",
+            "url": "http://seal.biaozhiku.com/",
+            "til": "支持在线生成正圆椭圆方形条形等各种印章"
         }
     ],
     "update": {
-        "name": "2023-01-31",
+        "name": "2023-02-01",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

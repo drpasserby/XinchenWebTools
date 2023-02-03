@@ -2357,10 +2357,34 @@
             "name": "公共题库中心",
             "url": "https://www.examcoo.com/index/ku",
             "til": "拥有各种各样的公共题库试卷一共2362100份，包括教资，考公等有用的试题"
+        },{
+            "id": 394,
+            "type": "趣味",
+            "name": "随机猫猫",
+            "url": "https://thiscatdoesnotexist.com/",
+            "til": "打开网页生成一只可爱的猫猫！"
+        },{
+            "id": 394,
+            "type": "趣味",
+            "name": "随机猫猫",
+            "url": "https://thiscatdoesnotexist.com/",
+            "til": "打开网页生成一只可爱的猫猫！"
+        },{
+            "id": 395,
+            "type": "实用",
+            "name": "地图数据加工",
+            "url": "https://kepler.gl/",
+            "til": "Kepler.gl是一个强大的开源地理空间分析工具，适用于大规模数据集。可以生成地图和数据分析图。"
+        },{
+            "id": 396,
+            "type": "工具",
+            "name": "在线工具集5",
+            "url": "https://www.toolfk.com/",
+            "til": "ToolFk在线工具箱，提供许多程序员和日常使用的工具，部分需要收费"
         }
     ],
     "update": {
-        "name": "2023-02-03",
+        "name": "2023-02-04",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

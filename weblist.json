@@ -2381,6 +2381,18 @@
             "name": "在线工具集5",
             "url": "https://www.toolfk.com/",
             "til": "ToolFk在线工具箱，提供许多程序员和日常使用的工具，部分需要收费"
+        },{
+            "id": 398,
+            "type": "实用",
+            "name": "字帖生成",
+            "url": "https://tool.lu/copybook/index.html",
+            "til": "生成字帖，然后下载打印，支持更换样式和文字，目前仅限中文。"
+        },{
+            "id": 399,
+            "type": "工具",
+            "name": "在线抠图3",
+            "url": "https://tool.lu/cutout/",
+            "til": "上传图片，通过机器学习进行简单抠图，免费使用，但限制5分钟内抠图1次/ip"
         }
     ],
     "update": {

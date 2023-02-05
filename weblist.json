@@ -2393,10 +2393,28 @@
             "name": "在线抠图3",
             "url": "https://tool.lu/cutout/",
             "til": "上传图片，通过机器学习进行简单抠图，免费使用，但限制5分钟内抠图1次/ip"
+        },{
+            "id": 400,
+            "type": "实用",
+            "name": "Emoji百科",
+            "url": "https://emojixd.com/",
+            "til": "EmojiXD是一本线上Emoji百科全书，收录了所有emoji，帮你通过分类或者搜索轻松找到合适的表情符号，并了解各种emoji符号的相关知识和使用情景"
+        },{
+            "id": 401,
+            "type": "实用",
+            "name": "萌娘百科",
+            "url": "https://zh.moegirl.org.cn/Mainpage",
+            "til": "萌娘百科网（moegirl.org.cn）下各语言站点，是泛ACGN向Wiki（百科）站点，主要收录Anime（动画）、Comic（漫画）、Game（游戏）、Novel（轻小说）及相关网络文化"
+        },{
+            "id": 402,
+            "type": "实用",
+            "name": "智库百科",
+            "url": "https://wiki.mbalib.com/wiki/",
+            "til": "MBA智库百科是一部内容开放的百科全书，也是人人可以参与编写的百科全书。其目标是专注于经济管理领域知识的创建。"
         }
     ],
     "update": {
-        "name": "2023-02-05",
+        "name": "2023-02-06",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

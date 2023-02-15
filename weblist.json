@@ -2573,10 +2573,28 @@
             "name": "在线自动排版",
             "url": "https://p.haoii123.com//",
             "til": "无广告、干净、安全的一键排版、文字排版、文章排版网站编辑。支持文本排版、TXT、小说论文排版等类型。"
+        },{
+            "id": 430,
+            "type": "工具",
+            "name": "IEEE754转换器",
+            "url": "https://www.h-schmidt.net/FloatConverter/IEEE754.html",
+            "til": "IEEE754转换器。IEEE二进制浮点数算术标准是20世纪80年代以来最广泛使用的浮点数运算标准。"
+        },{
+            "id": 431,
+            "type": "工具",
+            "name": "反Ping",
+            "url": "https://canyouseeme.org/",
+            "til": "这个网页可以远程反过来ping本机的ip端口，嗯应该不错。"
+        },{
+            "id": 432,
+            "type": "工具",
+            "name": "寻找开源替代软件",
+            "url": "https://urlify.cn/",
+            "til": "通过这个网站可以寻找一些软件的替代的开源版软件，支持开源喵，但是不要滥用。"
         }
     ],
     "update": {
-        "name": "2023-02-15",
+        "name": "2023-02-16",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

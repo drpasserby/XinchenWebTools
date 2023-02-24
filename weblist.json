@@ -2717,10 +2717,28 @@
             "name": "条形码生成器",
             "url": "https://cn.online-barcode.com/",
             "til": "在线生成条形码"
+        },{
+            "id": 454,
+            "type": "工具",
+            "name": "在线二维码工具箱4",
+            "url": "https://cn.online-qrcode-generator.com/",
+            "til": "免费在线二维码生成器，支持网址，文本，手机，短信，无线上网，邮件等等"
+        },{
+            "id": 455,
+            "type": "工具",
+            "name": "油管视频下载",
+            "url": "https://youtube.online-downloader.com/",
+            "til": "输入YouTube视频链接，即可下载视频"
+        },{
+            "id": 456,
+            "type": "工具",
+            "name": "在线阅读电子书2",
+            "url": "https://www.online-reader.com/",
+            "til": "拖入书籍即可在线阅读。无需安装其他软件"
         }
     ],
     "update": {
-        "name": "2023-02-23",
+        "name": "2023-02-25",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

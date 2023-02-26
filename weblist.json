@@ -2103,7 +2103,7 @@
             "id": 351,
             "type": "实用",
             "name": "LayUI前端",
-            "url": "https://www.bejson.com/doc/layui/index.html/",
+            "url": "https://www.bejson.com/doc/layui/index.html",
             "til": "开源模块化前端UI框架"
         },{
             "id": 352,
@@ -2753,10 +2753,28 @@
             "name": "颜色搭配3",
             "url": "http://brandcolors.net/",
             "til": "这个网站收集了全球知名大品牌的颜色代码，收录有600多个品牌的1600种颜色代码"
+        },{
+            "id": 460,
+            "type": "实用",
+            "name": "颜色搭配4",
+            "url": "https://picular.co/",
+            "til": "这是一款色彩、颜色搜索引擎，通过不同的关键词，来寻找颜色。自由度比较大，可以搜索任何你想要的颜色"
+        },{
+            "id": 461,
+            "type": "实用",
+            "name": "颜色搭配5",
+            "url": "https://uigradients.com/",
+            "til": "uigradients渐变色在线CSS生成工具，同时可以直接复制 CSS 代码，非常方便实用"
+        },{
+            "id": 462,
+            "type": "趣味",
+            "name": "沙雕导航",
+            "url": "https://shadiao.pro/",
+            "til": "这里有一堆很沙雕的网站，可以随便逛逛。本站对此站内容不负责任"
         }
     ],
     "update": {
-        "name": "2023-02-26",
+        "name": "2023-02-27",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

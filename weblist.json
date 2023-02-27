@@ -1748,7 +1748,7 @@
         },{
             "id": 292,
             "type": "工具",
-            "name": "在线MD",
+            "name": "Markdown编辑器",
             "url": "http://editor.md.ipandao.com/",
             "til": "在线编辑MarkDown格式"
         },{
@@ -1988,7 +1988,7 @@
         },{
             "id": 332,
             "type": "工具",
-            "name": "在线MD2",
+            "name": "Markdown编辑器2",
             "url": "https://www.zybuluo.com/mdeditor",
             "til": "在线编辑和预览Markdown文档"
         },{

@@ -2789,6 +2789,24 @@
             "name": "彩虹屁生成器",
             "url": "https://chp.shadiao.pro/",
             "til": "打开之后生成一句彩虹屁文案，鼓励他人必备(坚信)"
+        },{
+            "id": 466,
+            "type": "趣味",
+            "name": "疯狂星期四文案",
+            "url": "https://kfc.shadiao.pro/",
+            "til": "打开之后生成一肯德基疯狂星期四文案，不是广告"
+        },{
+            "id": 467,
+            "type": "趣味",
+            "name": "满分作文生成器",
+            "url": "https://www.yeyulingfeng.com/tools/100/",
+            "til": "选取一些主题，然后生成一篇作文！"
+        },{
+            "id": 468,
+            "type": "工具",
+            "name": "Markdown编辑器3",
+            "url": "https://www.yeyulingfeng.com/tools/Markdown/#",
+            "til": "在线的MarkDown编辑器"
         }
     ],
     "update": {

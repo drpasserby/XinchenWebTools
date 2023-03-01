@@ -2807,10 +2807,28 @@
             "name": "Markdown编辑器3",
             "url": "https://www.yeyulingfeng.com/tools/Markdown/#",
             "til": "在线的MarkDown编辑器"
+        },{
+            "id": 469,
+            "type": "趣味",
+            "name": "绿茶渣男语录",
+            "url": "https://lovelive.tools/",
+            "til": "一键获取渣男绿茶的经典话术，注意不要滥用"
+        },{
+            "id": 470,
+            "type": "趣味",
+            "name": "黑黄图标生成",
+            "url": "https://www.logoly.pro/",
+            "til": "全世界最大的著名人体器官学习网站的图标风格生成器"
+        },{
+            "id": 471,
+            "type": "趣味",
+            "name": "宝可梦杂交大师",
+            "url": "https://pokemon.alexonsager.net/zh",
+            "til": "选取两个宝可梦，然后杂交生成新宝可梦！"
         }
     ],
     "update": {
-        "name": "2023-02-28",
+        "name": "2023-03-02",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

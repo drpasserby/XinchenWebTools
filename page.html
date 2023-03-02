@@ -154,12 +154,20 @@
                     return -1
                 }
             },
+            jump:function(){
+                t = [this.weblist[this.urlInfo.id-1].url,this.weblist[this.urlInfo.id-1].name]
+                setTimeout(function(){
+                    if(confirm("即将跳转到网站《"+t[1]+"》，是否跳转？"))window.location.href = t[0];
+                },4000)
+            }
 		},
         beforeCreate:function(){
             axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
 				this.weblist=response.data.weblist.slice();//从远程获取网站列表。数据来自@吾律心尘服务器
                 //获取网址参数id
-                this.urlInfo.id = this.getUrlID()   
+                this.urlInfo.id = this.getUrlID()
+                //自动跳转
+                if(parseInt(this.getParams('auto')) == 1)this.jump()
 			})
         },
 	});

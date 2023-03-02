@@ -123,6 +123,7 @@
             },
 		},
 		methods:{
+            //随机展示
             randomShow:function(){
                 if(this.isShowRandom==false){
                     this.isShowRandom = true
@@ -131,6 +132,7 @@
                 this.random[1]=Math.round(Math.random()*this.weblist.length-1);
                 this.random[2]=Math.round(Math.random()*this.weblist.length-1);
             },
+            //分享
             share:function(){
                 const input = document.createElement('input')
                 input.value = window.location.href
@@ -140,10 +142,12 @@
                 document.body.removeChild(input)
                 alert("已复制网址到剪贴板,快去分享吧!")
             },
+            //获取URL参数
             getParams:function(key) {
                 var t = new URLSearchParams(window.location.search);
                 return t.get(key)
             },
+            //获取URL参数id
             getUrlID:function(){
                 // let id = window.location.href.split('=')[1]
                 let id = parseInt(this.getParams('id')) || -1
@@ -154,6 +158,7 @@
                     return -1
                 }
             },
+            //自动跳转
             jump:function(){
                 t = [this.weblist[this.urlInfo.id-1].url,this.weblist[this.urlInfo.id-1].name]
                 setTimeout(function(){
@@ -163,10 +168,11 @@
 		},
         beforeCreate:function(){
             axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
-				this.weblist=response.data.weblist.slice();//从远程获取网站列表。数据来自@吾律心尘服务器
-                //获取网址参数id
+                //从远程获取网站列表。数据来自@吾律心尘服务器
+				this.weblist=response.data.weblist.slice();
+                //赋值id
                 this.urlInfo.id = this.getUrlID()
-                //自动跳转
+                //判断是否自动跳转
                 if(parseInt(this.getParams('auto')) == 1)this.jump()
 			})
         },

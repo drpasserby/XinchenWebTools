@@ -2825,10 +2825,28 @@
             "name": "宝可梦杂交大师",
             "url": "https://pokemon.alexonsager.net/zh",
             "til": "选取两个宝可梦，然后杂交生成新宝可梦！"
+        },{
+            "id": 472,
+            "type": "工具",
+            "name": "菜鸟工具",
+            "url": "https://c.runoob.com/",
+            "til": "菜鸟工具，为开发设计人员提供在线工具，网址导航，提供在线PHP、Python、 CSS、JS 调试，中文简繁体转换，进制转换等工具。"
+        },{
+            "id": 473,
+            "type": "工具",
+            "name": "单位换算",
+            "url": "https://c.runoob.com/danwei/",
+            "til": "包括了常用的单位，进制，汇率换算等工具"
+        },{
+            "id": 474,
+            "type": "工具",
+            "name": "Redis在线测试",
+            "url": "https://try.redis.io/",
+            "til": " Redis命令在线测试工具，点开就可以直接测试。"
         }
     ],
     "update": {
-        "name": "2023-03-02",
+        "name": "2023-03-03",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

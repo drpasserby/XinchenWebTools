@@ -33,22 +33,22 @@
 				</div>
 			</div>
             <a href="https://my.wulvxinchen.cn/tools/" class="btn btn-primary ms-2">< 返回工具集</a>
-            <div v-if="this.id!=-1">
+            <div v-if="this.urlInfo.id!=-1">
                 <div class="row g-4 my-2">
                     <div class="col-lg">
                         <div class="card text-dark mytiltecard">
                             <div class="card-body">
                                 <div class="card-title">
-                                    <h1><strong>{{weblist[id-1].name}}</strong></h1>
+                                    <h1><strong>{{weblist[urlInfo.id-1].name}}</strong></h1>
                                 </div>
                                 <div class="text-secondary my-2">
-                                    <h4><strong>类型:{{weblist[id-1].type}}</strong></h4>							
+                                    <h4><strong>类型:{{weblist[urlInfo.id-1].type}}</strong></h4>							
                                 </div>
                                 <div class="text-secondary my-2">
-                                    <strong>简介:{{weblist[id-1].til}}</strong><br>
+                                    <strong>简介:{{weblist[urlInfo.id-1].til}}</strong><br>
                                 </div>
                                 <button @click="share()" class="btn btn-primary mt-2">分享</button>
-                                <a :href="weblist[id-1].url" class="btn btn-success mt-2" target="_blank">前往</a>							
+                                <a :href="weblist[urlInfo.id-1].url" class="btn btn-success mt-2" target="_blank">前往</a>							
                             </div>
                         </div>
                     </div>
@@ -118,6 +118,9 @@
             weblist:[[],[],[]],
             random:[60,70,80],
             isShowRandom:false,
+            urlInfo:{
+                id:-1,
+            },
 		},
 		methods:{
             randomShow:function(){
@@ -136,12 +139,15 @@
                 document.execCommand('Copy')
                 document.body.removeChild(input)
                 alert("已复制网址到剪贴板,快去分享吧!")
-            }
-		},
-		computed:{
-            id:function(){
-                let id = window.location.href.split('=')[1]
-                if(0<=id&id<=this.weblist.length){
+            },
+            getParams:function(key) {
+                var t = new URLSearchParams(window.location.search);
+                return t.get(key)
+            },
+            getUrlID:function(){
+                // let id = window.location.href.split('=')[1]
+                let id = parseInt(this.getParams('id')) || -1
+                if(0<=id&id<=this.weblist.length){  
                     return id
                 }
                 else{
@@ -149,11 +155,13 @@
                 }
             },
 		},
-		beforeCreate:function(){
-			axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
+        beforeCreate:function(){
+            axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
 				this.weblist=response.data.weblist.slice();//从远程获取网站列表。数据来自@吾律心尘服务器
+                //获取网址参数id
+                this.urlInfo.id = this.getUrlID()   
 			})
-		},
+        },
 	});
 	</script>
     <script src="js\bootstrap.bundle.min.js"></script>

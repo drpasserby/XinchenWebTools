@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>心尘的工具集</title>
+		<title>心尘的工具集 | 页面</title>
 		<link rel="icon" href="https://my.wulvxinchen.cn/tools/logo.ico" type="image/x-icon">
 		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/axios.min.js" type="text/javascript" charset="utf-8"></script>
@@ -124,6 +124,7 @@
             urlInfo:{
                 id:-1,
             },
+            webSettings:{}
 		},
 		methods:{
             //随机展示
@@ -138,7 +139,12 @@
             //分享
             share:function(){
                 const input = document.createElement('input')
-                input.value = window.location.href
+                if(this.webSettings.autoJump == true){
+                    input.value = window.location.href + "&auto=1"
+                }
+                else{
+                    input.value = window.location.href
+                }
                 document.body.appendChild(input)
                 input.select()
                 document.execCommand('Copy')
@@ -166,9 +172,16 @@
                 t = [this.weblist[this.urlInfo.id-1].url,this.weblist[this.urlInfo.id-1].name]
                 setTimeout(function(){
                     if(confirm("即将跳转到网站《"+t[1]+"》，是否跳转？"))window.location.href = t[0];
-                },5000)
+                },this.webSettings.autoJumpTime || 5000)
             }
 		},
+        created:function(){
+            //获取网站配置
+            var ws = localStorage.getItem("webSettings");
+            if(ws){
+                this.webSettings = JSON.parse(ws);
+            }
+        },
         beforeCreate:function(){
             axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
                 //从远程获取网站列表。数据来自@吾律心尘服务器

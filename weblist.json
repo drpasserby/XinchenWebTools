@@ -2843,10 +2843,28 @@
             "name": "Redis在线测试",
             "url": "https://try.redis.io/",
             "til": " Redis命令在线测试工具，点开就可以直接测试。"
+        },{
+            "id": 475,
+            "type": "工具",
+            "name": "一个木函工具箱",
+            "url": "https://ol.woobx.cn/",
+            "til": "一个木函提供了80多个强大的工具,基本满足在数码生活中的所有需求。"
+        },{
+            "id": 476,
+            "type": "趣味",
+            "name": "扫雷(恶心限定)",
+            "url": "https://poopsweeper-game.firebaseapp.com/",
+            "til": "纯扫屎，无慈悲。"
+        },{
+            "id": 477,
+            "type": "趣味",
+            "name": "动画生涯个人喜好表",
+            "url": "https://lab.magiconch.com/anime-grid/",
+            "til": "填写你的动画喜好，然后生成一张图！(发空间朋友圈必备)"
         }
     ],
     "update": {
-        "name": "2023-03-03",
+        "name": "2023-03-04",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

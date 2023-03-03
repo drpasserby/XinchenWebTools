@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>心尘的工具集 | 设置</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="https://my.wulvxinchen.cn/tools/logo.ico" type="image/x-icon">
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/axios.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./bootstrap-icons/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+	</head>
+	<body>	
+		<div class="container" id="webList">
+            <div class="card text-dark myheadercard my-4">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-sm">
+							<h2 class="mainTitle"><strong>心尘的工具集</strong></h2>
+							<span style="font-weight:600">一个好用的工具集合网站.<br>
+                                期待与你的每一次相遇!<br>
+                                <i>By 心尘.</i> 
+                            </span>
+						</div>
+						<div class="col-sm">
+                            <a href="./about.html" class="float-end" id="logopic">
+								<img src="https://my.wulvxinchen.cn/pictures/logo/logo.webp">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+            <a href="https://my.wulvxinchen.cn/tools/" class="btn btn-primary ms-2">< 返回工具集</a>
+            <div class="container card text-dark myheadercard my-4">
+                <h3 class="my-2"><strong>网站设置</strong></h3>
+                <p class="text-secondary"><strong>注意：本设置仅对当前设备以及浏览器有效。</strong></p>
+                <div class="form-check my-2">
+                    <input class="form-check-input" type="checkbox" value="" id="btna" v-model="webSettings.autoJump">
+                    <label class="form-check-label" for="btna">
+                        <strong>分享的链接是否自动跳转</strong>
+                    </label>
+                </div>
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="ipa" v-model="webSettings.autoJumpTime">
+                    <label for="floatingInput">网站跳转的延迟时间(ms)</label>
+                </div>
+                <div class="my-2">
+                    <button type="button" class="btn btn-primary" @click="save()">保存</button>
+                    <button type="button" class="btn btn-success mx-2" @click="back()">恢复默认设置</button>
+                </div>
+            </div>
+        </div>			
+	</body>
+	<script>
+	var app =new Vue({
+		el:'#webList',
+		data:{
+            //URL参数信息
+            webSettings:{
+                autoJump:false,
+                autoJumpTime:5000
+            }
+		},
+		methods:{
+            save:function(){
+                localStorage.setItem("webSettings",JSON.stringify(this.webSettings));
+            },
+            back:function(){
+                ws = {
+                    autoJump:false,
+                    autoJumpTime:5000
+                };
+                this.webSettings = ws;
+                localStorage.setItem("webSettings",JSON.stringify(ws));
+            }
+		},
+        computed:{
+            
+        },
+        created:function(){
+            var ws = localStorage.getItem("webSettings");
+            if(ws){
+                this.webSettings = JSON.parse(ws);
+            }
+        }
+	});
+	</script>
+    <script src="js\bootstrap.bundle.min.js"></script>
+</html>

@@ -108,9 +108,6 @@
                 localStorage.setItem("webSettings",JSON.stringify(ws));
             }
 		},
-        computed:{
-            
-        },
         created:function(){
             var ws = localStorage.getItem("webSettings");
             if(ws){
@@ -138,7 +135,7 @@
         let leave3   = leave2%(60*1000) //计算分钟数后剩余的毫秒数
         let seconds  = (Array(2).join(0) + Math.round(leave3/1000)).slice(-2)
         
-        time.innerText=("这片土地已经被尘埃覆盖了"+dayDiff+"天"+hours+"小时"+minutes+"分"+seconds+"秒");
+        time.innerText=("这里已经被尘埃覆盖了"+dayDiff+"天"+hours+"小时"+minutes+"分"+seconds+"秒");
         console.log("+1s");
         }
         window.onload=function(){

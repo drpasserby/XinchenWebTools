@@ -2861,10 +2861,28 @@
             "name": "动画生涯个人喜好表",
             "url": "https://lab.magiconch.com/anime-grid/",
             "til": "填写你的动画喜好，然后生成一张图！(发空间朋友圈必备)"
+        },{
+            "id": 478,
+            "type": "工具",
+            "name": "独特工具箱",
+            "url": "https://www.dute.org/",
+            "til": "提供免费在线工具，致力于打造体验良好的在线工具，助您的工作和学习一臂之力。"
+        },{
+            "id": 479,
+            "type": "实用",
+            "name": "URL 转义字符参考表",
+            "url": "https://www.dute.org/url-escape-code",
+            "til": "URL 转义字符参考表提供了特殊字符在 URL 中的转义规则。当请求一个 URL 时，如果遇到特殊字符，为了避免解析歧义，URL 中的特殊字符将按照本参考表提供的规则进行转义（替换）"
+        },{
+            "id": 480,
+            "type": "工具",
+            "name": "时间戳转换2",
+            "url": "https://www.dute.org/timestamp-convert",
+            "til": "UNIX时间戳转换工具，可以把时间戳转换成以“年/月/日|时:分:秒”的可读形式"
         }
     ],
     "update": {
-        "name": "2023-03-04",
+        "name": "2023-03-05",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

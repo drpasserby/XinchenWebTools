@@ -2969,10 +2969,28 @@
             "name": "AI作诗",
             "url": "https://www.toolfk.com/tools/online-poem.html",
             "til": "每设备每日免费一次。在线中文古诗自动作诗机器人-智能写诗工具,自动作诗,自动生成诗词,诗歌生成器,五言绝句,五言律诗,七言绝句,七言律诗。"
+        },{
+            "id": 496,
+            "type": "工具",
+            "name": "WHOIS查询2",
+            "url": "https://www.dute.org/whois/",
+            "til": "域名 Whois 查询工具，可以查看指定域名的 Whois 信息，域名 Whois 信息包括域名的注册商信息、域名注册时间、域名所有人等信息。"
+        },{
+            "id": 497,
+            "type": "工具",
+            "name": "域名综合检测",
+            "url": "https://www.dute.org/domain-check",
+            "til": "域名综合检测工具，可以检查指定域名的基本信息、域名 DNS 信息、网站备案信息以及对应的网站状态的检查。"
+        },{
+            "id": 498,
+            "type": "工具",
+            "name": "WebSocket测试",
+            "url": "https://www.dute.org/websocket",
+            "til": "HTML5 WebSocket 是基于 TCP 协议的通信规范，WebSocket 在浏览器和服务器之间建立了一个基于 TCP 连接的双向通道。本工具是一款 WebSocket 测试工具，提供了建立连接、断开连接以及向远程 WebSocket 服务器发送消息的功能。"
         }
     ],
     "update": {
-        "name": "2023-03-11",
+        "name": "2023-03-12",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

@@ -3005,10 +3005,28 @@
             "name": "祖安语录英文版",
             "url": "https://ergofabulous.org/luther/?",
             "til": "马丁路德骂人生成器"
+        },{
+            "id": 502,
+            "type": "趣味",
+            "name": "为所欲为生成器",
+            "url": "https://lab.bangbang93.com/wsyw",
+            "til": "输入任意成语，最后就会接到“为所欲为”"
+        },{
+            "id": 503,
+            "type": "实用",
+            "name": "反转GIF",
+            "url": "https://lab.bangbang93.com/gif-reverse",
+            "til": "把GIF反转，本地生成"
+        },{
+            "id": 504,
+            "type": "趣味",
+            "name": "文案门",
+            "url": "https://www.wenanmen.com/",
+            "til": "情感文案合集，内有优美的，唯美的情感短句"
         }
     ],
     "update": {
-        "name": "2023-03-13",
+        "name": "2023-03-14",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

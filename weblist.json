@@ -3052,17 +3052,35 @@
             "type": "趣味",
             "name": "手鼓猫(镜像)",
             "url": "https://toolwa.com/bongocat/",
-            "til": "可爱的Bongcat！和它一起演奏好听的音乐吧！工具蛙提供镜像帮助。"
+            "til": "可爱的Bongcat！和它一起演奏好听的音乐吧！工具蛙提供镜像。"
         },{
             "id": 510,
             "type": "趣味",
             "name": "手鼓猫(本家)",
             "url": "https://bongo.cat/",
             "til": "可爱的Bongcat！和它一起演奏好听的音乐吧！"
+        },{
+            "id": 511,
+            "type": "趣味",
+            "name": "摸头生成器2",
+            "url": "https://toolwa.com/petpet/",
+            "til": "输入照片，生成摸头动态GIF图，工具蛙提供镜像。"
+        },{
+            "id": 512,
+            "type": "趣味",
+            "name": "摸头生成器1",
+            "url": "https://benisland.neocities.org/petpet/",
+            "til": "输入照片，生成摸头动态GIF图"
+        },{
+            "id": 513,
+            "type": "实用",
+            "name": "在线白噪音2",
+            "url": "https://toolwa.com/relax/",
+            "til": "让白噪音放松你的心情，工具蛙提供。"
         }
     ],
     "update": {
-        "name": "2023-03-16",
+        "name": "2023-03-17",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

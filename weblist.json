@@ -3113,10 +3113,28 @@
             "name": "彩虹屁生成器2",
             "url": "https://toolwa.com/chp/",
             "til": "彩虹屁，网络流行语，意思为就连放屁都能把它出口成章面不改色的吹成是彩虹。"
+        },{
+            "id": 520,
+            "type": "工具",
+            "name": "压缩json",
+            "url": "https://www.sojson.com/yasuo.html",
+            "til": "在线压缩或者转义json格式的数据，还可以Unicode和中文互转，JSON中中文符号转英文符号"
+        },{
+            "id": 521,
+            "type": "实用",
+            "name": "矢量图标2",
+            "url": "http://iconpark.oceanengine.com/home",
+            "til": "国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。字节跳动旗下"
+        },{
+            "id": 522,
+            "type": "工具",
+            "name": "万能搜索",
+            "url": "http://lackar.com/aa/",
+            "til": "输入搜索关键词，然后点击对应的网站即可在那个网站直接搜索。"
         }
     ],
     "update": {
-        "name": "2023-03-19",
+        "name": "2023-03-20",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

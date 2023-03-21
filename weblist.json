@@ -3149,10 +3149,28 @@
             "name": "文字识别5",
             "url": "https://ocr.wdku.net/index_handwriting",
             "til": "在线高精度手写文字识别。支持识别各种不规则手写字体，字迹潦草、模糊等情况也适用，识别率大于90%。"
+        },{
+            "id": 526,
+            "type": "实用",
+            "name": "TXT阅读器",
+            "url": "http://www.aoereader.com/",
+            "til": "美化版TXT阅读器。你可以选择你喜欢的图片，然后把它变成你的阅读背景。"
+        },{
+            "id": 527,
+            "type": "工具",
+            "name": "音轨分离2",
+            "url": "https://vocalremover.org/zh/",
+            "til": "用强大的人工智能算法将声音从音乐中分离出来，目前依旧是免费的。"
+        },{
+            "id": 528,
+            "type": "工具",
+            "name": "在线PS2",
+            "url": "https://www.photopea.com/",
+            "til": "在线使用PS相关的功能，包括PS的大部分功能。"
         }
     ],
     "update": {
-        "name": "2023-03-21",
+        "name": "2023-03-22",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

@@ -3167,10 +3167,28 @@
             "name": "在线PS2",
             "url": "https://www.photopea.com/",
             "til": "在线使用PS相关的功能，包括PS的大部分功能。"
+        },{
+            "id": 529,
+            "type": "实用",
+            "name": "考试证书查询",
+            "url": "https://zscx.neea.edu.cn/",
+            "til": "中国教育考试网提供的证书查询服务，支持查询各类证书并打印有效证明"
+        },{
+            "id": 530,
+            "type": "实用",
+            "name": "电子图书公益阅读",
+            "url": "http://read.nlc.cn/menhu/gyyd/index",
+            "til": "中国国家图书馆提供的数字图书馆，提供公益阅读服务。"
+        },{
+            "id": 531,
+            "type": "实用",
+            "name": "数据结构算法可视化",
+            "url": "https://visualgo.net/zh",
+            "til": "利用动态可视化的方式轻松学会数据结构和算法"
         }
     ],
     "update": {
-        "name": "2023-03-22",
+        "name": "2023-03-23",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

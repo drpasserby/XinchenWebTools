@@ -3185,10 +3185,28 @@
             "name": "数据结构算法可视化",
             "url": "https://visualgo.net/zh",
             "til": "利用动态可视化的方式轻松学会数据结构和算法"
+        },{
+            "id": 532,
+            "type": "实用",
+            "name": "骂人宝典",
+            "url": "https://my.wulvxinchen.cn/fxxkyou/",
+            "til": "骂人专用，嘴臭得一批~~"
+        },{
+            "id": 533,
+            "type": "实用",
+            "name": "MindShow自动排版",
+            "url": "https://mindshow.fun/",
+            "til": "输入内容自动生成演示，帮你省去排版的烦恼"
+        },{
+            "id": 534,
+            "type": "实用",
+            "name": "AI文章2",
+            "url": "https://xiezuocat.com/",
+            "til": "集AI写作、多人协作、文本校对、改写润色、自动配图等功能为一体AI Native内容创作平台"
         }
     ],
     "update": {
-        "name": "2023-03-23",
+        "name": "2023-03-24",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

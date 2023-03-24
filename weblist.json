@@ -3203,10 +3203,28 @@
             "name": "AI文章2",
             "url": "https://xiezuocat.com/",
             "til": "集AI写作、多人协作、文本校对、改写润色、自动配图等功能为一体AI Native内容创作平台"
+        },{
+            "id": 535,
+            "type": "实用",
+            "name": "原神地图",
+            "url": "https://v3.yuanshen.site/",
+            "til": "原神地图网页版，可以查看特产，怪物等信息"
+        },{
+            "id": 536,
+            "type": "工具",
+            "name": "游戏手柄测试仪",
+            "url": "https://gamepad-tester.com/",
+            "til": "链接游戏手柄，然后测试手柄的各项数据并输出"
+        },{
+            "id": 537,
+            "type": "实用",
+            "name": "吃什么",
+            "url": "https://chishenme.xyz/",
+            "til": "打开，吃什么完全随机"
         }
     ],
     "update": {
-        "name": "2023-03-24",
+        "name": "2023-03-25",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

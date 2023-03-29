@@ -3275,10 +3275,28 @@
             "name": "日文科幻杂志数据库",
             "url": "https://staff.fukuoka-edu.ac.jp/kanamitu/sf/sfdb/index.html",
             "til": "由石原藤夫博士设立的日文科幻杂志数据库"
+        },{
+            "id": 547,
+            "type": "实用",
+            "name": "日文科幻文库本数据库",
+            "url": "http://www.asahi-net.or.jp/~yu4h-wtnb/database/database00.htm",
+            "til": "由科幻评论家渡边英树设立的日文科幻文库本数据库"
+        },{
+            "id": 548,
+            "type": "实用",
+            "name": "德语科幻数据库",
+            "url": "http://www.chpr.at/sfstory.html",
+            "til": "由Christian Pree创办的德语科幻数据库"
+        },{
+            "id": 549,
+            "type": "实用",
+            "name": "科幻奖项数据库",
+            "url": "http://www.sfadb.com/",
+            "til": "由《轨迹》杂志设立的科幻奖项数据库Science Fiction Award Database。"
         }
     ],
     "update": {
-        "name": "2023-03-28",
+        "name": "2023-03-29",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

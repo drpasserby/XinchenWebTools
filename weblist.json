@@ -3329,10 +3329,28 @@
             "name": "思维导图",
             "url": "https://naotu.baidu.com/",
             "til": "百度提供的思维导图，在线画一个思维导图还是挺方便的。"
+        },{
+            "id": 556,
+            "type": "工具",
+            "name": "谷歌趋势",
+            "url": "https://trends.google.com/trends/explore",
+            "til": "国内可能无法访问。Google 趋势会分析一部分Google网络搜索以计算用户输入的字词被搜索的次数，并将其与Google上随时间推移的搜索总量相比较。"
+        },{
+            "id": 557,
+            "type": "工具",
+            "name": "百度指数",
+            "url": "https://index.baidu.com/v2/index.html",
+            "til": "百度指数是以百度海量网民行为数据为基础的数据分享平台。在这里，您可以研究关键词搜索趋势、洞察网民需求变化、监测媒体舆情趋势、定位数字消费者特征； 还可以从行业的角度，分析市场特点。"
+        },{
+            "id": 558,
+            "type": "工具",
+            "name": "谷歌数据集",
+            "url": "https://www.thinkwithgoogle.com/",
+            "til": "通过数据报告发现最新的营销研究和数字趋势，Think with Google让营销人员深入了解最新的Google数据和见解，帮助他们了解最新信息并获得灵感"
         }
     ],
     "update": {
-        "name": "2023-03-31",
+        "name": "2023-04-01",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

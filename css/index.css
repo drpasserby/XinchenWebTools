@@ -18,7 +18,7 @@ a{
 .mainTitle:hover{
     color: #ffaa7f;	
 }
-.myheadercard img{
+.myheadercardImg{
     width: 7em;
     border: 3px solid #d5ffea;
     border-radius: 0.5em;
@@ -31,7 +31,7 @@ a{
         16px 11px 37px rgba(0, 0, 0, 0.07);
     transition: all 0.3s;
 }
-.myheadercard img:hover{
+.myheadercardImg:hover{
     border-radius: 100%;
     border: 3px solid #ffaa7f;
 }

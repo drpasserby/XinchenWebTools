@@ -3401,6 +3401,24 @@
             "name": "实时航班跟踪4",
             "url": "https://www.radarbox.com/",
             "til": "跟踪全球飞机航班的架次，路线，延误等信息"
+        },{
+            "id": 568,
+            "type": "工具",
+            "name": "变量命名",
+            "url": "https://unbug.github.io/codelf/",
+            "til": "在GitHub、Bitbucket、GitLab上搜索以查找实际使用的变量名称"
+        },{
+            "id": 569,
+            "type": "实用",
+            "name": "一分钟读论文",
+            "url": "https://unbug.github.io/",
+            "til": "一分钟读懂一篇论文。把论文当成精神食粮，用学术重塑思维。"
+        },{
+            "id": 570,
+            "type": "实用",
+            "name": "谷歌图书",
+            "url": "https://books.google.com/",
+            "til": "搜索全球最全面的全文图书索引。"
         }
     ],
     "update": {

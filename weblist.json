@@ -3509,10 +3509,28 @@
             "name": "Excel翻译",
             "url": "http://www.excelfanyi.com/",
             "til": "需要注册才可以使用。Sheetrans 是一款在线翻译Excel表格的工具，支持.xlsx、.txt 格式，字符数小于 10000 的文档。"
+        },{
+            "id": 586,
+            "type": "实用",
+            "name": "浮墨笔记",
+            "url": "https://flomoapp.com/",
+            "til": "flomo是一款在线笔记工具，只需要像聊天一样就能记录笔记，支持标签、每日回顾等功能，并且可以在微信中记录。免费使用，会员99/年."
+        },{
+            "id": 587,
+            "type": "实用",
+            "name": "开源私人微博",
+            "url": "https://github.com/usememos/memos",
+            "til": "memos是一个具有知识管理和社交网络的开源、自我托管的备忘录中心。支持标签、过滤、搜索、多账户。需要自己部署服务器使用。"
+        },{
+            "id": 588,
+            "type": "实用",
+            "name": "矢量图标3",
+            "url": "https://www.iconhunt.site/",
+            "til": "Iconhunt是一款图标搜索引擎，有用超过150000个免费的、开放源码的图标。图标的托管来自一个开源项目Iconify。"
         }
     ],
     "update": {
-        "name": "2023-04-13",
+        "name": "2023-04-14",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

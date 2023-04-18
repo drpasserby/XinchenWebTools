@@ -3599,10 +3599,28 @@
             "name": "算术题在线生成器",
             "url": "https://www.an2.net/cal/",
             "til": "算术题、口算题在线生成器，支持生成算术题口算题。"
+        },{
+            "id": 601,
+            "type": "工具",
+            "name": "图片转矢量图",
+            "url": "https://vectorizer.ai/",
+            "til": "免费将JPEG和PNG位图转换为SVG矢量图，可无限放大。支持最大2万像素、30MB图片大小"
+        },{
+            "id": 602,
+            "type": "工具",
+            "name": "在线拼接图片",
+            "url": "http://www.zuohaotu.com/image-merge.aspx",
+            "til": "上传图片，然后将图片拼接到一起，可以把多个图片横向或者纵向拼接成长图，支持选择左右拼图、上下拼图、2列纵向拼接图片、3列纵向拼接图片。"
+        },{
+            "id": 603,
+            "type": "工具",
+            "name": "EPUB打包",
+            "url": "https://wing-kai.github.io/epub-manga-creator/",
+            "til": "将一堆漫画图片打包成EPUB格式的Web GUI，并导出到软件进行观看。"
         }
     ],
     "update": {
-        "name": "2023-04-18",
+        "name": "2023-04-19",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

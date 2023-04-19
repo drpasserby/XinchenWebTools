@@ -3617,10 +3617,28 @@
             "name": "EPUB打包",
             "url": "https://wing-kai.github.io/epub-manga-creator/",
             "til": "将一堆漫画图片打包成EPUB格式的Web GUI，并导出到软件进行观看。"
+        },{
+            "id": 604,
+            "type": "工具",
+            "name": "在线抠图4",
+            "url": "https://bgsub.cn/",
+            "til": "最高4096×4096分辨率、无数据上传，免费的去背景、换背景、抠图工具，本地运算，无数据上传"
+        },{
+            "id": 605,
+            "type": "趣味",
+            "name": "颜色时钟",
+            "url": "https://www.jacopocolo.com/hexclock/",
+            "til": "Hex Clock 是一个简单的网站，它使用十六进制的颜色代码#000000～#235959来表示一天24小时，并且会在背景展示当前颜色代码的具体颜色"
+        },{
+            "id": 606,
+            "type": "实用",
+            "name": "开源私人书签",
+            "url": "https://github.com/sissbruecker/linkding",
+            "til": "需要自建服务器。Linkding是一款简单易用的自托管网络书签服务，支持Docker部署，拥有标签、时光机、存档、稍后阅读、共享书签等功能。"
         }
     ],
     "update": {
-        "name": "2023-04-19",
+        "name": "2023-04-20",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

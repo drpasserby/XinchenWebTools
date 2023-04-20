@@ -3635,10 +3635,28 @@
             "name": "开源私人书签",
             "url": "https://github.com/sissbruecker/linkding",
             "til": "需要自建服务器。Linkding是一款简单易用的自托管网络书签服务，支持Docker部署，拥有标签、时光机、存档、稍后阅读、共享书签等功能。"
+        },{
+            "id": 607,
+            "type": "实用",
+            "name": "数独解算器",
+            "url": "http://zh.sudoku.menu/info/solver.html",
+            "til": "数独解算器是一个提供在线解数独的网站，只需要输入已知数字，就能得到结果。"
+        },{
+            "id": 608,
+            "type": "工具",
+            "name": "思维导图2",
+            "url": "https://amymind.com/",
+            "til": "免费，开放使用。这是一款简单的思维导图工具。"
+        },{
+            "id": 609,
+            "type": "趣味",
+            "name": "群峰召唤",
+            "url": "https://www.peakfinder.org/zh-hans/",
+            "til": "PeakFinder 是一款收录了超过 95 万座山峰的手机应用，从珠穆朗玛峰到世界角落的小山丘，能以 360° 全景显示所有山脉和山峰的名称，让你快速识别眼前的山峰，支持离线使用。"
         }
     ],
     "update": {
-        "name": "2023-04-20",
+        "name": "2023-04-21",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

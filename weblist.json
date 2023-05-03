@@ -3797,10 +3797,28 @@
             "name": "开源相册",
             "url": "https://oaooa.com/pichome.html",
             "til": "欧奥PicHome是一款开源的相册系统，它能将电脑中的图片目录（也支持音频、视频展示），生成一个漂亮的网页相册，用来展示你的照片。"
+        },{
+            "id": 634,
+            "type": "工具",
+            "name": "WebP转换工具",
+            "url": "https://anywebp.com/",
+            "til": "AnyWebP是一款免费的批量 WebP 格式转换工具，支持从 WebP 转换为 JPG、PNG、ICO 格式，也支持从普通图片转换为 WebP 格式"
+        },{
+            "id": 635,
+            "type": "实用",
+            "name": "AI音乐",
+            "url": "https://mubert.com/",
+            "til": "Mubert Render是一个在线网站，它通过AI生成近 100 种不同风格的免版权背景音乐"
+        },{
+            "id": 636,
+            "type": "实用",
+            "name": "开源图片压缩",
+            "url": "https://github.com/GoogleChromeLabs/squoosh",
+            "til": "需要服务器部署。Squoosh是开源的专门用来压缩图片的在线服务，支持 JPG、PNG、WebP 等格式的极限压缩"
         }
     ],
     "update": {
-        "name": "2023-05-03",
+        "name": "2023-05-04",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

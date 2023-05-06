@@ -3851,10 +3851,28 @@
             "name": "旅游天气",
             "url": "https://zh.weatherspark.com/",
             "til": "Weather Spark是一款天气预报服务，基于独特的旅游得分功能，可以告诉你目的地的最佳旅游时间段，"
+        },{
+            "id": 643,
+            "type": "实用",
+            "name": "词云2",
+            "url": "https://www.wordclouds.com/",
+            "til": "只需要从 File 里粘贴词汇，然后在 Shape 里选择一个想要的云样式"
+        },{
+            "id": 644,
+            "type": "实用",
+            "name": "词云3",
+            "url": "https://wordart.com/",
+            "til": "上传词汇，生成词云"
+        },{
+            "id": 645,
+            "type": "实用",
+            "name": "词云4",
+            "url": "http://cloud.niucodata.com/",
+            "til": "上传词汇，生成词云"
         }
     ],
     "update": {
-        "name": "2023-05-06",
+        "name": "2023-05-07",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

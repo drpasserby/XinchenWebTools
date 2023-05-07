@@ -3869,10 +3869,28 @@
             "name": "词云4",
             "url": "http://cloud.niucodata.com/",
             "til": "上传词汇，生成词云"
+        },{
+            "id": 646,
+            "type": "实用",
+            "name": "矢量图标4",
+            "url": "https://www.iconshock.com/vectoricons",
+            "til": "VectorIcons Mixer 是一款来自小图标库 Iconshock 的新服务，它能够对超过 23000 个图标进行定制，包括改变颜色和添加背景。下载 PNG 格式、最大 128px，支持 svg 格式"
+        },{
+            "id": 647,
+            "type": "实用",
+            "name": "邻近词查询",
+            "url": "https://tool.mingdawoo.com/lang/nearby_word",
+            "til": "这是一款基于腾讯AI实验室公开的词向量数据的在线服务，用于邻近词查询"
+        },{
+            "id": 648,
+            "type": "实用",
+            "name": "网购平替词查询",
+            "url": "https://tool.mingdawoo.com/sse/shopping_alias/",
+            "til": "查找网购中的一些平替用品的词汇！省钱必备。"
         }
     ],
     "update": {
-        "name": "2023-05-07",
+        "name": "2023-05-08",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

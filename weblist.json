@@ -3887,10 +3887,28 @@
             "name": "网购平替词查询",
             "url": "https://tool.mingdawoo.com/sse/shopping_alias/",
             "til": "查找网购中的一些平替用品的词汇！省钱必备。"
+        },{
+            "id": 649,
+            "type": "实用",
+            "name": "免费字体5",
+            "url": "https://mingdawoo.com/fonts/wu_feng_ti/intro.html",
+            "til": "明达明达无锋体，包含GB2312中的6763个汉字和49个全角中文标点符号，采用SIL OFL 1.1协议授权。可直接用于个人和商业用途。"
+        },{
+            "id": 650,
+            "type": "工具",
+            "name": "多人白板",
+            "url": "https://www.figma.com/figjam",
+            "til": "一款来自 Figma 的多人协作在线白板工具，可以进行头脑风暴、绘制流程、多人协同标记等，最重要的是简单易用。"
+        },{
+            "id": 651,
+            "type": "实用",
+            "name": "在线收藏工具",
+            "url": "https://knower.info/",
+            "til": "需要注册使用。一款在线网页、文档、笔记收藏工具，拥有 Chrome、Edge、Firefox 扩展，不同于传统收藏工具，用 Knower，无需手动输入分类、标签，它会自动帮你解决这个问题"
         }
     ],
     "update": {
-        "name": "2023-05-08",
+        "name": "2023-05-09",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

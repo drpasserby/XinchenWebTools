@@ -3941,10 +3941,28 @@
             "name": "头像生成3",
             "url": "https://multiavatar.com/",
             "til": "随机生成一个头像。在网址后面加上内容，就会生成固定的头像"
+        },{
+            "id": 658,
+            "type": "实用",
+            "name": "开源交互审计系统",
+            "url": "https://github.com/dushixiang/next-terminal",
+            "til": "一款开源的网页版远程桌面工具。部署后可以在任何一个浏览器中，远程控制系统"
+        },{
+            "id": 659,
+            "type": "实用",
+            "name": "WiFi卡片生成",
+            "url": "https://www.mywifisign.com/zh-hans",
+            "til": "我的WiFi卡片是一款简单易用的生成可扫描的 Wi-Fi 密码信息二维码的在线服务。可直接使用手机相机直接扫描 我的WiFi卡片，就能连接至对应 Wi-Fi，而无需输入密码"
+        },{
+            "id": 660,
+            "type": "实用",
+            "name": "开源临时文件分享服务器",
+            "url": "https://github.com/svenstaro/miniserve",
+            "til": "一款命令行式、简单、临时性的文件分享服务器，大小只有776KB，支持 Windows、Linux、macOS，适合充当临时文件分享服务器，其他设备只需要打开浏览器，即可下载文件"
         }
     ],
     "update": {
-        "name": "2023-05-13",
+        "name": "2023-05-14",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

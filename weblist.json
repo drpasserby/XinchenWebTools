@@ -3977,10 +3977,28 @@
             "name": "用户名生成器",
             "url": "https://www.lastpass.com/features/username-generator",
             "til": "能够帮你生成强大又随机的用户名"
+        },{
+            "id": 664,
+            "type": "实用",
+            "name": "生成背景图3",
+            "url": "https://coolbackgrounds.io/",
+            "til": "生成包括抽象三角形、颗粒感十足的技术风格、CSS 渐变背景、分层梯度地形图、Unsplash 图片"
+        },{
+            "id": 665,
+            "type": "实用",
+            "name": "邮箱转发",
+            "url": "https://anonaddy.com/",
+            "til": "高级版的邮箱转发服务，它免费提供了无限量用户名的 3 个域名邮箱，也支持绑定自己的域名，开源、无广告（有付费高级版本）"
+        },{
+            "id": 666,
+            "type": "实用",
+            "name": "开源个人看板",
+            "url": "https://github.com/nishantpainter/personal-kanban",
+            "til": "需要部署。个人看板是具有脱机功能的应用程序或工具，可实现看板来管理个人级别的工作"
         }
     ],
     "update": {
-        "name": "2023-05-15",
+        "name": "2023-05-16",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

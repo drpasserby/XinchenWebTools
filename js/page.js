@@ -2,7 +2,7 @@ var app =new Vue({
     el:'#webList',
     data:{
         weblist:[[],[],[]],
-        random:[60,70,80],
+        random:{},
         isShowRandom:false,
         urlInfo:{
             id:-1,
@@ -15,9 +15,10 @@ var app =new Vue({
             if(this.isShowRandom==false){
                 this.isShowRandom = true
             }
-            this.random[0]=Math.round(Math.random()*this.weblist.length-1);
-            this.random[1]=Math.round(Math.random()*this.weblist.length-1);
-            this.random[2]=Math.round(Math.random()*this.weblist.length-1);
+            let id = Math.round(Math.random()*this.weblist.length-1)
+            axios.get("https://my.wulvxinchen.cn/tools/search.php?id="+id).then((response) => {
+                this.random = response.data.data[0]
+            })
         },
         //分享
         share:function(){
@@ -56,7 +57,15 @@ var app =new Vue({
             setTimeout(function(){
                 if(confirm("即将跳转到网站《"+t[1]+"》，是否跳转？"))window.location.href = t[0];
             },this.webSettings.autoJumpTime || 5000)
-        }
+        },
+        //数据库查询，参数为id
+        // getQuery:function(id){
+        //     var _re = {}
+        //     axios.get("https://my.wulvxinchen.cn/tools/search.php?id="+id).then((response) => {
+        //         _re = response.data.data[0]
+        //     })
+        //     return _re
+        // }
     },
     created:function(){
         //获取网站配置

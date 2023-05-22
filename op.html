@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>心尘的工具集 | 设置</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="https://my.wulvxinchen.cn/tools/logo.ico" type="image/x-icon">
+    <script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/axios.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="./css/op.css">
+</head>
+<body>
+    <div class="container card text-dark myheadercard my-4">
+        <h3 class="my-2"><strong>验证</strong></h3>
+        <p class="text-secondary"><strong>注意：必须正确才能运行</strong></p>
+        <div class="row">
+            <div class="col-lg">
+                <div class="form-floating mb-2 col-lg">
+                    <input type="text" class="form-control" id="ipa" v-model="accountInfo.username">
+                    <label for="floatingInput">账号</label>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="ipa" v-model="accountInfo.password">
+                    <label for="floatingInput">密码</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container card text-dark myheadercard my-4">
+        <h3 class="my-2"><strong>插入</strong></h3>
+        <div class="row">
+            <div class="col-lg">
+                <div class="form-floating mb-2 col-lg">
+                    <input type="text" class="form-control" id="ipa" v-model="postInfo.id">
+                    <label for="floatingInput">id</label>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="ipa" v-model="postInfo.name">
+                    <label for="floatingInput">Name</label>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg">
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="ipa" v-model="postInfo.url">
+                    <label for="floatingInput">URL</label>
+                </div>
+            </div>
+            <div class="col-lg">
+                <div class="form-floating mb-2">
+                    <input type="text" class="form-control" id="ipa" v-model="postInfod.til">
+                    <label for="floatingInput">Til</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    var app =new Vue({
+    el:'#webList',
+    data:{
+        accountInfo:{
+                username:'',
+                password:''
+            },
+        postInfo:{
+            id:'',
+            name:'',
+            url:'',
+            til:''
+        }
+    },
+    methods:{
+        test:function(){
+
+        }
+    }
+    })
+</script>
+</html>

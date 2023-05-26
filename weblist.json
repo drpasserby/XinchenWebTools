@@ -4067,10 +4067,16 @@
             "name": "在线图片处理",
             "url": "https://onlinepngtools.com/",
             "til": "在线的，处理图片的工具集合，有很多实用的工具"
+        },{
+            "id": 679,
+            "type": "工具",
+            "name": "使PNG透明",
+            "url": "https://onlinepngtools.com/create-transparent-png",
+            "til": "只需在左侧的编辑器中导入您的 PNG 图像，获得透明的PNG"
         }
     ],
     "update": {
-        "name": "2023-05-26",
+        "name": "2023-05-27",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

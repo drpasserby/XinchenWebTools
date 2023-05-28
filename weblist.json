@@ -4079,10 +4079,16 @@
             "name": "PNG颜色替换器",
             "url": "https://onlinepngtools.com/change-png-color",
             "til": "替换PNG其颜色"
+        },{
+            "id": 681,
+            "type": "工具",
+            "name": "PNG添加噪点",
+            "url": "https://onlinepngtools.com/add-noise-to-png",
+            "til": "快速向 PNG 图像添加噪声像素（白噪声）。"
         }
     ],
     "update": {
-        "name": "2023-05-28",
+        "name": "2023-05-29",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

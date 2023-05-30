@@ -4091,6 +4091,12 @@
             "name": "PNG压缩",
             "url": "https://onlinepngtools.com/compress-png",
             "til": "在线便携式网络图形压缩器。只需在左侧的编辑器中导入您的PNG图像，您将立即在右侧获得压缩的PNG"
+        },{
+            "id": 683,
+            "type": "工具",
+            "name": "WebP转PNG",
+            "url": "https://onlinepngtools.com/convert-webp-to-png",
+            "til": "在线 WebP 到 PNG 转换器。只需在左侧的编辑器中导入您的 WebP 图片，您将立即在右侧获得一张 PNG 图片"
         }
     ],
     "update": {

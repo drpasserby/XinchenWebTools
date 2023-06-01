@@ -4097,10 +4097,16 @@
             "name": "WebP转PNG",
             "url": "https://onlinepngtools.com/convert-webp-to-png",
             "til": "在线 WebP 到 PNG 转换器。只需在左侧的编辑器中导入您的 WebP 图片，您将立即在右侧获得一张 PNG 图片"
+        },{
+            "id": 684,
+            "type": "工具",
+            "name": "PNG转Base64",
+            "url": "https://onlinepngtools.com/convert-png-to-base64",
+            "til": "在线便携式网络图形图像到base64转换器。只需在左侧的编辑器中导入您的PNG图像，您将立即在右侧获得一个base64编码的字符串"
         }
     ],
     "update": {
-        "name": "2023-05-31",
+        "name": "2023-06-02",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

@@ -4127,10 +4127,16 @@
             "name": "表情包生成",
             "url": "https://sorry.xuty.cc/",
             "til": "表情包GIF在线生成，可下载"
+        },{
+            "id": 689,
+            "type": "实用",
+            "name": "免费PNG图库",
+            "url": "https://www.cleanpng.com/?ref=appinn",
+            "til": "个人且非商业使用情况下免费的PNG透明图片"
         }
     ],
     "update": {
-        "name": "2023-06-06",
+        "name": "2023-06-07",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

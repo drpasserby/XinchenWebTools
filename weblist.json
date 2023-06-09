@@ -4145,6 +4145,12 @@
             "name": "开源写作平台",
             "url": "https://writefreely.org/",
             "til": "一个用于在网络上构建写作空间的开源平台"
+        },{
+            "id": 692,
+            "type": "实用",
+            "name": "开源写作平台2",
+            "url": "https://writee.org/about",
+            "til": "写意（Writee）是一个去中心化的写作平台，您可以在这里进行写作和发布。"
         }
     ],
     "update": {

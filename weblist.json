@@ -4217,10 +4217,16 @@
             "name": "数字大小写转换",
             "url": "https://www.zhuanpinyin.com/index-2.html",
             "til": "转换数字大小写"
+        },{
+            "id": 704,
+            "type": "实用",
+            "name": "MBIT人格测试",
+            "url": "https://www.16personalities.com/ch/",
+            "til": "做题，然后得出一个免费的分析结果"
         }
     ],
     "update": {
-        "name": "2023-06-21",
+        "name": "2023-06-22",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

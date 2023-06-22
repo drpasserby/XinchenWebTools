@@ -4223,10 +4223,16 @@
             "name": "MBIT人格测试",
             "url": "https://www.16personalities.com/ch/",
             "til": "做题，然后得出一个免费的分析结果"
+        },{
+            "id": 705,
+            "type": "工具",
+            "name": "表格Excel转HTML",
+            "url": "https://tableconvert.com/zh-cn/excel-to-html",
+            "til": "Excel表格转HTML表格"
         }
     ],
     "update": {
-        "name": "2023-06-22",
+        "name": "2023-06-23",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

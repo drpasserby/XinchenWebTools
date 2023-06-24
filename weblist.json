@@ -4235,10 +4235,16 @@
             "name": "表格Excel转HTML2",
             "url": "http://www.docpe.com/excel/excel-to-html.aspx",
             "til": "Excel表格转HTML表格"
+        },{
+            "id": 707,
+            "type": "工具",
+            "name": "表格Excel转SQL",
+            "url": "https://tableconvert.com/zh-cn/csv-to-sql",
+            "til": "Excel表格转SQL语句"
         }
     ],
     "update": {
-        "name": "2023-06-24",
+        "name": "2023-06-25",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

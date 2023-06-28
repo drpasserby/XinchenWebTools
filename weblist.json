@@ -4259,10 +4259,16 @@
             "name": "JSON转SQL2",
             "url": "https://tableconvert.com/zh-cn/json-to-sql",
             "til": "此转换器用于将JSON转换为 insert SQL"
+        },{
+            "id": 711,
+            "type": "实用",
+            "name": "中文校错软件",
+            "url": "https://www.wucuozi.com/",
+            "til": "要钱，7天免费，中文智能检查错别字"
         }
     ],
     "update": {
-        "name": "2023-06-28",
+        "name": "2023-06-29",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

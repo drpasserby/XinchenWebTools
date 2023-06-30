@@ -4271,10 +4271,16 @@
             "name": "GIF动图字幕",
             "url": "http://www.yingjingtu.com/createGIF",
             "til": "无需联网就能实时处理图片。可以在 GIF 图片的指定帧之间添加文字"
+        },{
+            "id": 713,
+            "type": "趣味",
+            "name": "图片转手绘漫画",
+            "url": "http://www.yingjingtu.com/imageToCartoon",
+            "til": "新增AI渲染图片方式，生成的漫画效果更好"
         }
     ],
     "update": {
-        "name": "2023-06-30",
+        "name": "2023-07-01",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

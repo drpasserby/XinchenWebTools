@@ -4313,10 +4313,16 @@
             "name": "图片格式转换",
             "url": "https://imagestool.com/zh_CN/convert-images.html",
             "til": "支持将pdf、psd、heic、raw、tiff等60种以上的格式转换成jpg、webp、png"
+        },{
+            "id": 720,
+            "type": "工具",
+            "name": "图片加水印",
+            "url": "https://imagestool.com/zh_CN/images-watermark.html",
+            "til": "添加文字或图片水印、支持平铺、随机、变量、横幅模式"
         }
     ],
     "update": {
-        "name": "2023-07-07",
+        "name": "2023-07-08",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

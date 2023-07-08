@@ -4319,10 +4319,16 @@
             "name": "图片加水印",
             "url": "https://imagestool.com/zh_CN/images-watermark.html",
             "til": "添加文字或图片水印、支持平铺、随机、变量、横幅模式"
+        },{
+            "id": 721,
+            "type": "工具",
+            "name": "调整图片尺寸",
+            "url": "https://imagestool.com/zh_CN/resize-images.html",
+            "til": "调整图片的尺寸或纵横比，支持同时输出多种尺寸"
         }
     ],
     "update": {
-        "name": "2023-07-08",
+        "name": "2023-07-09",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

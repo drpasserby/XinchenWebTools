@@ -4331,10 +4331,16 @@
             "name": "裁剪图片",
             "url": "https://imagestool.com/zh_CN/crop-images.html",
             "til": "支持旋转或翻转后裁剪，导入尺寸相同的图片时支持同步裁剪"
+        },{
+            "id": 723,
+            "type": "工具",
+            "name": "压缩图片",
+            "url": "https://imagestool.com/zh_CN/compress-images.html",
+            "til": "支持压缩jpg、webp、png、svg、gif动画、apng动画"
         }
     ],
     "update": {
-        "name": "2023-07-10",
+        "name": "2023-07-11",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

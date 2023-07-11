@@ -4337,10 +4337,22 @@
             "name": "压缩图片",
             "url": "https://imagestool.com/zh_CN/compress-images.html",
             "til": "支持压缩jpg、webp、png、svg、gif动画、apng动画"
+        },{
+            "id": 724,
+            "type": "趣味",
+            "name": "AI变声",
+            "url": "https://dubbing.tech/",
+            "til": "目前还是免费的本地变声，不需要任何联网就可以实现声音变声"
+        },{
+            "id": 725,
+            "type": "实用",
+            "name": "周任务列表",
+            "url": "https://tweek.so/",
+            "til": "Tweek 是一款以周为日历模板的任务列表（todo）工具，只需要将你的任务、待办事项填入周日历，然后将其打印出来"
         }
     ],
     "update": {
-        "name": "2023-07-11",
+        "name": "2023-07-12",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

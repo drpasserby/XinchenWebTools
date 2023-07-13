@@ -4355,10 +4355,16 @@
             "name": "矢量图标5",
             "url": "https://icons8.com/",
             "til": "cons8 是著名的免费小图标提供商，近来推出了不少和图标相关的服务"
+        },{
+            "id": 727,
+            "type": "工具",
+            "name": "查看图片信息2",
+            "url": "https://imagestool.com/zh_CN/image-exif.html",
+            "til": "读取EXIF包括gps、海拔、相机厂商、曝光时间等等几十种信息,"
         }
     ],
     "update": {
-        "name": "2023-07-13",
+        "name": "2023-07-14",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

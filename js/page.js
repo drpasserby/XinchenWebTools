@@ -16,7 +16,7 @@ var app =new Vue({
                 this.isShowRandom = true
             }
             let id = Math.round(Math.random()*this.weblist.length-1)
-            axios.get("https://my.wulvxinchen.cn/tools/search.php?id="+id).then((response) => {
+            axios.get("https://my.wulvxinchen.cn/tools/php/search.php?id="+id).then((response) => {
                 this.random = response.data.data[0]
             })
         },

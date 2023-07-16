@@ -39,16 +39,16 @@
                         <div class="card text-dark mytiltecard">
                             <div class="card-body">
                                 <div class="card-title">
-                                    <h1><strong>{{weblist[urlInfo.id-1].name}}</strong></h1>
+                                    <h1><strong>{{urlInfo.name}}</strong></h1>
                                 </div>
                                 <div class="text-secondary my-2">
-                                    <h4><strong>类型:{{weblist[urlInfo.id-1].type}}</strong></h4>							
+                                    <h4><strong>类型:{{urlInfo.type}}</strong></h4>							
                                 </div>
                                 <div class="text-secondary my-2">
-                                    <strong>简介:{{weblist[urlInfo.id-1].til}}</strong><br>
+                                    <strong>简介:{{urlInfo.til}}</strong><br>
                                 </div>
                                 <button @click="share()" class="btn btn-primary mt-2">分享</button>
-                                <a :href="weblist[urlInfo.id-1].url" class="btn btn-success mt-2" target="_blank">前往</a>							
+                                <a :href="urlInfo.url" class="btn btn-success mt-2" target="_blank">前往</a>							
                             </div>
                         </div>
                     </div>

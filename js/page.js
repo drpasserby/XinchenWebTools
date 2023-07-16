@@ -1,12 +1,12 @@
 var app =new Vue({
     el:'#webList',
     data:{
-        weblist:[[],[],[]],
         random:{},
         isShowRandom:false,
         urlInfo:{
             id:-1,
         },
+        webcount:500,
         webSettings:{}
     },
     methods:{
@@ -15,7 +15,7 @@ var app =new Vue({
             if(this.isShowRandom==false){
                 this.isShowRandom = true
             }
-            let id = Math.round(Math.random()*this.weblist.length-1)
+            let id = Math.round(Math.random()*this.webcount)
             axios.get("https://my.wulvxinchen.cn/tools/php/search.php?id="+id).then((response) => {
                 this.random = response.data.data[0]
             })
@@ -40,32 +40,13 @@ var app =new Vue({
             var t = new URLSearchParams(window.location.search);
             return t.get(key)
         },
-        //获取URL参数id
-        getUrlID:function(){
-            // let id = window.location.href.split('=')[1]
-            let id = parseInt(this.getParams('id')) || -1
-            if(0<=id&id<=this.weblist.length){  
-                return id
-            }
-            else{
-                return -1
-            }
-        },
         //自动跳转
         jump:function(){
-            t = [this.weblist[this.urlInfo.id-1].url,this.weblist[this.urlInfo.id-1].name]
+            t = [this.urlInfo.url,this.urlInfo.name]
             setTimeout(function(){
                 if(confirm("即将跳转到网站《"+t[1]+"》，是否跳转？"))window.location.href = t[0];
             },this.webSettings.autoJumpTime || 5000)
         },
-        //数据库查询，参数为id
-        // getQuery:function(id){
-        //     var _re = {}
-        //     axios.get("https://my.wulvxinchen.cn/tools/search.php?id="+id).then((response) => {
-        //         _re = response.data.data[0]
-        //     })
-        //     return _re
-        // }
     },
     created:function(){
         //获取网站配置
@@ -73,13 +54,10 @@ var app =new Vue({
         if(ws){
             this.webSettings = JSON.parse(ws);
         }
-    },
-    beforeCreate:function(){
-        axios.get("https://my.wulvxinchen.cn/tools/weblist.json").then((response) => {
+        axios.get("https://my.wulvxinchen.cn/tools/php/search.php?id="+parseInt(this.getParams('id'))).then((response) => {
             //从远程获取网站列表。数据来自@吾律心尘服务器
-            this.weblist=response.data.weblist.slice();
-            //赋值id
-            this.urlInfo.id = this.getUrlID()
+            this.urlInfo = response.data.data[0];
+            this.webcount = parseInt(response.data.count["count(*)"]);//获取网站总数
             //判断是否自动跳转
             if(parseInt(this.getParams('auto')) == 1)this.jump()
         })

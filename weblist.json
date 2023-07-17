@@ -4379,10 +4379,16 @@
             "name": "斜着看生成器",
             "url": "https://lab.magiconch.com/xzk/",
             "til": "从充电口斜着看生成器"
+        },{
+            "id": 731,
+            "type": "实用",
+            "name": "重复文字生成器",
+            "url": "https://lab.magiconch.com/repeat-text/",
+            "til": "生出一堆重复文字"
         }
     ],
     "update": {
-        "name": "2023-07-17",
+        "name": "2023-07-18",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

@@ -4385,10 +4385,16 @@
             "name": "重复文字生成器",
             "url": "https://lab.magiconch.com/repeat-text/",
             "til": "生出一堆重复文字"
+        },{
+            "id": 732,
+            "type": "趣味",
+            "name": "复古音乐电台",
+            "url": "https://poolsuite.net/",
+            "til": "一款免费的音乐电台，拥有复古的 90 年代 Mac 界面，复古的音乐，有网页版和 Mac 客户端"
         }
     ],
     "update": {
-        "name": "2023-07-18",
+        "name": "2023-07-19",
         "url": 200,
         "til": "本数据由@吾律心尘提供.如需使用请联系作者."
     }

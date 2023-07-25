@@ -23,4 +23,5 @@
 
 ## To Do List
 > 挖坑专用
-1. 抛弃PHP，转使用Python + Django
+1. 抛弃部分PHP，兼顾使用Python + Django
+2. 优化页面逻辑

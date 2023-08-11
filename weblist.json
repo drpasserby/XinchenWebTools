@@ -4409,6 +4409,12 @@
             "name": "在线修改照片分辨率",
             "url": "https://www.gaitubao.com/dpi",
             "til": "在线将JPG/TIFF照片分辨率(DPI)修改为300/350/150等数值，上传其他格式图片会自动转为JPG图片"
+        },{
+            "id": 736,
+            "type": "工具",
+            "name": "时间戳转换3",
+            "url": "https://tool.lu/timestamp/",
+            "til": "UNIX时间戳转换工具，可以把时间戳转换成以“年/月/日|时:分:秒”的可读形式"
         }
     ],
     "update": {

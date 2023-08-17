@@ -4415,6 +4415,18 @@
             "name": "时间戳转换3",
             "url": "https://tool.lu/timestamp/",
             "til": "UNIX时间戳转换工具，可以把时间戳转换成以“年/月/日|时:分:秒”的可读形式"
+        },{
+            "id": 737,
+            "type": "实用",
+            "name": "鼠标点击测试",
+            "url": "http://cps-test.bchrt.com/",
+            "til": "鼠标点击速度测试"
+        },{
+            "id": 738,
+            "type": "",
+            "name": "",
+            "url": "",
+            "til": ""
         }
     ],
     "update": {

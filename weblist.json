@@ -4427,6 +4427,12 @@
             "name": "在线粘贴板",
             "url": "https://bin.disroot.org/",
             "til": "简、开源、对粘贴内容毫不知情的在线粘贴板"
+        },{
+            "id": 739,
+            "type": "实用",
+            "name": "表情百科",
+            "url": "https://emojipedia.org/",
+            "til": "包含所有HTML5表情符号的在线百科全书"
         }
     ],
     "update": {

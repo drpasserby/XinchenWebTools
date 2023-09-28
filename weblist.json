@@ -4433,6 +4433,12 @@
             "name": "表情百科",
             "url": "https://emojipedia.org/",
             "til": "包含所有HTML5表情符号的在线百科全书"
+        },{
+            "id": 740,
+            "type": "工具",
+            "name": "JS测试题",
+            "url": "https://jsisweird.com/",
+            "til": "测试JS相关知识的题目网站"
         }
     ],
     "update": {

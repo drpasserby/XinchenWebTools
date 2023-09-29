@@ -4439,6 +4439,12 @@
             "name": "JS测试题",
             "url": "https://jsisweird.com/",
             "til": "测试JS相关知识的题目网站"
+        },{
+            "id": 741,
+            "type": "工具",
+            "name": "信用卡号随机生成",
+            "url": "https://www.suijidaquan.com/credit-card-generator",
+            "til": "在一些场合，例如程序员开发测试时需要信用卡卡号，此时可以用来生成虚假信用卡卡号。但是请勿将卡号用于其他非法用途。"
         }
     ],
     "update": {

@@ -4457,6 +4457,12 @@
             "name": "随机生成国家",
             "url": "https://www.suijidaquan.com/random-country",
             "til": "每次随机生成若干个国家，包含国家名称、国家首都和国旗信息。可以点击名称查看国家详情。"
+        },{
+            "id": 744,
+            "type": "工具",
+            "name": "在线随机生成邮箱",
+            "url": "https://www.suijidaquan.com/email-generator",
+            "til": "这些邮箱地址都是随机生成的，因此有的地址可能真实存在。"
         }
     ],
     "update": {

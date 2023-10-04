@@ -4463,6 +4463,12 @@
             "name": "在线随机生成邮箱",
             "url": "https://www.suijidaquan.com/email-generator",
             "til": "这些邮箱地址都是随机生成的，因此有的地址可能真实存在。"
+        },{
+            "id": 745,
+            "type": "工具",
+            "name": "密码生成",
+            "url": "https://www.suijidaquan.com/password-generator",
+            "til": "随机密码很难猜到，计算机程序也很难破解。如果你的不同密码之间有规律，攻击者就能更容易地破解。"
         }
     ],
     "update": {

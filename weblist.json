@@ -4469,6 +4469,12 @@
             "name": "密码生成",
             "url": "https://www.suijidaquan.com/password-generator",
             "til": "随机密码很难猜到，计算机程序也很难破解。如果你的不同密码之间有规律，攻击者就能更容易地破解。"
+        },{
+            "id": 746,
+            "type": "工具",
+            "name": "用户名生成",
+            "url": "https://www.suijidaquan.com/username-generator",
+            "til": "创建一个安全的用户名是保护你在线信息的第一步。而这正是用户名生成器工具的作用"
         }
     ],
     "update": {

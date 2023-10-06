@@ -4475,6 +4475,12 @@
             "name": "用户名生成",
             "url": "https://www.suijidaquan.com/username-generator",
             "til": "创建一个安全的用户名是保护你在线信息的第一步。而这正是用户名生成器工具的作用"
+        },{
+            "id": 747,
+            "type": "工具",
+            "name": "姓名生成器",
+            "url": "https://www.suijidaquan.com/name-generator",
+            "til": "我们已经收集了15,000多个姓名，这些名称具有多种样式，每个姓名都会标记为男性或女性，通过刷新您可以获取10个新姓名。"
         }
     ],
     "update": {

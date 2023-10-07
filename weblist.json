@@ -4481,6 +4481,12 @@
             "name": "姓名生成器",
             "url": "https://www.suijidaquan.com/name-generator",
             "til": "我们已经收集了15,000多个姓名，这些名称具有多种样式，每个姓名都会标记为男性或女性，通过刷新您可以获取10个新姓名。"
+        },{
+            "id": 748,
+            "type": "实用",
+            "name": "随机生成数学题",
+            "url": "https://www.suijidaquan.com/math-exam",
+            "til": "随机生成5、10、20、50、100以内加减乘除题目"
         }
     ],
     "update": {

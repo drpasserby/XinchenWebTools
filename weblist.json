@@ -4487,6 +4487,12 @@
             "name": "随机生成数学题",
             "url": "https://www.suijidaquan.com/math-exam",
             "til": "随机生成5、10、20、50、100以内加减乘除题目"
+        },{
+            "id": 749,
+            "type": "工具",
+            "name": "随机分组生成器",
+            "url": "https://www.suijidaquan.com/team-generator",
+            "til": "每行输入一个项目，选择组下的数量设置，然后点击按钮，生成你的随机分组。不喜欢某一个分组？只要再点击一次，直到你喜欢。"
         }
     ],
     "update": {

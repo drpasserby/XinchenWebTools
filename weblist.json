@@ -4505,6 +4505,12 @@
             "name": "在线白板",
             "url": "https://www.tldraw.com/",
             "til": "一款开源在线白板工具"
+        },{
+            "id": 752,
+            "type": "趣味",
+            "name": "贝纳姆转盘",
+            "url": "https://michaelbach.de/ot/col-Benham/index.html",
+            "til": "在任何时候暂停，看到的都是白色，但转起来有颜色"
         }
     ],
     "update": {

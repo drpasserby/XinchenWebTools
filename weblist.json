@@ -4511,6 +4511,12 @@
             "name": "贝纳姆转盘",
             "url": "https://michaelbach.de/ot/col-Benham/index.html",
             "til": "在任何时候暂停，看到的都是白色，但转起来有颜色"
+        },{
+            "id": 753,
+            "type": "实用",
+            "name": "开源漫画阅读",
+            "url": "https://getmango.app/",
+            "til": "Mango 是一款开源、自托管的漫画管理与阅读工具，支持多用户、OPDS 目录、嵌套文件夹、自动保存阅读进度、拥有插件系统，部署简单。可在移动设备访问阅读"
         }
     ],
     "update": {

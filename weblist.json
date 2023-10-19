@@ -4523,6 +4523,12 @@
             "name": "在线字数计算器",
             "url": "http://zishu.qianwanku.com/",
             "til": "字数计算器可以在线计算文本字数的多少，支持汉字数量统计、英文字符统计、数字统计、英文单词和字母数量统计"
+        },{
+            "id": 755,
+            "type": "工具",
+            "name": "去除HTML标签",
+            "url": "http://zishu.qianwanku.com/",
+            "til": "一键清除HTML标签"
         }
     ],
     "update": {

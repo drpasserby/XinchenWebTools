@@ -4529,6 +4529,12 @@
             "name": "去除HTML标签",
             "url": "http://zishu.qianwanku.com/",
             "til": "一键清除HTML标签"
+        },{
+            "id": 756,
+            "type": "实用",
+            "name": "临时分享文件",
+            "url": "https://new.space/",
+            "til": "支持多人同时上传的临时文件分享工具"
         }
     ],
     "update": {

@@ -4541,6 +4541,12 @@
             "name": "PNG转ICO",
             "url": "https://cdkm.com/cn/png-to-ico",
             "til": "PNG格式转ICO图标"
+        },{
+            "id": 758,
+            "type": "工具",
+            "name": "图片盲水印",
+            "url": "http://www.atoolbox.net/Tool.php?Id=1052",
+            "til": "图片盲水印查看器（图片LSB查看器）类似于StegSolve，能够查看图片各通道的最低位（LSB）信息，支持 R/G/B/A Plane 0/1/2 模式，方便查看图片是否添加了盲水印信息。"
         }
     ],
     "update": {

@@ -4553,6 +4553,12 @@
             "name": "图片包浆生成器",
             "url": "http://www.atoolbox.net/Tool.php?Id=1081",
             "til": "图片包浆生成器，图片做旧小工具，生成图片包浆效果。"
+        },{
+            "id": 760,
+            "type": "游戏",
+            "name": "在线红警",
+            "url": "https://game.bun.sh.cn/",
+            "til": "在线版单机红色警戒小游戏"
         }
     ],
     "update": {

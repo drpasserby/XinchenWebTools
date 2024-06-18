@@ -4571,6 +4571,12 @@
             "name": "身份证随机生成",
             "url": "https://sfz.tool90.com/sfz/generate.html",
             "til": "身份证号码生成器是按身份证验证规则生成虚拟身份证号，非真实身份证，仅供测试使用，请勿用于非法用途。"
+        },{
+            "id": 763,
+            "type": "工具",
+            "name": "印章生成4",
+            "url": "https://www.btbsm.com/",
+            "til": "生成公章"
         }
     ],
     "update": {
